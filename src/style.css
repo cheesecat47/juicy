@@ -3,36 +3,37 @@
 
 body{font-family: 'Stylish', "맑은 고딕", 'Malgun Gothic',"돋움",dotum; margin: 0;}
 
-/* div 경계선은 디자인 확인용. 끝나면 지울거. */
+/* div 경계선은 디자인 확인용.
+세 줄 전체 블록하고 Ctrl / 누르면 한번에 주석처리 가능.  */
 /* div{border: 2px solid pink;}
 p{border: 2px solid blue;}
 li{border: 2px solid green;} */
 
 /* 전체 프레임 */
 .frame{
-  margin:0;
-  padding: 0;
-  border: 0;
-  outline: 0;
+  margin:0;      /* 바깥 여백 */
+  padding: 0;    /* 안쪽 여백 */
+  border: 0;     /* 테두리 */
 }
 
 /* 상단 탭 */
 .tab{
-  display: grid;
+  display: grid;  /* 그리드로 보여줌 */
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+  /* 그리드 열으로 1:1:1:1:1:2 비율 */
 }
 
 .tabitem{
-  background-color: #ff8500;
-  display: block;
-  font-size: x-large;
-  padding: 10px 0px 10px 0px;
-  text-align: center;
-  text-decoration: none;
+  background-color: #ff8500;    /* #RGB, #RRGGBB. 00은 검은색, ff는 흰색 */
+  display: block;  /* 블록은 한 블록 단위, inline으로 하면 한 줄 전체 사용. */
+  font-size: x-large;  /* 폰트 사이즈 설정하는 방법은 종류가 많아요.. */
+  padding: 10px 0px 10px 0px;  /* 위에서부터 시계방향. 위, 오른쪽, 아래쪽, 왼쪽 */
+  text-align: center;  /* 중앙정렬 */
+  text-decoration: none;  /* 상단탭 링크에 밑줄 없애려고. */
 }
 
 .tabNow{
-  background-color: #ffcc22;
+  background-color: #ffcc22;  /* 현재 선택 탭은 좀 더 밝은 색. */
   display: block;
   font-size: x-large;
   padding: 10px 0px 10px 0px;
@@ -42,45 +43,46 @@ li{border: 2px solid green;} */
 
 /* 헤더 */
 .header{
+  /* 이거랑 header_text는 사진 위에 글씨 올리는 코드인데 저도 구글링한거라...*/
+  /* 생각해보니 여기서 url을 저렇게 정해두면 모든 페이지에서 class="header"를 사용하면 똑같은 이미지가 보이네요. 나중에 수정할게요. */
   position: relative;
   background-size: cover;
   background-image: url(./img/movie_head_img.jpg);
-  height: 42vh;
-  width: inherit;
+  height: 42vh;   /* vh는 브라우저 높이. 전체 높이의 42%만큼 사진을 채운다 */
+  width: inherit;  /* 너비는 브라우저 너비만큼. */
   align-self: center;
 }
 
 .header_text{
   position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 2rem;
+  top: 30%;  /* 사진 위에서 30%위치 */
+  left: 50%;  /* 사진 왼쪽부터 50%위치 */
+  transform: translate(-50%, -50%);  /* 왼쪽 위 기준이므로 반만큼 이동 보정 */
+  font-size: 2rem;  /* 이것도 폰트 크기 다른 방법 */
   text-align: center;
-  z-index: 1;
+  z-index: 1;  /* 아래서부터 몇 번째 층인지. 1층으로 올려서 사진 위에 오도록. */
 }
 
-/* content */
+/* content 헤더 제외한 부분. 사진 아래로. */
 .content{
   background-color: #f7f7f7
 }
 
 .filmchart{
   text-align: center;
-  border-width: thick;
-  padding: 20px;
+  padding: 20px 100px; /* 이렇게 하면 위아래 20, 좌우 100 */
 }
 
 .filmchart_grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 50px 0px 30px;
+  margin: 50px 0px 30px;  /* 위 50 오른쪽 0 아래 30 왼쪽 0 */
   text-align: center;
 }
 
 .filmchart_grid_item{
   text-align: center;
-  display: flex;
+  display: flex;        /* ...잘 모름... */
   margin: 0px 10px 20px;
 }
 

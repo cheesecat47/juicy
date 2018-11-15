@@ -1,4 +1,6 @@
-var pages = ['뉴스','음악','영화','스포츠','책','탭 설정']
+var pages = ['news','music','movie','sport','book','setting']
+var pageskr = ['뉴스','음악','영화','스포츠','책','탭 설정']
+
 var filmchart=[// 링크 주소, 이미지 주소, 영화 제목 순서
   'https://movie.naver.com/movie/bi/mi/basic.nhn?code=167638','https://movie-phinf.pstatic.net/20181106_289/1541478936071tmadh_JPEG/movie_image.jpg?type=m99_141_2','완벽한 타인',
   'https://movie.naver.com/movie/bi/mi/basic.nhn?code=156464','https://movie-phinf.pstatic.net/20181031_68/1540952503496fNRsF_JPEG/movie_image.jpg?type=m99_141_2','보헤미안 랩소디',
@@ -14,33 +16,43 @@ var filmchart=[// 링크 주소, 이미지 주소, 영화 제목 순서
 
 var makecode={
   maketab:function(currentpage){
+    var dir;              // 경로 나타낼 변수
+    if(currentpage=="")
+      dir="./src/pages/";  // ""이면 index에서 넘어오는 거니까 하위 경로 붙여줌
+    else dir="./";         // 아니면 같은 폴더에서 옮기는거.
+
+    // document.write();를 하면 html에 쓸 수 있다. 꼭 코드가 아니라도 쓸 수 있음.
+    // ``는 템플릿..... ""나 ''처럼 쓸 수 있고 `` 안에서 따옴표 사용가능.
     document.write(`
       <div class="frame"><!-- 전체 프레임 -->
         <div class="tab"><!-- 상단 탭 -->
-      `)
+      `);
       var i=0;
       while (i<pages.length){
         if(currentpage==pages[i]){  // currentpage일 때는 tabNow로 색깔 다르게 표시한다.
-          document.write(`<div><a href="" class="tabNow">${pages[i++]}</a></div>`)
+          // a 태그는 링크 만드는 태그. href 안에 있는게 링크 url.
+          // dir변수 + pages에 있는 이름 + .html 확장자 -> 전체 경로.
+          // `` 안에 변수를 사용하고 싶을 땐 ${변수이름} 쓰면 된다.
+          document.write(`<div><a href="${dir}${pages[i]}.html" class="tabNow">${pageskr[i++]}</a></div>`);
         }
-        else{ //아니면 그냥 tabitem
-          document.write(`<div><a href="" class="tabitem">${pages[i++]}</a></div>`)
+        else{ // 지금 누른 탭이 아니면 그냥 tabitem
+          document.write(`<div><a href="${dir}${pages[i]}.html" class="tabitem">${pageskr[i++]}</a></div>`);
         }
       }// end while
       document.write(`
         </div>
       </div>
-        `)
+        `);
   },
   makechart:function(){
     var i=0;
-    while (i<filmchart.length){
+    while (i<filmchart.length){  //나중에 크롤링으로 해결할거.
       document.write(`
         <a href="${filmchart[i]}" class="filmchart_grid_item" style="text-decoration:none;">
           <img src="${filmchart[i+1]}" alt="${filmchart[i+2]}">
           <h3 class="filmname">${filmchart[i+2]}</h3>
         </a>
-        `)
+        `);
         i+=3;
     }
   }
