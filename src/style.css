@@ -1,0 +1,89 @@
+@charset "UTF-8";  /* 이 페이지 인코딩하는거 */
+@import url('https://fonts.googleapis.com/css?family=Stylish&subset=korean');
+
+body{font-family: 'Stylish', "맑은 고딕", 'Malgun Gothic',"돋움",dotum; margin: 0;}
+
+/* div 경계선은 디자인 확인용. 끝나면 지울거. */
+/* div{border: 2px solid pink;}
+p{border: 2px solid blue;}
+li{border: 2px solid green;} */
+
+/* 전체 프레임 */
+.frame{
+  margin:0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+/* 상단 탭 */
+.tab{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+}
+
+.tabitem{
+  background-color: #ff8500;
+  display: block;
+  font-size: x-large;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.tabNow{
+  background-color: #ffcc22;
+  display: block;
+  font-size: x-large;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* 헤더 */
+.header{
+  position: relative;
+  background-size: cover;
+  background-image: url(./img/movie_head_img.jpg);
+  height: 42vh;
+  width: inherit;
+  align-self: center;
+}
+
+.header_text{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  text-align: center;
+  z-index: 1;
+}
+
+/* content */
+.content{
+  background-color: #f7f7f7
+}
+
+.filmchart{
+  text-align: center;
+  border-width: thick;
+  padding: 20px;
+}
+
+.filmchart_grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 50px 0px 30px;
+  text-align: center;
+}
+
+.filmchart_grid_item{
+  text-align: center;
+  display: flex;
+  margin: 0px 10px 20px;
+}
+
+.filmname{
+  padding-left: 10px;
+}
