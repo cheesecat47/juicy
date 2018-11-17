@@ -2,29 +2,22 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8"><!-- 페이지 인코딩 -->
-    <title>Tab Ex</title><!-- 브라우저 타이틀 바에 나오는 이름 -->
+    <title>Juicy - @@@탭 이름@@@</title><!-- 브라우저 타이틀 바에 나오는 이름 -->
     <link rel="stylesheet" href="../style.css"><!-- css, 자바스크립트 파일 가져오기-->
     <script src="../codegenerator.js"></script><!-- 코드 자동생성 -->
     <script src="../crawler.js"></script>
   </head>
   <body>
     <script>
-      makecode.maketab("영화"); //상단 탭 자동 생성
+      makecode.maketab("@@@탭 이름 영어로@@@");  //상단 탭 자동 생성. 인자가 codegenerator.js에 있는 pages[] 항목과 일치해야 한다.
     </script>
-    <div class="header">
+    <div class="header">  <!-- 사진 들어가는 곳. -->
         <div class="header_text">
-          <h1>영화</h1>
+          <h1>@@@사진 위에 들어갈 제목@@@</h1>
         </div>
     </div>
     <div class="content">
-      <div class="filmchart">
-        <h1>현재 상영 영화</h1>
-        <div class="filmchart_grid">
-          <script>
-            makecode.makechart();  //영화 항목 자동 생성
-          </script>
-        </div>
-      </div>
+      @@@ 사진 밑에 들어갈 메인 콘텐츠@@@
     </div>
   </body>
 </html>
