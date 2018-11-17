@@ -45,11 +45,15 @@ var makecode={
         `);
   },
   makedropdowntab:function(currentpage){
+    var dir;              // 경로 나타낼 변수
+    if(currentpage=="")
+      dir="./src/pages/";  // ""이면 index에서 넘어오는 거니까 하위 경로 붙여줌
+    else dir="./";         // 아니면 같은 폴더에서 옮기는거.
     document.write(`
       <div class="frame">
         <div class="tab_drop">
           <ul>
-            <li><a href="./news.html">뉴스</a>
+            <li><a href="${dir}news.html">뉴스</a>
               <ul>
                 <li><a href="#">정치</a></li>
                 <li><a href="#">경제</a></li>
@@ -62,7 +66,7 @@ var makecode={
                 <li><a href="#">최신 앨범</a></li>
               </ul>
             </li>
-            <li><a href="./movie.html">영화</a>
+            <li><a href="${dir}movie.html">영화</a>
               <ul>
                 <li><a href="#">오늘의 추천</a></li>
                 <li><a href="#">랭킹</a></li>
