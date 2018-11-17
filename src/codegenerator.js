@@ -44,6 +44,55 @@ var makecode={
       </div>
         `);
   },
+  makedropdowntab:function(currentpage){
+    document.write(`
+      <div class="frame">
+        <div class="tab_drop">
+          <ul>
+            <li><a href="./news.html">뉴스</a>
+              <ul>
+                <li><a href="#">정치</a></li>
+                <li><a href="#">경제</a></li>
+                <li><a href="#">시사</a></li>
+              </ul>
+            </li>
+            <li><a href="#">음악</a>
+              <ul>
+                <li><a href="#">Top 10</a></li>
+                <li><a href="#">최신 앨범</a></li>
+              </ul>
+            </li>
+            <li><a href="./movie.html">영화</a>
+              <ul>
+                <li><a href="#">오늘의 추천</a></li>
+                <li><a href="#">랭킹</a></li>
+                <li><a href="#">평점 및 리뷰</a></li>
+              </ul>
+            </li>
+            <li><a href="#">책</a>
+              <ul>
+                <li><a href="#">베스트 셀러</a></li>
+                <li><a href="#">스테디 셀러</a></li>
+              </ul>
+            </li>
+            <li><a href="#">스포츠</a>
+              <ul>
+                <li><a href="#">국내 야구</a></li>
+                <li><a href="#">해외 야구</a></li>
+                <li><a href="#">국내 축구</a></li>
+                <li><a href="#">해외 축구</a></li>
+                <li><a href="#">국내 농구</a></li>
+                <li><a href="#">해외 농구</a></li>
+              </ul>
+            </li>
+            <li><a href="#">웹툰</a></li>
+            <li><a href="#">FUN</a></li>
+            <li><a href="#">탭 설정</a></li>
+          </ul>
+        </div>
+      </div>
+      `);
+  },
   makechart:function(){
     var i=0;
     while (i<filmchart.length){  //나중에 크롤링으로 해결할거.

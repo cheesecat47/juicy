@@ -16,8 +16,11 @@ li{border: 2px solid green;} */
   border: 0;     /* 테두리 */
 }
 
-/* 상단 탭 */
+/* 상단 탭인데, 이제는 안 씀. 드롭다운 탭으로 변경.*/
 .tab{
+  position: fixed;
+  width: 100%;
+  z-index: 2;
   display: grid;  /* 그리드로 보여줌 */
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
   /* 그리드 열으로 1:1:1:1:1:2 비율 */
@@ -41,6 +44,77 @@ li{border: 2px solid green;} */
   text-decoration: none;
 }
 
+/* 드롭 다운 메뉴 구성 */
+.tab_drop{
+  position: fixed;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-size: x-large;
+  z-index: 2;
+}
+.tab_drop ul{
+  background: #ff8f00;
+  list-style: none;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.tab_drop li {
+  float: left;
+  padding: 0px;
+  width: 12.5%;
+}
+.tab_drop li a{
+  background: #ff8f00;
+  color: #000;
+  display: block;
+  line-height: 50px;
+  margin: 0px;
+  padding: 0px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+.tab_drop li a:hover, .tab_drop ul li:hover a{
+  background: #ffc046;
+  color: #000;
+  text-decoration: none;
+}
+.tab_drop li ul{
+  background: #ff8f00;
+  display: none;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  width: 200px;
+  z-index: 3;
+}
+.tab_drop li:hover ul{
+  display: block;
+}
+.tab_drop li li {
+  background: #ff8f00;
+  display: block;
+  float: none;
+  margin: 0px;
+  padding: 0px;
+  width: 200px;
+}
+.tab_drop li:hover li a{
+  background: none;
+}
+.tab_drop li ul a{
+  display: block;
+  height: 50px;
+  margin: 0px;
+  padding: 0px 10px 0px 15px;
+}
+.tab_drop li ul a:hover, .tab_drop li ul li:hover a{
+  background: #ffc046;
+  text-decoration: none;
+}
+
 /* 헤더 */
 .header{
   /* 이거랑 header_text는 사진 위에 글씨 올리는 코드인데 저도 구글링한거라...*/
@@ -51,7 +125,7 @@ li{border: 2px solid green;} */
 
 .header_text{  /* 헤더 텍스트 부분 */
   position:  absolute;
-  top: 30%;  /* 사진 위에서 30%위치 */
+  top: 40%;  /* 사진 위에서 30%위치 */
   left: 50%;  /* 사진 왼쪽부터 50%위치 */
   transform: translate(-50%, -50%);  /* 왼쪽 위 기준이므로 반만큼 이동 보정 */
   font-size: 2rem;  /* 이것도 폰트 크기 다른 방법 */
