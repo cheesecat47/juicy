@@ -46,21 +46,22 @@ li{border: 2px solid green;} */
   /* 이거랑 header_text는 사진 위에 글씨 올리는 코드인데 저도 구글링한거라...*/
   /* 생각해보니 여기서 url을 저렇게 정해두면 모든 페이지에서 class="header"를 사용하면 똑같은 이미지가 보이네요. 나중에 수정할게요. */
   position: relative;
-  background-size: cover;
-  background-image: url(./img/movie_head_img.jpg);
-  height: 42vh;   /* vh는 브라우저 높이. 전체 높이의 42%만큼 사진을 채운다 */
-  width: inherit;  /* 너비는 브라우저 너비만큼. */
-  align-self: center;
+  display: inline-block;
 }
 
-.header_text{
-  position: absolute;
+.header_text{  /* 헤더 텍스트 부분 */
+  position:  absolute;
   top: 30%;  /* 사진 위에서 30%위치 */
   left: 50%;  /* 사진 왼쪽부터 50%위치 */
   transform: translate(-50%, -50%);  /* 왼쪽 위 기준이므로 반만큼 이동 보정 */
   font-size: 2rem;  /* 이것도 폰트 크기 다른 방법 */
   text-align: center;
   z-index: 1;  /* 아래서부터 몇 번째 층인지. 1층으로 올려서 사진 위에 오도록. */
+}
+
+.header_img{  /* 헤더 이미지 부분 */
+  display: block;
+  height: auto;
 }
 
 /* content 헤더 제외한 부분. 사진 아래로. */
