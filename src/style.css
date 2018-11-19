@@ -1,7 +1,8 @@
 @charset "UTF-8";  /* 이 페이지 인코딩하는거 */
 @import url('https://fonts.googleapis.com/css?family=Stylish&subset=korean');
 
-body{font-family: 'Stylish', "맑은 고딕", 'Malgun Gothic',"돋움",dotum; margin: 0;}
+body{font-family: 'Stylish', "맑은 고딕", 'Malgun Gothic',"돋움",dotum; margin: 0; min-width: 960px;}
+
 
 /* div 경계선은 디자인 확인용.
 세 줄 전체 블록하고 Ctrl / 누르면 한번에 주석처리 가능.  */
@@ -46,6 +47,7 @@ li{border: 2px solid green;} */
 
 /* 드롭 다운 메뉴 구성 */
 .tab_drop{
+  background: #ff8f00;
   position: fixed;
   width: 100%;
   margin: 0px;
@@ -54,16 +56,19 @@ li{border: 2px solid green;} */
   z-index: 2;
 }
 .tab_drop ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   background: #ff8f00;
   list-style: none;
   width: 100%;
   margin: 0px;
   padding: 0px;
+  text-align: center;
 }
 .tab_drop li {
   float: left;
   padding: 0px;
-  width: 12.5%;
+  text-align: center;
 }
 .tab_drop li a{
   background: #ff8f00;
@@ -163,4 +168,11 @@ li{border: 2px solid green;} */
 
 .filmname{
   padding-left: 10px;
+}
+
+.main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  /* 왼쪽 위 기준이므로 반만큼 이동 보정 */
 }

@@ -45,15 +45,23 @@ var makecode={
         `);
   },
   makedropdowntab:function(currentpage){
-    var dir;              // 경로 나타낼 변수
-    if(currentpage=="")
-      dir="./src/pages/";  // ""이면 index에서 넘어오는 거니까 하위 경로 붙여줌
-    else dir="./";         // 아니면 같은 폴더에서 옮기는거.
+    var dir_page, dir_img, dir_home;              // 경로 나타낼 변수
+    if(currentpage==""){
+      dir_page="./src/pages/";  // ""이면 index에서 넘어오는 거니까 하위 경로 붙여줌
+      dir_img = "./src/img/";
+      dir_home = "./";
+    }
+    else{
+      dir_page="./";         // 아니면 같은 폴더에서 옮기는거.
+      dir_img="../img/";
+      dir_home = "../../";
+    }
     document.write(`
       <div class="frame">
         <div class="tab_drop">
           <ul>
-            <li><a href="${dir}news.html">뉴스</a>
+            <li><a href="${dir_home}index.html" class="settings"><img src="${dir_img}homeicon.png" alt="" style="display:block;"></a></li>
+            <li><a href="${dir_page}news.html">뉴스</a>
               <ul>
                 <li><a href="#">정치</a></li>
                 <li><a href="#">경제</a></li>
@@ -66,7 +74,7 @@ var makecode={
                 <li><a href="#">최신 앨범</a></li>
               </ul>
             </li>
-            <li><a href="${dir}movie.html">영화</a>
+            <li><a href="${dir_page}movie.html">영화</a>
               <ul>
                 <li><a href="#">오늘의 추천</a></li>
                 <li><a href="#">랭킹</a></li>
@@ -91,7 +99,7 @@ var makecode={
             </li>
             <li><a href="#">웹툰</a></li>
             <li><a href="#">FUN</a></li>
-            <li><a href="#">탭 설정</a></li>
+            <li><a href="#" style="text-align:right;"><img src="${dir_img}tabicon.png" alt="" style="display:block;"></a></li>
           </ul>
         </div>
       </div>
