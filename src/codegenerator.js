@@ -1,5 +1,5 @@
-var pages = ['news','music','movie','sport','book','setting']
-var pageskr = ['뉴스','음악','영화','스포츠','책','탭 설정']
+var pages = ['news','music','movie','sport','book','fun','setting']
+var pageskr = ['뉴스','음악','영화','스포츠','책','유머','탭 설정']
 
 var filmchart=[// 링크 주소, 이미지 주소, 영화 제목 순서
   'https://movie.naver.com/movie/bi/mi/basic.nhn?code=167638','https://movie-phinf.pstatic.net/20181106_289/1541478936071tmadh_JPEG/movie_image.jpg?type=m99_141_2','완벽한 타인',
