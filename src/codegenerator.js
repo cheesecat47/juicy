@@ -98,7 +98,7 @@ var makecode={
               </ul>
             </li>
             <li><a href="#">웹툰</a></li>
-            <li><a href="#">FUN</a></li>
+            <li><a href="${dir_page}fun.html">FUN</a></li>
             <li><a href="#" style="text-align:right;"><img src="${dir_img}tabicon.png" alt="" style="display:block;"></a></li>
           </ul>
         </div>
