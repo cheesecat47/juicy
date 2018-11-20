@@ -7,3 +7,5 @@ request(url, (error, response, body) => {
 
   console.log(body);
 });
+
+var test = '작성중인 파일과 아무 상관없는 파일로 테스트 해봅니다.';
