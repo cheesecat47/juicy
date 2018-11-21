@@ -1,5 +1,5 @@
-var pages = ['news','music','movie','sport','book','fun','setting']
-var pageskr = ['뉴스','음악','영화','스포츠','책','유머','탭 설정']
+var pages = ['news','music','movie','book','sports','webtoon','fun','setting']
+var pageskr = ['뉴스','음악','영화','책','스포츠','웹툰','유머','탭 설정']
 
 var filmchart=[// 링크 주소, 이미지 주소, 영화 제목 순서
   'https://movie.naver.com/movie/bi/mi/basic.nhn?code=167638','https://movie-phinf.pstatic.net/20181106_289/1541478936071tmadh_JPEG/movie_image.jpg?type=m99_141_2','완벽한 타인',
@@ -68,7 +68,7 @@ var makecode={
                 <li><a href="#">시사</a></li>
               </ul>
             </li>
-            <li><a href="#">음악</a>
+            <li><a href="${dir_page}music.html">음악</a>
               <ul>
                 <li><a href="#">Top 10</a></li>
                 <li><a href="#">최신 앨범</a></li>
@@ -81,13 +81,13 @@ var makecode={
                 <li><a href="#">평점 및 리뷰</a></li>
               </ul>
             </li>
-            <li><a href="#">책</a>
+            <li><a href="${dir_page}book.html">책</a>
               <ul>
                 <li><a href="#">베스트 셀러</a></li>
                 <li><a href="#">스테디 셀러</a></li>
               </ul>
             </li>
-            <li><a href="#">스포츠</a>
+            <li><a href="${dir_page}sports.html">스포츠</a>
               <ul>
                 <li><a href="#">국내 야구</a></li>
                 <li><a href="#">해외 야구</a></li>
@@ -97,9 +97,9 @@ var makecode={
                 <li><a href="#">해외 농구</a></li>
               </ul>
             </li>
-            <li><a href="#">웹툰</a></li>
+            <li><a href="${dir_page}webtoon.html">웹툰</a></li>
             <li><a href="${dir_page}fun.html">FUN</a></li>
-            <li><a href="#" style="text-align:right;"><img src="${dir_img}tabicon.png" alt="" style="display:block;"></a></li>
+            <li><a href="#" class="settings"><img src="${dir_img}tabicon.png" alt="" style="display:block;"></a></li>
           </ul>
         </div>
       </div>
