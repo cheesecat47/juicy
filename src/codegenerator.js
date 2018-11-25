@@ -115,7 +115,7 @@ var makecode={
 
     var i=0;
     while (i<5){
-      document.write(storedCookie[0]);
+      document.write(storedCookie[i]);
       i++;
     }
 
