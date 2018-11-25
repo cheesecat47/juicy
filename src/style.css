@@ -20,10 +20,36 @@ li{border: 2px solid green;} */
 /*                   모든 페이지에 적용되는 코드                                    */
 /**********************************************************************************/
 
+/* 상단 바 */
+.tab_top{
+  background: #da6c00;
+  display: block;
+  width: 100%;
+  z-index: 2;
+  margin: 0px;
+  padding: 0px;
+  height: 50px;
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav_frame{
+  width: 20%;
+  height: 100%;
+  background: #ff8f00;
+  float: left;
+}
+.content_frame{
+  width: 80%;
+  height: 100%;
+  float: right;
+}
+
 /* 드롭 다운 메뉴 구성 */
 .tab_drop{
   background: #ff8f00;
-  position: fixed;
   width: 100%;
   margin: 0px;
   padding: 0px;
@@ -31,8 +57,8 @@ li{border: 2px solid green;} */
   z-index: 2;
 }
 .tab_drop ul{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  display: block;
+  position: relative;
   background: #ff8f00;
   list-style: none;
   width: 100%;
@@ -41,6 +67,8 @@ li{border: 2px solid green;} */
   text-align: center;
 }
 .tab_drop li {
+  display: block;
+  width: 100%;
   float: left;
   padding: 0px;
   text-align: center;
@@ -49,7 +77,7 @@ li{border: 2px solid green;} */
   background: #ff8f00;
   color: #000;
   display: block;
-  line-height: 50px;
+  height: 50px;
   margin: 0px;
   padding: 0px;
   text-align: center;
@@ -67,6 +95,8 @@ li{border: 2px solid green;} */
   padding: 0px;
   margin: 0px;
   position: absolute;
+  left: 100%;
+  top: 50px;
   width: 200px;
   z-index: 3;
 }
@@ -77,18 +107,13 @@ li{border: 2px solid green;} */
   background: #ff8f00;
   display: block;
   float: none;
+  height: 50px;
   margin: 0px;
   padding: 0px;
   width: 200px;
 }
 .tab_drop li:hover li a{
   background: none;
-}
-.tab_drop li ul a{
-  display: block;
-  height: 50px;
-  margin: 0px;
-  padding: 0px 10px 0px 15px;
 }
 .tab_drop li ul a:hover, .tab_drop li ul li:hover a{
   background: #ffc046;
@@ -102,10 +127,7 @@ li{border: 2px solid green;} */
 
 /* 헤더 */
 .header{
-  /* 이거랑 header_text는 사진 위에 글씨 올리는 코드인데 저도 구글링한거라...*/
-  /* 생각해보니 여기서 url을 저렇게 정해두면 모든 페이지에서 class="header"를 사용하면 똑같은 이미지가 보이네요. 나중에 수정할게요. */
   position: relative;
-  margin-top: 50px;
   display: inline-block;
 }
 

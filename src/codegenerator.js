@@ -57,10 +57,14 @@ var makecode={
       dir_home = "../../";
     }
     document.write(`
-      <div class="frame">
+      <div class="tab_top">
+        <li><a href="${dir_home}index.html" class="settings"><img src="${dir_img}homeicon.png" alt="" style="display:block;"></a></li>
+        <li></li>
+        <li><a href="#" class="settings"><img src="${dir_img}tabicon.png" alt="" style="display:block;"></a></li>
+      </div>
+      <div class="nav_frame">
         <div class="tab_drop">
           <ul>
-            <li><a href="${dir_home}index.html" class="settings"><img src="${dir_img}homeicon.png" alt="" style="display:block;"></a></li>
             <li><a href="${dir_page}news.html">뉴스</a>
               <ul>
                 <li><a href="#">정치</a></li>
@@ -99,7 +103,6 @@ var makecode={
             </li>
             <li><a href="${dir_page}webtoon.html">웹툰</a></li>
             <li><a href="${dir_page}fun.html">FUN</a></li>
-            <li><a href="#" class="settings"><img src="${dir_img}tabicon.png" alt="" style="display:block;"></a></li>
           </ul>
         </div>
       </div>
