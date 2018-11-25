@@ -57,7 +57,6 @@ function showCookie(){
 var i=0;
 var checkBox=new Array();
 var category=new Array();
-
     checkBox = document.getElementsByName("survey");
    //.write(checkBox.value);
    for(j=0;j<7;j++)
@@ -74,11 +73,12 @@ var category=new Array();
   $.cookie('category', JSON.stringify(category),{expires : 365 });
 
  var storedCookie = JSON.parse($.cookie('category'));
+
   //var storedAry=$.parseJSON($cookie('category'));
 //  for(k=0;k<5;k++)
-//  document.write(storedCookie[k]);
+  document.write(storedCookie[0]);
   alert('선호도 조사를 완료했습니다. 페이지를 이동합니다.');
-  location.href= "index.html";
+  //location.href= "index.html";
 
 //var x=$.cookie('category');
 //document.write(x);
