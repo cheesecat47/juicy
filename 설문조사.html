@@ -5,168 +5,8 @@
 <title>WEB2 -html</title>
 <meta charset="utf-8">
 
-<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
-<script src="JSON-js-master/json.js"></script>
-<script src="JSON-js-master/json_parse.js"></script>
-
 </head>
 
-<script>
-
-/*
-function setCookie(cname,cvalue,exdays) {
-    var d = new Date();
-    d.setTime(d.getTime() + (exdays*24*60*60*1000));
-    var expires = "expires=" + d.toGMTString();
-    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-
-}
-
-function getCookie(cname) {
-    var name = cname + "=";
-    var decodedCookie = decodeURIComponent(document.cookie);
-    var ca = decodedCookie.split(';');
-    for(var i = 0; i < ca.length; i++) {
-        var c = ca[i];
-        while (c.charAt(0) == ' ') {
-            c = c.substring(1);
-        }
-        if (c.indexOf(name) == 0) {
-            return c.substring(name.length, c.length);
-        }
-    }
-    return "";
-}
-
-
-function checkCookieSport() {
-   //user = prompt("Please enter your name:","");
-   if(i>=5)
-   {
-     alert("더이상 선택못합니다");
-      return ;
-    }
-   setCookie("sport",surveyKind[0],365);
-  var cate=getCookie("sport");
-   if(cate!=""){
-    alert("Welcome again "+surveyKind[0] );
-   return;
-   }
- }
-
-   function checkCookieBook() {
-     if(i>=5)
-     {
-       alert("더이상 선택못합니다");
-        return ;
-      }
-      //user = prompt("Please enter your name:","");
-      setCookie("book",surveyKind[3],365);
-     var cate=getCookie("book");
-      if(cate!=""){
-       alert("Welcome again "+surveyKind[3] );
-      return;
-      }//else{
-      }
-
-        function checkCookieWebtoon() {
-          if(i>=5)
-          {
-            alert("더이상 선택못합니다");
-             return ;
-           }
-           //user = prompt("Please enter your name:","");
-           setCookie("webtoon",surveyKind[2],365);
-          var cate=getCookie("webtoon");
-           if(cate!=""){
-            alert("Welcome again "+surveyKind[2] );
-           return;
-           }
-         }
-          function checkCookieMovie() {
-            if(i>=5)
-            {
-              alert("더이상 선택못합니다");
-               return ;
-             }
-              //user = prompt("Please enter your name:","");
-              setCookie("movie",surveyKind[1],365);
-             var cate=getCookie("movie");
-              if(cate!=""){
-               alert("Welcome again "+surveyKind[1] );
-              return;
-              }
-      //   setCookie("username", user, 30);
-    //var user=getCookie("username");
-
-  //  }
-}
-*/
-
-
-var sport='스포츠';
-var movie='영화';
-var webtoon='웹툰';
-var music='음악';
-var news='뉴스';
-var person='인물';
-var surveyKind=["스포츠","영화","웹툰","음악","뉴스","Fun","책"];
-
-
-
-//function seeChecked(surveyKind) {
-  // Get the checkbox
-  //  var checkBox[]=new Array();
-    //1 checkBox2,checkBox3,checkBox4,checkBox5,checkBox6,checkBox0checkBox7;
-  /*switch(surveyKind)
-  {
-    case "sport" :    checkBox = document.getElementById("0");
-    break;
-    case "movie" :    checkBox = document.getElementById("1");
-    break;
-    case "webtoon" :    checkBox = document.getElementById("2");
-    break;
-    case "music" :    checkBox = document.getElementById("3");
-    break;
-    case "news" :    checkBox = document.getElementById("4");
-    break;
-    case "person" :    checkBox = document.getElementById("5");
-    break;
-    case "book" :    checkBox = document.getElementById("6");
-    break;
-    case "Fun" :    checkBox = document.getElementById("7");
-    break;
-    case "sport" :    checkBox = document.getElementById("8");
-    break;
-
-  }
-  */
-//  var checkBox = document.getElementById("myCheck1");
-  // Get the output text
-
-
-
-
-//  var text = document.getElementById("text");
-  // If the checkbox is checked, display the output text
-//  if (checkBox.checked == true){
-//    category[i]=surveyKind;
-
-  //  document.write(category[i]);
-
-//  }
-
-
-//}
-
-//for(i=0;i<3;i++)
-//document.write(category[i]);
-
-
-
-</script>
 
   이제부터 당신의 선호도 조사를 실시하겠습니다.<br>
   선호하시는 항목 5개를 선택하여 주세요.<br>
@@ -202,7 +42,17 @@ Fun
 <br>
 
 <input type="button" value="확인" onclick="showCookie()">
+
+
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+<script src="JSON-js-master/json.js"></script>
+<script src="JSON-js-master/json_parse.js"></script>
 <script>
+var surveyKind=["스포츠","영화","웹툰","음악","뉴스","Fun","책"];
+
 function showCookie(){
 var i=0;
 var checkBox=new Array();
