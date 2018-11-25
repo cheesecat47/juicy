@@ -22,11 +22,17 @@
     //storedCookie=data[0];
     //category=data[1];
     //document.write(storedCookie + " "+category);
+
 var x=$.cookie('category');
+if(x==null){location.href="메인페이지.html";
 var storedCookie = JSON.parse($.cookie('category'));
 
 document.write(storedCookie);
-      makecode.makedropdowntab(""); //상단 탭 자동 생성
+}
+else {
+      makecode.makedropdowntab("");
+}
+ //상단 탭 자동 생성
     </script>
     <div class="content_frame">
       <div class="header">
