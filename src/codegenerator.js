@@ -61,7 +61,7 @@ var makecode={
       <div class="tab_top">
         <li><a href="${dir_home}index.html" class="settings"><img src="${dir_img}homeicon.png" alt="" style="display:block;"></a></li>
         <li></li>
-        <li><a href="#" class="settings"><img src="${dir_img}tabicon.png" alt="" style="display:block;"></a></li>
+        <li><a href="${dir_home}메인페이지.html" class="settings"><img src="${dir_img}tabicon.png" alt="" style="display:block;"></a></li>
       </div>
       <div class="nav_frame">
         <div class="tab_drop">
