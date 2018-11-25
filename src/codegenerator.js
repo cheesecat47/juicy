@@ -57,52 +57,6 @@ var makecode={
       dir_home = "../../";
     }
 
-    var news = `
-      <li><a href="${dir_page}news.html">뉴스</a>
-        <ul>
-          <li><a href="#">정치</a></li>
-          <li><a href="#">경제</a></li>
-          <li><a href="#">시사</a></li>
-        </ul>
-      </li>`;
-    var music = `
-      <li><a href="${dir_page}music.html">음악</a>
-        <ul>
-          <li><a href="#">Top 10</a></li>
-          <li><a href="#">최신 앨범</a></li>
-        </ul>
-      </li>`;
-    var movie = `
-      <li><a href="${dir_page}movie.html">영화</a>
-        <ul>
-          <li><a href="#">오늘의 추천</a></li>
-          <li><a href="#">랭킹</a></li>
-          <li><a href="#">평점 및 리뷰</a></li>
-        </ul>
-      </li>`;
-    var book = `
-      <li><a href="${dir_page}book.html">책</a>
-        <ul>
-          <li><a href="#">베스트 셀러</a></li>
-          <li><a href="#">스테디 셀러</a></li>
-        </ul>
-      </li>`;
-    var sports = `
-      <li><a href="${dir_page}sports.html">스포츠</a>
-        <ul>
-          <li><a href="#">국내 야구</a></li>
-          <li><a href="#">해외 야구</a></li>
-          <li><a href="#">국내 축구</a></li>
-          <li><a href="#">해외 축구</a></li>
-          <li><a href="#">국내 농구</a></li>
-          <li><a href="#">해외 농구</a></li>
-        </ul>
-      </li>`;
-    var webtoon =  `
-      <li><a href="${dir_page}webtoon.html">웹툰</a></li>`;
-    var fun = `
-      <li><a href="${dir_page}fun.html">FUN</a></li>`;
-
     document.write(`
       <div class="tab_top">
         <li><a href="${dir_home}index.html" class="settings"><img src="${dir_img}homeicon.png" alt="" style="display:block;"></a></li>
@@ -115,7 +69,68 @@ var makecode={
 
     var i=0;
     while (i<5){
-      document.write(storedCookie[i]);
+      switch (storedCookie[i]) {
+        case 'news':
+          document.write(`
+            <li><a href="${dir_page}news.html">뉴스</a>
+            <ul>
+              <li><a href="#">정치</a></li>
+              <li><a href="#">경제</a></li>
+              <li><a href="#">시사</a></li>
+            </ul>
+          </li>`);
+          break;
+        case 'music':
+          document.write(`
+            <li><a href="${dir_page}music.html">음악</a>
+              <ul>
+                <li><a href="#">Top 10</a></li>
+                <li><a href="#">최신 앨범</a></li>
+              </ul>
+            </li>`);
+            break;
+        case 'movie':
+          document.write(`
+            <li><a href="${dir_page}movie.html">영화</a>
+              <ul>
+                <li><a href="#">오늘의 추천</a></li>
+                <li><a href="#">랭킹</a></li>
+                <li><a href="#">평점 및 리뷰</a></li>
+              </ul>
+            </li>`);
+          break;
+        case 'book':
+          document.write(`
+            <li><a href="${dir_page}book.html">책</a>
+              <ul>
+                <li><a href="#">베스트 셀러</a></li>
+                <li><a href="#">스테디 셀러</a></li>
+              </ul>
+            </li>`);
+          break;
+        case 'sports':
+          document.write(`
+            <li><a href="${dir_page}sports.html">스포츠</a>
+              <ul>
+                <li><a href="#">국내 야구</a></li>
+                <li><a href="#">해외 야구</a></li>
+                <li><a href="#">국내 축구</a></li>
+                <li><a href="#">해외 축구</a></li>
+                <li><a href="#">국내 농구</a></li>
+                <li><a href="#">해외 농구</a></li>
+              </ul>
+            </li>`);
+          break;
+        case 'webtoon':
+          document.write(`
+            <li><a href="${dir_page}webtoon.html">웹툰</a></li>`);
+          break;
+        case 'fun':
+          document.write(`
+            <li><a href="${dir_page}fun.html">FUN</a></li>`);
+          break;
+        default:
+      }
       i++;
     }
 
