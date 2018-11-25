@@ -3,12 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>Juicy</title>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
     <link rel="stylesheet" href="./src/style.css"><!-- css, 자바스크립트 파일 가져오기-->
     <script src="./src/codegenerator.js"></script><!-- 코드 자동생성 -->
     <script src="./src/crawler.js"></script>
   </head>
   <body>
     <script>
+    //temp=location.href.split("?");
+    //data=temp[1].split(":");
+    //storedCookie=data[0];
+    //category=data[1];
+    //document.write(storedCookie + " "+category);
+var x=$.cookie('category');
+var storedCookie = JSON.parse($.cookie('category'));
+
+document.write(storedCookie);
       makecode.makedropdowntab(""); //상단 탭 자동 생성
     </script>
     <div class="header">

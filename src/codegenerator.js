@@ -23,10 +23,10 @@ var makecode={
 
     // document.write();를 하면 html에 쓸 수 있다. 꼭 코드가 아니라도 쓸 수 있음.
     // ``는 템플릿..... ""나 ''처럼 쓸 수 있고 `` 안에서 따옴표 사용가능.
-    document.write(`
-      <div class="frame"><!-- 전체 프레임 -->
-        <div class="tab"><!-- 상단 탭 -->
-      `);
+  //  document.write(`
+    //  <div class="frame"><!-- 전체 프레임 -->
+      //  <div class="tab"><!-- 상단 탭 -->
+      //`);
       var i=0;
       while (i<pages.length){
         if(currentpage==pages[i]){  // currentpage일 때는 tabNow로 색깔 다르게 표시한다.
