@@ -51,7 +51,7 @@ Fun
 <script src="JSON-js-master/json.js"></script>
 <script src="JSON-js-master/json_parse.js"></script>
 <script>
-var surveyKind=["스포츠","영화","웹툰","음악","뉴스","Fun","책"];
+var surveyKind=["news","music","movie","book","sports","webtoon","fun","setting"];
 
 function showCookie(){
 var i=0;
@@ -70,7 +70,7 @@ var category=new Array();
 
    if(category.length==5){
  var k;
-  $.cookie('category', JSON.stringify(category),{expires : 365, domain :' https://cheesecat47.github.io/juicy/설문조사.html'});
+  $.cookie('category', JSON.stringify(category),{expires : 365});
 
  var storedCookie = JSON.parse($.cookie('category'));
 
