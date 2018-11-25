@@ -6,15 +6,17 @@
     <link rel="stylesheet" href="../style.css"><!-- css, 자바스크립트 파일 가져오기-->
     <script src="../codegenerator.js"></script><!-- 코드 자동생성 -->
     <script src="../crawler.js"></script>
-
-    <style>
-    .test{}
-    </style>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script src="JSON-js-master/json.js"></script>
+    <script src="JSON-js-master/json_parse.js"></script>
   </head>
   <body>
     <script>
-      makecode.makedropdowntab("fun");//상단 탭 자동 생성. 인자가 codegenerator.js에 있는 pages[] 항목과 일치해야 한다.
+      var x=$.cookie('category');
+      var storedCookie = JSON.parse($.cookie('category'));
+      makecode.makedropdowntab(storedCookie,"fun");//상단 탭 자동 생성. 인자가 codegenerator.js에 있는 pages[] 항목과 일치해야 한다.
     </script>
     <div class="content_frame">
       <div class="header">  <!-- 사진 들어가는 곳. -->
