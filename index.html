@@ -31,8 +31,7 @@ if(x==null){location.href="메인페이지.html";
 else {
   var storedCookie = JSON.parse($.cookie('category'));
   document.write(storedCookie);
-
-      makecode.makedropdowntab("");
+  makecode.makedropdowntab(storedCookie,"");
 }
  //상단 탭 자동 생성
     </script>

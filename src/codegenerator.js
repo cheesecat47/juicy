@@ -44,7 +44,7 @@ var makecode={
       </div>
         `);
   },
-  makedropdowntab:function(currentpage){
+  makedropdowntab:function(storedCookie,currentpage){
     var dir_page, dir_img, dir_home;              // 경로 나타낼 변수
     if(currentpage==""){
       dir_page="./src/pages/";  // ""이면 index에서 넘어오는 거니까 하위 경로 붙여줌
@@ -56,6 +56,53 @@ var makecode={
       dir_img="../img/";
       dir_home = "../../";
     }
+
+    var news = `
+      <li><a href="${dir_page}news.html">뉴스</a>
+        <ul>
+          <li><a href="#">정치</a></li>
+          <li><a href="#">경제</a></li>
+          <li><a href="#">시사</a></li>
+        </ul>
+      </li>`;
+    var music = `
+      <li><a href="${dir_page}music.html">음악</a>
+        <ul>
+          <li><a href="#">Top 10</a></li>
+          <li><a href="#">최신 앨범</a></li>
+        </ul>
+      </li>`;
+    var movie = `
+      <li><a href="${dir_page}movie.html">영화</a>
+        <ul>
+          <li><a href="#">오늘의 추천</a></li>
+          <li><a href="#">랭킹</a></li>
+          <li><a href="#">평점 및 리뷰</a></li>
+        </ul>
+      </li>`;
+    var book = `
+      <li><a href="${dir_page}book.html">책</a>
+        <ul>
+          <li><a href="#">베스트 셀러</a></li>
+          <li><a href="#">스테디 셀러</a></li>
+        </ul>
+      </li>`;
+    var sports = `
+      <li><a href="${dir_page}sports.html">스포츠</a>
+        <ul>
+          <li><a href="#">국내 야구</a></li>
+          <li><a href="#">해외 야구</a></li>
+          <li><a href="#">국내 축구</a></li>
+          <li><a href="#">해외 축구</a></li>
+          <li><a href="#">국내 농구</a></li>
+          <li><a href="#">해외 농구</a></li>
+        </ul>
+      </li>`;
+    var webtoon =  `
+      <li><a href="${dir_page}webtoon.html">웹툰</a></li>`;
+    var fun = `
+      <li><a href="${dir_page}fun.html">FUN</a></li>`;
+
     document.write(`
       <div class="tab_top">
         <li><a href="${dir_home}index.html" class="settings"><img src="${dir_img}homeicon.png" alt="" style="display:block;"></a></li>
@@ -64,46 +111,16 @@ var makecode={
       </div>
       <div class="nav_frame">
         <div class="tab_drop">
-          <ul>
-            <li><a href="${dir_page}news.html">뉴스</a>
-              <ul>
-                <li><a href="#">정치</a></li>
-                <li><a href="#">경제</a></li>
-                <li><a href="#">시사</a></li>
-              </ul>
-            </li>
-            <li><a href="${dir_page}music.html">음악</a>
-              <ul>
-                <li><a href="#">Top 10</a></li>
-                <li><a href="#">최신 앨범</a></li>
-              </ul>
-            </li>
-            <li><a href="${dir_page}movie.html">영화</a>
-              <ul>
-                <li><a href="#">오늘의 추천</a></li>
-                <li><a href="#">랭킹</a></li>
-                <li><a href="#">평점 및 리뷰</a></li>
-              </ul>
-            </li>
-            <li><a href="${dir_page}book.html">책</a>
-              <ul>
-                <li><a href="#">베스트 셀러</a></li>
-                <li><a href="#">스테디 셀러</a></li>
-              </ul>
-            </li>
-            <li><a href="${dir_page}sports.html">스포츠</a>
-              <ul>
-                <li><a href="#">국내 야구</a></li>
-                <li><a href="#">해외 야구</a></li>
-                <li><a href="#">국내 축구</a></li>
-                <li><a href="#">해외 축구</a></li>
-                <li><a href="#">국내 농구</a></li>
-                <li><a href="#">해외 농구</a></li>
-              </ul>
-            </li>
-            <li><a href="${dir_page}webtoon.html">웹툰</a></li>
-            <li><a href="${dir_page}fun.html">FUN</a></li>
-          </ul>
+          <ul>`);
+
+    var i=0;
+    while (i<5){
+      document.write(storedCookie[0]);
+      i++;
+    }
+
+    document.write(
+          `</ul>
         </div>
       </div>
       `);
