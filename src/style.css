@@ -4,7 +4,6 @@
 body{
   font-family: 'Stylish', "맑은 고딕", 'Malgun Gothic',"돋움",dotum;
   margin: 0;
-  min-width: 960px;
 }
 
 /* div 경계선은 디자인 확인용.
@@ -20,17 +19,20 @@ li{border: 2px solid green;} */
 /*                   모든 페이지에 적용되는 코드                                    */
 /**********************************************************************************/
 
+.frame{
+  width: 1024px;
+  margin: 0px auto;
+}
+
 /* 상단 바 */
 .tab_top{
+  float: left;
   background: #da6c00;
-  display: block;
   width: 100%;
   z-index: 2;
   margin: 0px;
   padding: 0px;
   height: 50px;
-  display: grid;
-  grid-template-columns: 1fr 5fr 1fr;
   list-style: none;
   text-decoration: none;
 }

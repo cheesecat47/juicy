@@ -2,6 +2,7 @@
 <html lang="ko">
   <head>
     <meta charset="utf-8">
+
     <title>Juicy</title>
     <link rel="stylesheet" href="./src/style.css"><!-- css, 자바스크립트 파일 가져오기-->
     <script src="./src/codegenerator.js"></script><!-- 코드 자동생성 -->
@@ -13,24 +14,26 @@
     <script src="JSON-js-master/json_parse.js"></script>
   </head>
   <body>
-    <script>
-      var x=$.cookie('category');
-      if(x==null){location.href="메인페이지.html";}
-      else {
-        var storedCookie = JSON.parse($.cookie('category'));
-        document.write(storedCookie);
-        makecode.makedropdowntab(storedCookie,"");  //상단 탭 자동 생성
-      }
-     </script>
-    <div class="content_frame">
-      <div class="header">
+    <div class="frame">
+      <script>
+        var x=$.cookie('category');
+        if(x==null){location.href="메인페이지.html";}
+        else {
+          var storedCookie = JSON.parse($.cookie('category'));
+          document.write(storedCookie);
+          makecode.makedropdowntab(storedCookie,"");  //상단 탭 자동 생성
+        }
+       </script>
+      <div class="content_frame">
+        <div class="header">
 
-      </div>
-      <dir class="content">
-        <dir class="main">
-          <img src="./src/img/mainbanner.png" alt="" style="width: 100vmin;">
+        </div>
+        <dir class="content">
+          <dir class="main">
+            <img src="./src/img/mainbanner.png" alt="" style="width: 100vmin;">
+          </dir>
         </dir>
-      </dir>
-    </div>
+      </div><!-- content_frame -->
+    </div><!--frame-->
   </body>
 </html>
