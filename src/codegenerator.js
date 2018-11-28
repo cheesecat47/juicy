@@ -156,13 +156,10 @@ var makecode={
 
 function displayMenu(){
   var x = document.getElementById('tab');
-  var y = document.getElementsByClassName('content_frame');
 
   if (x.style.display === "none") {
     x.style.display = "block";
-    y.style.width="80%;"
   } else {
     x.style.display = "none";
-    y.style.width="100%;"
   }
 }
