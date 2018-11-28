@@ -59,13 +59,12 @@ var makecode={
 
     document.write(`
       <div class="tab_top">
+        <li onclick="displayMenu()" class="settings"><img src="${dir_img}tabicon.png" alt="" style="display:block;"></li>
         <li><a href="${dir_home}index.html" class="settings"><img src="${dir_img}homeicon.png" alt="" style="display:block;"></a></li>
-        <li></li>
-        <li><a href="${dir_home}메인페이지.html" class="settings"><img src="${dir_img}tabicon.png" alt="" style="display:block;"></a></li>
       </div>
       <div class="nav_frame">
         <div class="tab_drop">
-          <ul>`);
+          <ul id="tab">`);
 
     var i=0;
     while (i<5){
@@ -135,7 +134,8 @@ var makecode={
     }
 
     document.write(
-          `</ul>
+          `<li><a href="${dir_home}메인페이지.html" onclick="displayMenu()">탭 설정</a></li>
+          </ul>
         </div>
       </div>
       `);
@@ -153,3 +153,16 @@ var makecode={
     }
   }
 }//end makecode
+
+function displayMenu(){
+  var x = document.getElementById('tab');
+  var y = document.getElementsByClassName('content_frame');
+
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    y.style.width="80%;"
+  } else {
+    x.style.display = "none";
+    y.style.width="100%;"
+  }
+}

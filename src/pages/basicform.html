@@ -13,23 +13,25 @@
     <script src="JSON-js-master/json_parse.js"></script>
   </head>
   <body>
-    <script>
-      var x=$.cookie('category');
-      var storedCookie = JSON.parse($.cookie('category'));
-      makecode.makedropdowntab(storedCookie,"");  //상단 탭 자동 생성. 인자가 codegenerator.js에 있는 pages[] 항목과 일치해야 한다.
-    </script>
-    <div class="content_frame">
-      <div class="header">  <!-- 사진 들어가는 곳. -->
-        <div class="header_text">
-          <h1>@@@사진 위에 올릴 글@@@</h1>
+    <div class="frame">
+      <script>
+        var x=$.cookie('category');
+        var storedCookie = JSON.parse($.cookie('category'));
+        makecode.makedropdowntab(storedCookie,"");  //상단 탭 자동 생성. 인자가 codegenerator.js에 있는 pages[] 항목과 일치해야 한다.
+      </script>
+      <div class="content_frame">
+        <div class="header">  <!-- 사진 들어가는 곳. -->
+          <div class="header_text">
+            <h1>@@@사진 위에 올릴 글@@@</h1>
+          </div>
+          <div class="header_img">
+            <img src="../img/@@@ 사진 이름 @@@" alt="">
+          </div>
         </div>
-        <div class="header_img">
-          <img src="../img/@@@ 사진 이름 @@@" alt="" width="100%">
+        <div class="content">
+          @@@ 사진 밑에 들어갈 메인 콘텐츠@@@
         </div>
-      </div>
-      <div class="content">
-        @@@ 사진 밑에 들어갈 메인 콘텐츠@@@
-      </div>
-    </div>
+      </div><!--content_frame-->
+    </div><!-- frame -->
   </body>
 </html>

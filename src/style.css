@@ -4,7 +4,6 @@
 body{
   font-family: 'Stylish', "맑은 고딕", 'Malgun Gothic',"돋움",dotum;
   margin: 0;
-  min-width: 960px;
 }
 
 /* div 경계선은 디자인 확인용.
@@ -20,44 +19,40 @@ li{border: 2px solid green;} */
 /*                   모든 페이지에 적용되는 코드                                    */
 /**********************************************************************************/
 
+.frame{
+  width: 1024px;
+  margin: 0px auto;
+}
+
 /* 상단 바 */
 .tab_top{
+  float: left;
   background: #da6c00;
-  display: block;
   width: 100%;
   z-index: 2;
   margin: 0px;
   padding: 0px;
   height: 50px;
-  display: grid;
-  grid-template-columns: 1fr 5fr 1fr;
   list-style: none;
   text-decoration: none;
 }
 
-.nav_frame{
-  width: 20%;
-  height: 100%;
-  background: #ff8f00;
+.settings{
   float: left;
-}
-.content_frame{
-  width: 80%;
-  height: 100%;
-  float: right;
+  margin: 0px 30px 0px 0px;
 }
 
 /* 드롭 다운 메뉴 구성 */
 .tab_drop{
   background: #ff8f00;
-  width: 100%;
+  width: 20%;
   margin: 0px;
   padding: 0px;
   font-size: x-large;
-  z-index: 2;
+  z-index: 3;
 }
 .tab_drop ul{
-  display: block;
+  display: none;
   position: relative;
   background: #ff8f00;
   list-style: none;
@@ -65,6 +60,7 @@ li{border: 2px solid green;} */
   margin: 0px;
   padding: 0px;
   text-align: center;
+  z-index: 3;
 }
 .tab_drop li {
   display: block;
@@ -120,15 +116,19 @@ li{border: 2px solid green;} */
   text-decoration: none;
 }
 
-.settings{
-  float: right;
-  margin: 0px 10px 0px 0px;
+.content_frame{
+  display: block;
+  position: fixed;
+  width: inherit;
+  margin-top: 50px;
+  min-height: 768px;
 }
 
 /* 헤더 */
 .header{
   position: relative;
-  display: inline-block;
+  display: block;
+  width: inherit;
 }
 
 .header_text{  /* 헤더 텍스트 부분 */
@@ -141,12 +141,16 @@ li{border: 2px solid green;} */
   z-index: 1;  /* 아래서부터 몇 번째 층인지. 1층으로 올려서 사진 위에 오도록. */
 }
 
-.header_img{  /* 헤더 이미지 부분 */
+.header img{  /* 헤더 이미지 부분 */
   display: block;
+  width: 100%;
+  height: auto;
 }
+
 
 /* content 헤더 제외한 부분. 사진 아래로. */
 .content{
+  display: block;
   background-color: #f7f7f7
 }
 

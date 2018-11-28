@@ -13,30 +13,32 @@
     <script src="JSON-js-master/json_parse.js"></script>
   </head>
   <body>
-    <script>
-      var x=$.cookie('category');
-      var storedCookie = JSON.parse($.cookie('category'));
-      makecode.makedropdowntab(storedCookie,"movie");//상단 탭 자동 생성. 인자가 codegenerator.js에 있는 pages[] 항목과 일치해야 한다.
-    </script>
-    <div class="content_frame">
-      <div class="header">  <!-- 사진 들어가는 곳. -->
-          <div class="header_text">
-            <h1>영화</h1>
-          </div>
-          <div class="header_img">
-            <img src="../img/movie_head_img.jpg" alt="" width="100%">
-          </div>
-      </div>
-      <div class="content">
-        <div class="filmchart">
-          <h1>현재 상영 영화</h1>
-          <div class="filmchart_grid">
-            <script>
-              makecode.makechart();  //영화 항목 자동 생성
-            </script>
-          </div>
-        </div><!-- filmchart -->
-      </div><!-- content -->
-    </div><!-- content_frame -->
+    <div class="frame">
+      <script>
+        var x=$.cookie('category');
+        var storedCookie = JSON.parse($.cookie('category'));
+        makecode.makedropdowntab(storedCookie,"movie");//상단 탭 자동 생성. 인자가 codegenerator.js에 있는 pages[] 항목과 일치해야 한다.
+      </script>
+      <div class="content_frame">
+        <div class="header">  <!-- 사진 들어가는 곳. -->
+            <div class="header_text">
+              <h1>영화</h1>
+            </div>
+            <div class="header_img">
+              <img src="../img/movie_head_img.jpg" alt="">
+            </div>
+        </div>
+        <div class="content">
+          <div class="filmchart">
+            <h1>현재 상영 영화</h1>
+            <div class="filmchart_grid">
+              <script>
+                makecode.makechart();  //영화 항목 자동 생성
+              </script>
+            </div>
+          </div><!-- filmchart -->
+        </div><!-- content -->
+      </div><!-- content_frame -->
+    </div><!-- frame -->
   </body>
 </html>
