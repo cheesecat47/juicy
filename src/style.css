@@ -21,7 +21,8 @@ li{border: 2px solid green;} */
 /**********************************************************************************/
 
 .frame{
-  width: 1024px;
+  display: block;
+  max-width: 1024px;
   margin: 0px auto;
 }
 
@@ -36,6 +37,7 @@ li{border: 2px solid green;} */
   height: 50px;
   list-style: none;
   text-decoration: none;
+  z-index: 3;
 }
 
 .settings{
@@ -58,10 +60,9 @@ li{border: 2px solid green;} */
   background: #ff8f00;
   list-style: none;
   width: 100%;
-  margin: 0px;
   padding: 0px;
   text-align: center;
-  z-index: 3;
+  z-index: 5;
 }
 .tab_drop li {
   display: block;
@@ -93,9 +94,9 @@ li{border: 2px solid green;} */
   margin: 0px;
   position: absolute;
   left: 100%;
-  transform: translate(0%, -10%);
+  transform: translateY(-50px);
   width: 200px;
-  z-index: 3;
+  z-index: 5;
 }
 .tab_drop li:hover ul{
   display: block;
@@ -118,18 +119,16 @@ li{border: 2px solid green;} */
 }
 
 .content_frame{
-  display: block;
-  position: fixed;
-  width: inherit;
-  margin-top: 50px;
   min-height: 768px;
+  padding-top: 50px;
+  z-index: 0;
 }
 
 /* 헤더 */
 .header{
   position: relative;
-  display: block;
   width: inherit;
+  z-index: 2;
 }
 
 .header_text{  /* 헤더 텍스트 부분 */
@@ -143,7 +142,6 @@ li{border: 2px solid green;} */
 }
 
 .header img{  /* 헤더 이미지 부분 */
-  display: block;
   width: 100%;
   height: auto;
 }
@@ -151,6 +149,8 @@ li{border: 2px solid green;} */
 
 /* content 헤더 제외한 부분. 사진 아래로. */
 .content{
+  margin: 0px;
+  padding: 0px;
   display: block;
   background-color: #f7f7f7
 }
