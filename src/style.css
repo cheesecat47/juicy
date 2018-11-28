@@ -1,5 +1,6 @@
 @charset "UTF-8";  /* 이 페이지 인코딩하는거 */
 @import url('https://fonts.googleapis.com/css?family=Stylish&subset=korean');
+@viewport{width: device-width;}
 
 body{
   font-family: 'Stylish', "맑은 고딕", 'Malgun Gothic',"돋움",dotum;
