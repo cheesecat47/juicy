@@ -28,9 +28,11 @@ li{border: 2px solid green;} */
 
 /* 상단 바 */
 .tab_top{
+  position: fixed;
   float: left;
   background: #da6c00;
   width: 100%;
+  max-width: 1024px;
   z-index: 2;
   margin: 0px;
   padding: 0px;
@@ -60,7 +62,9 @@ li{border: 2px solid green;} */
   background: #ff8f00;
   list-style: none;
   width: 100%;
+  margin: 0px;
   padding: 0px;
+  transform: translateY(50px);
   text-align: center;
   z-index: 5;
 }
@@ -126,24 +130,14 @@ li{border: 2px solid green;} */
 
 /* 헤더 */
 .header{
-  position: relative;
   width: inherit;
-  z-index: 2;
-}
-
-.header_text{  /* 헤더 텍스트 부분 */
-  position:  absolute;
-  top: 40%;  /* 사진 위에서 30%위치 */
-  left: 50%;  /* 사진 왼쪽부터 50%위치 */
-  transform: translate(-50%, -50%);  /* 왼쪽 위 기준이므로 반만큼 이동 보정 */
-  font-size: 2rem;  /* 이것도 폰트 크기 다른 방법 */
-  text-align: center;
-  z-index: 1;  /* 아래서부터 몇 번째 층인지. 1층으로 올려서 사진 위에 오도록. */
+  z-index: 1;
 }
 
 .header img{  /* 헤더 이미지 부분 */
   width: 100%;
-  height: auto;
+  max-width: 1024px;
+  width: 100%;
 }
 
 
