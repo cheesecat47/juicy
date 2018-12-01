@@ -31,9 +31,39 @@
         </div>
         <div class="content">
           <div class="filmchart_grid">  <!--css 일단은 filmchart_grid로 나주에 좀 수정하자!!-->
-          <script>
-        makecode.makechartwebtoon();
-          </script>
+           <script>
+        var d=new Date();
+        var week=new Array('일','월','화','수','목','금','토');
+        var today=week[d.getDay()];
+      //  document.write(today);
+
+        switch(today)
+        {
+          case '일' :
+          makecode.makechartwebtoonSun();
+          break;
+          case '월' :
+          makecode.makechartwebtoonMon();
+          break;
+          case '화' :
+          makecode.makechartwebtoonTue();//목요일걸로 되있음 화욜날로 바꾸자
+          break;
+          case '수' :
+          makecode.makechartwebtoonWed();
+          break;
+          case '목' :
+          makecode.makechartwebtoonThu();
+          break;
+          case '금' :
+          makecode.makechartwebtoonFri();
+          break;
+          case '토' :
+          makecode.makechartwebtoonSat();
+          break;
+
+        }
+      //  makecode.makechartwebtoon();
+        </script>
           </div>
         </div>
       </div><!-- content_frame -->
