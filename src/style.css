@@ -1,7 +1,11 @@
 @charset "UTF-8";  /* 이 페이지 인코딩하는거 */
 @import url('https://fonts.googleapis.com/css?family=Stylish&subset=korean');
+@viewport{width: device-width;}
 
-body{font-family: 'Stylish', "맑은 고딕", 'Malgun Gothic',"돋움",dotum; margin: 0; min-width: 960px;}
+body{
+  font-family: 'Stylish', "맑은 고딕", 'Malgun Gothic',"돋움",dotum;
+  margin: 0;
+}
 
 /* div 경계선은 디자인 확인용.
 세 줄 전체 블록하고 Ctrl / 누르면 한번에 주석처리 가능.
@@ -15,62 +19,54 @@ li{border: 2px solid green;} */
 /**********************************************************************************/
 /*                   모든 페이지에 적용되는 코드                                    */
 /**********************************************************************************/
-/* 전체 프레임 */
+
 .frame{
-  margin:0;      /* 바깥 여백 */
-  padding: 0;    /* 안쪽 여백 */
-  border: 0;     /* 테두리 */
+  display: block;
+  max-width: 1024px;
+  margin: 0px auto;
 }
 
-/* 상단 탭인데, 이제는 안 씀. 드롭다운 탭으로 변경.*/
-.tab{
-  position: fixed;
+/* 상단 바 */
+.tab_top{
+  float: left;
+  background: #da6c00;
   width: 100%;
   z-index: 2;
-  display: grid;  /* 그리드로 보여줌 */
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
-  /* 그리드 열으로 1:1:1:1:1:2 비율 */
-}
-
-.tabitem{
-  background-color: #ff8500;    /* #RGB, #RRGGBB. 00은 검은색, ff는 흰색 */
-  display: block;  /* 블록은 한 블록 단위, inline으로 하면 한 줄 전체 사용. */
-  font-size: x-large;  /* 폰트 사이즈 설정하는 방법은 종류가 많아요.. */
-  padding: 10px 0px 10px 0px;  /* 위에서부터 시계방향. 위, 오른쪽, 아래쪽, 왼쪽 */
-  text-align: center;  /* 중앙정렬 */
-  text-decoration: none;  /* 상단탭 링크에 밑줄 없애려고. */
-}
-
-.tabNow{
-  background-color: #ffcc22;  /* 현재 선택 탭은 좀 더 밝은 색. */
-  display: block;
-  font-size: x-large;
-  padding: 10px 0px 10px 0px;
-  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  height: 50px;
+  list-style: none;
   text-decoration: none;
+  z-index: 3;
+}
+
+.settings{
+  float: left;
+  margin: 0px 30px 0px 0px;
 }
 
 /* 드롭 다운 메뉴 구성 */
 .tab_drop{
   background: #ff8f00;
-  position: fixed;
-  width: 100%;
+  width: 20%;
   margin: 0px;
   padding: 0px;
   font-size: x-large;
-  z-index: 2;
+  z-index: 3;
 }
 .tab_drop ul{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  display: none;
+  position: relative;
   background: #ff8f00;
   list-style: none;
   width: 100%;
-  margin: 0px;
   padding: 0px;
   text-align: center;
+  z-index: 5;
 }
 .tab_drop li {
+  display: block;
+  width: 100%;
   float: left;
   padding: 0px;
   text-align: center;
@@ -79,9 +75,9 @@ li{border: 2px solid green;} */
   background: #ff8f00;
   color: #000;
   display: block;
-  line-height: 50px;
+  height: 50px;
   margin: 0px;
-  padding: 0px 25px;
+  padding: 0px;
   text-align: center;
   text-decoration: none;
 }
@@ -97,8 +93,10 @@ li{border: 2px solid green;} */
   padding: 0px;
   margin: 0px;
   position: absolute;
+  left: 100%;
+  transform: translateY(-50px);
   width: 200px;
-  z-index: 3;
+  z-index: 5;
 }
 .tab_drop li:hover ul{
   display: block;
@@ -107,6 +105,7 @@ li{border: 2px solid green;} */
   background: #ff8f00;
   display: block;
   float: none;
+  height: 50px;
   margin: 0px;
   padding: 0px;
   width: 200px;
@@ -114,23 +113,22 @@ li{border: 2px solid green;} */
 .tab_drop li:hover li a{
   background: none;
 }
-.tab_drop li ul a{
-  display: block;
-  height: 50px;
-  margin: 0px;
-  padding: 0px 10px 0px 15px;
-}
 .tab_drop li ul a:hover, .tab_drop li ul li:hover a{
   background: #ffc046;
   text-decoration: none;
 }
 
+.content_frame{
+  min-height: 768px;
+  padding-top: 50px;
+  z-index: 0;
+}
+
 /* 헤더 */
 .header{
-  /* 이거랑 header_text는 사진 위에 글씨 올리는 코드인데 저도 구글링한거라...*/
-  /* 생각해보니 여기서 url을 저렇게 정해두면 모든 페이지에서 class="header"를 사용하면 똑같은 이미지가 보이네요. 나중에 수정할게요. */
   position: relative;
-  display: inline-block;
+  width: inherit;
+  z-index: 2;
 }
 
 .header_text{  /* 헤더 텍스트 부분 */
@@ -143,13 +141,17 @@ li{border: 2px solid green;} */
   z-index: 1;  /* 아래서부터 몇 번째 층인지. 1층으로 올려서 사진 위에 오도록. */
 }
 
-.header_img{  /* 헤더 이미지 부분 */
-  display: block;
+.header img{  /* 헤더 이미지 부분 */
+  width: 100%;
   height: auto;
 }
 
+
 /* content 헤더 제외한 부분. 사진 아래로. */
 .content{
+  margin: 0px;
+  padding: 0px;
+  display: block;
   background-color: #f7f7f7
 }
 

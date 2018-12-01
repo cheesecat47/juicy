@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8"><!-- 페이지 인코딩 -->
     <meta name="viewport" content="width=device-width, user-scalable=no"><!--뷰포트 설정-->
-    <title>Juicy - @@@탭 이름@@@</title><!-- 브라우저 타이틀 바에 나오는 이름 -->
+    <title>Juicy - 웹툰</title><!-- 브라우저 타이틀 바에 나오는 이름 -->
     <link rel="stylesheet" href="../style.css"><!-- css, 자바스크립트 파일 가져오기-->
     <script src="../codegenerator.js"></script><!-- 코드 자동생성 -->
     <script src="../crawler.js"></script>
@@ -18,21 +18,21 @@
       <script>
         var x=$.cookie('category');
         var storedCookie = JSON.parse($.cookie('category'));
-        makecode.makedropdowntab(storedCookie,"");  //상단 탭 자동 생성. 인자가 codegenerator.js에 있는 pages[] 항목과 일치해야 한다.
+        makecode.makedropdowntab(storedCookie,"webtoon");  //상단 탭 자동 생성. 인자가 codegenerator.js에 있는 pages[] 항목과 일치해야 한다.
       </script>
       <div class="content_frame">
         <div class="header">  <!-- 사진 들어가는 곳. -->
           <div class="header_text">
-            <h1>@@@사진 위에 올릴 글@@@</h1>
+            <h1>웹툰</h1>
           </div>
           <div class="header_img">
-            <img src="../img/@@@ 사진 이름 @@@" alt="">
+            <img src="../img/webtoon_head_img.jpg" alt="">
           </div>
         </div>
         <div class="content">
-          @@@ 사진 밑에 들어갈 메인 콘텐츠@@@
+
         </div>
-      </div><!--content_frame-->
+      </div><!-- content_frame -->
     </div><!-- frame -->
   </body>
 </html>

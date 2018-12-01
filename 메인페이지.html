@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html>
+<head>
+<title>WEB2 -html</title>
+<meta charset="utf-8">
+
+</head>
+
+<body>
+  <div class="메인페이지 탭선택">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script src="JSON-js-master/json.js"></script>
+    <script src="JSON-js-master/json_parse.js"></script>
+        <input type="button" value="선호도 조사" onclick='performPrefer()'>
+
+      <script>
+        var x=$.cookie('category');
+      //document.write(x);
+        function performPrefer()
+        {
+          if(x!=null)
+          alert('이미 선호도 조사를 수행하셨네요. GoJuicy버튼을 누르거나 선호도를 수정하시려면 선호도 수정버튼을 클릭하세요');
+          else {
+            location.href="설문조사.html";
+          }
+        }
+
+      </script>
+    <input type="button" value="선호도 수정" onclick='modifyPrefer()'>
+    <script>
+      var x=$.cookie('category');
+    document.write(x);
+      function modifyPrefer()
+      {
+        if(x==null)alert('아직 최초 선호조사를 실시하지 않으셨네요.선호도 조사버튼을 눌러주세요');
+
+      else if(confirm("예 버튼을 누르시면 그 전 선호조사한 기록들은 삭제됩니다. 그래도 예를 누르시겠습니까?"))
+        {
+
+          $.removeCookie('category');
+          location.href="설문조사.html";
+
+        }
+
+      }
+
+    </script>
+    <input type="button" value="Go Juicy" onclick='checkAndGoJuicy()'>
+      <script>
+        function checkAndGoJuicy()
+        {
+          var x=$.cookie('category');
+          if(x==null)alert('아직 최초 선호조사를 실시하지 않으셨네요.선호도 조사버튼을 눌러주세요');
+          else location.href="index.html";
+        }
+
+      </script>
+  </div>
+
+    </body>

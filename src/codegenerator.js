@@ -1,5 +1,5 @@
-var pages = ['news','music','movie','sport','book','fun','setting']
-var pageskr = ['뉴스','음악','영화','스포츠','책','유머','탭 설정']
+var pages = ['news','music','movie','book','sports','webtoon','fun','setting']
+var pageskr = ['뉴스','음악','영화','책','스포츠','웹툰','유머','탭 설정']
 
 var filmchart=[// 링크 주소, 이미지 주소, 영화 제목 순서
   'https://movie.naver.com/movie/bi/mi/basic.nhn?code=167638','https://movie-phinf.pstatic.net/20181106_289/1541478936071tmadh_JPEG/movie_image.jpg?type=m99_141_2','완벽한 타인',
@@ -23,10 +23,10 @@ var makecode={
 
     // document.write();를 하면 html에 쓸 수 있다. 꼭 코드가 아니라도 쓸 수 있음.
     // ``는 템플릿..... ""나 ''처럼 쓸 수 있고 `` 안에서 따옴표 사용가능.
-    document.write(`
-      <div class="frame"><!-- 전체 프레임 -->
-        <div class="tab"><!-- 상단 탭 -->
-      `);
+  //  document.write(`
+    //  <div class="frame"><!-- 전체 프레임 -->
+      //  <div class="tab"><!-- 상단 탭 -->
+      //`);
       var i=0;
       while (i<pages.length){
         if(currentpage==pages[i]){  // currentpage일 때는 tabNow로 색깔 다르게 표시한다.
@@ -44,7 +44,7 @@ var makecode={
       </div>
         `);
   },
-  makedropdowntab:function(currentpage){
+  makedropdowntab:function(storedCookie,currentpage){
     var dir_page, dir_img, dir_home;              // 경로 나타낼 변수
     if(currentpage==""){
       dir_page="./src/pages/";  // ""이면 index에서 넘어오는 거니까 하위 경로 붙여줌
@@ -56,38 +56,60 @@ var makecode={
       dir_img="../img/";
       dir_home = "../../";
     }
+
     document.write(`
-      <div class="frame">
+      <div class="tab_top">
+        <li onclick="displayMenu()" class="settings"><img src="${dir_img}tabicon.png" alt="" style="display:block;"></li>
+        <li><a href="${dir_home}index.html" class="settings"><img src="${dir_img}homeicon.png" alt="" style="display:block;"></a></li>
+      </div>
+      <div class="nav_frame">
         <div class="tab_drop">
-          <ul>
-            <li><a href="${dir_home}index.html" class="settings"><img src="${dir_img}homeicon.png" alt="" style="display:block;"></a></li>
+          <ul id="tab">`);
+
+    var i=0;
+    while (i<5){
+      switch (storedCookie[i]) {
+        case 'news':
+          document.write(`
             <li><a href="${dir_page}news.html">뉴스</a>
-              <ul>
-                <li><a href="#">정치</a></li>
-                <li><a href="#">경제</a></li>
-                <li><a href="#">시사</a></li>
-              </ul>
-            </li>
-            <li><a href="#">음악</a>
+            <ul>
+              <li><a href="#">정치</a></li>
+              <li><a href="#">경제</a></li>
+              <li><a href="#">시사</a></li>
+            </ul>
+          </li>`);
+          break;
+        case 'music':
+          document.write(`
+            <li><a href="${dir_page}music.html">음악</a>
               <ul>
                 <li><a href="#">Top 10</a></li>
                 <li><a href="#">최신 앨범</a></li>
               </ul>
-            </li>
+            </li>`);
+            break;
+        case 'movie':
+          document.write(`
             <li><a href="${dir_page}movie.html">영화</a>
               <ul>
                 <li><a href="#">오늘의 추천</a></li>
                 <li><a href="#">랭킹</a></li>
                 <li><a href="#">평점 및 리뷰</a></li>
               </ul>
-            </li>
-            <li><a href="#">책</a>
+            </li>`);
+          break;
+        case 'book':
+          document.write(`
+            <li><a href="${dir_page}book.html">책</a>
               <ul>
                 <li><a href="#">베스트 셀러</a></li>
                 <li><a href="#">스테디 셀러</a></li>
               </ul>
-            </li>
-            <li><a href="#">스포츠</a>
+            </li>`);
+          break;
+        case 'sports':
+          document.write(`
+            <li><a href="${dir_page}sports.html">스포츠</a>
               <ul>
                 <li><a href="#">국내 야구</a></li>
                 <li><a href="#">해외 야구</a></li>
@@ -96,10 +118,23 @@ var makecode={
                 <li><a href="#">국내 농구</a></li>
                 <li><a href="#">해외 농구</a></li>
               </ul>
-            </li>
-            <li><a href="#">웹툰</a></li>
-            <li><a href="${dir_page}fun.html">FUN</a></li>
-            <li><a href="#" style="text-align:right;"><img src="${dir_img}tabicon.png" alt="" style="display:block;"></a></li>
+            </li>`);
+          break;
+        case 'webtoon':
+          document.write(`
+            <li><a href="${dir_page}webtoon.html">웹툰</a></li>`);
+          break;
+        case 'fun':
+          document.write(`
+            <li><a href="${dir_page}fun.html">FUN</a></li>`);
+          break;
+        default:
+      }
+      i++;
+    }
+
+    document.write(
+          `<li><a href="${dir_home}메인페이지.html" onclick="displayMenu()">탭 설정</a></li>
           </ul>
         </div>
       </div>
@@ -118,3 +153,13 @@ var makecode={
     }
   }
 }//end makecode
+
+function displayMenu(){
+  var x = document.getElementById('tab');
+
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
