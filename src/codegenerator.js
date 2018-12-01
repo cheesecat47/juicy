@@ -211,21 +211,21 @@ var entertainmentschart=[
 
 
 var moviechart=[
-  "movie.naver.com/movie/bi/mi/basic.nhn?code=97612","https://movie-phinf.pstatic.net/20180927_158/1538023433590U7S2w_JPEG/movie_image.jpg?type=m99_141_2","그랜드 부다페스트 호텔",
-  "movie.naver.com/movie/bi/mi/basic.nhn?code=154255","https://movie-phinf.pstatic.net/20181029_21/1540774701820gU85o_JPEG/movie_image.jpg?type=m99_141_2","신비한 동물들과 그린델왈드의 범죄",
-  "movie.naver.com/movie/bi/mi/basic.nhn?code=156464","https://movie-phinf.pstatic.net/20181031_68/1540952503496fNRsF_JPEG/movie_image.jpg?type=m99_141_2","보헤미안 랩소디",
-  "movie.naver.com/movie/bi/mi/basic.nhn?code=71760","https://movie-phinf.pstatic.net/20181019_192/1539926516385x2hHY_JPEG/movie_image.jpg?type=m99_141_2","청설",
-  "movie.naver.com/movie/bi/mi/basic.nhn?code=176354","https://movie-phinf.pstatic.net/20181109_286/1541743345207CtoXg_JPEG/movie_image.jpg?type=m99_141_2","번 더 스테이지: 더 무비",
-  "movie.naver.com/movie/bi/mi/basic.nhn?code=155356","https://movie-phinf.pstatic.net/20181011_124/15392221324972UPeA_JPEG/movie_image.jpg?type=m99_141_2","미쓰백",
-  "movie.naver.com/movie/bi/mi/basic.nhn?code=158626","https://movie-phinf.pstatic.net/20180307_227/15203992433853TIaa_JPEG/movie_image.jpg?type=m99_141_2","셰이프 오브 워터: 사랑의 모양",
-  "movie.naver.com/movie/bi/mi/basic.nhn?code=144906","https://movie-phinf.pstatic.net/20181031_264/1540949415228uy0j3_JPEG/movie_image.jpg?type=m99_141_2","베일리 어게인",
-  "movie.naver.com/movie/bi/mi/basic.nhn?code=160487","https://movie-phinf.pstatic.net/20181001_87/15383614506431bq1D_JPEG/movie_image.jpg?type=m99_141_2","창궐",
-  "movie.naver.com/movie/bi/mi/basic.nhn?code=167638","https://movie-phinf.pstatic.net/20181106_289/1541478936071tmadh_JPEG/movie_image.jpg?type=m99_141_2","완벽한 타인",
-  "movie.naver.com/movie/bi/mi/basic.nhn?code=179139","https://movie-phinf.pstatic.net/20181022_106/1540170285123a57tG_JPEG/movie_image.jpg?type=m99_141_2","출국",
-  "movie.naver.com/movie/bi/mi/basic.nhn?code=76667","https://movie-phinf.pstatic.net/20111223_289/1324622149942dtKyL_JPEG/movie_image.jpg?type=m99_141_2","울지마 톤즈",
-  "movie.naver.com/movie/bi/mi/basic.nhn?code=164192","https://movie-phinf.pstatic.net/20181105_232/1541392865465aVb5V_JPEG/movie_image.jpg?type=m99_141_2","국가부도의 날",
-  "movie.naver.com/movie/bi/mi/basic.nhn?code=152156","https://movie-phinf.pstatic.net/20181005_242/1538714564568GYBzR_JPEG/movie_image.jpg?type=m99_141_2","원더풀 고스트",
-  "movie.naver.com/movie/bi/mi/basic.nhn?code=155123","https://movie-phinf.pstatic.net/20161103_256/1478160313724rHuDS_JPEG/movie_image.jpg?type=m99_141_2","미스 사이공: 25주년 특별 공연"
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=97612","https://movie-phinf.pstatic.net/20180927_158/1538023433590U7S2w_JPEG/movie_image.jpg?type=m99_141_2","그랜드 부다페스트 호텔",
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=154255","https://movie-phinf.pstatic.net/20181029_21/1540774701820gU85o_JPEG/movie_image.jpg?type=m99_141_2","신비한 동물들과 그린델왈드의 범죄",
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=156464","https://movie-phinf.pstatic.net/20181031_68/1540952503496fNRsF_JPEG/movie_image.jpg?type=m99_141_2","보헤미안 랩소디",
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=71760","https://movie-phinf.pstatic.net/20181019_192/1539926516385x2hHY_JPEG/movie_image.jpg?type=m99_141_2","청설",
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=176354","https://movie-phinf.pstatic.net/20181109_286/1541743345207CtoXg_JPEG/movie_image.jpg?type=m99_141_2","번 더 스테이지: 더 무비",
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=155356","https://movie-phinf.pstatic.net/20181011_124/15392221324972UPeA_JPEG/movie_image.jpg?type=m99_141_2","미쓰백",
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=158626","https://movie-phinf.pstatic.net/20180307_227/15203992433853TIaa_JPEG/movie_image.jpg?type=m99_141_2","셰이프 오브 워터: 사랑의 모양",
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=144906","https://movie-phinf.pstatic.net/20181031_264/1540949415228uy0j3_JPEG/movie_image.jpg?type=m99_141_2","베일리 어게인",
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=160487","https://movie-phinf.pstatic.net/20181001_87/15383614506431bq1D_JPEG/movie_image.jpg?type=m99_141_2","창궐",
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=167638","https://movie-phinf.pstatic.net/20181106_289/1541478936071tmadh_JPEG/movie_image.jpg?type=m99_141_2","완벽한 타인",
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=179139","https://movie-phinf.pstatic.net/20181022_106/1540170285123a57tG_JPEG/movie_image.jpg?type=m99_141_2","출국",
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=76667","https://movie-phinf.pstatic.net/20111223_289/1324622149942dtKyL_JPEG/movie_image.jpg?type=m99_141_2","울지마 톤즈",
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=164192","https://movie-phinf.pstatic.net/20181105_232/1541392865465aVb5V_JPEG/movie_image.jpg?type=m99_141_2","국가부도의 날",
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=152156","https://movie-phinf.pstatic.net/20181005_242/1538714564568GYBzR_JPEG/movie_image.jpg?type=m99_141_2","원더풀 고스트",
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=155123","https://movie-phinf.pstatic.net/20161103_256/1478160313724rHuDS_JPEG/movie_image.jpg?type=m99_141_2","미스 사이공: 25주년 특별 공연"
 
 ]
 
