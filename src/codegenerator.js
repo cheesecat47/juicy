@@ -1,5 +1,5 @@
-var pages = ['news','music','movie','book','sports','webtoon','fun','setting']
-var pageskr = ['뉴스','음악','영화','책','스포츠','웹툰','유머','탭 설정']
+var pages = ['news','music','movie','book','entertainment','webtoon','fun','setting']
+var pageskr = ['뉴스','음악','영화','책','연예','웹툰','유머','탭 설정']
 
 var filmchart=[// 링크 주소, 이미지 주소, 영화 제목 순서
   'https://movie.naver.com/movie/bi/mi/basic.nhn?code=167638','https://movie-phinf.pstatic.net/20181106_289/1541478936071tmadh_JPEG/movie_image.jpg?type=m99_141_2','완벽한 타인',
@@ -73,6 +73,29 @@ var newschart=[
   'http://it.chosun.com/site/data/html_dir/2018/11/30/2018113002369.html','http://itimg.chosun.com/sitedata/itchosun/section_image/20181130204014283_1.jpg','삼성, 반도체 투자 줄이고도 점유율 21% 1위 삼성전자가 올해 전 세계 반도체 업체 중 가장 많은 시설투자액을 집행할 것으로 조사됐다. SK하이닉스도 1년새 설비투자를 가장 많이 늘린 업체로 등극했다.30일 시장조사업체 IC인사이츠에 따르면, 2018년 전 세계 반도체 업체의 시설투자 규모는 총 1071억4000만달러(120조1580억원)로 추산된다..',
   'http://it.chosun.com/site/data/html_dir/2018/11/30/2018113002294.html','http://itimg.chosun.com/sitedata/itchosun/section_image/20181130174645930_1.jpg','AWS, 머신 러닝 기반 차세대 AI 기능·서비스 13종 공개아마존웹서비스(Amazon Web Services, 이하 AWS)가 26일부터 30일(현지시각)까지 미국 라스베이거스에서 열리는 연례 기술 콘퍼런스 ‘AWS 리인벤트(re:Invent) 2018’에서 자사의 새로운 머신 러닝 기반 기능 및 서비스 13종을 대거 공개했다.'
   //'https://movie.naver.com/movie/bi/mi/basic.nhn?code=170879','https://movie-phinf.pstatic.net/20181002_242/1538464541134fcd6K_JPEG/movie_image.jpg?type=m99_141_2','할로윈']
+
+]
+
+var entertainmentschart=[
+"https://tv.naver.com/v/4666090","https://phinf.pstatic.net/tvcast/20181201_99/fSRHc_1543651005715tVwxB_PNG/T9201812010019.PNG?type=nfc184_104_q90","키 · 센 척 안 해(KEY · One of Those Nigh",
+"https://tv.naver.com/v/4666064","https://phinf.pstatic.net/tvcast/20181201_278/NxmR4_1543650705659hKdI8_JPEG/T9201812010018.jpg?type=nfc184_104_q90","키 · Good Good(KEY · Good Good",
+"https://tv.naver.com/v/4666063","https://phinf.pstatic.net/tvcast/20181201_285/CUN1b_1543650703392mAkkC_JPEG/T9201812010017.jpg?type=nfc184_104_q90","레드벨벳 ·  RBB(Red Velvet · Really Bad",
+"https://tv.naver.com/v/4666030","https://phinf.pstatic.net/tvcast/20181201_27/93OWD_1543650103129VwAPn_JPEG/T9201812010014.jpg?type=nfc184_104_q90","워너원 ·  봄바람(Wanna One · Spring Breez",
+"https://tv.naver.com/v/4665980","https://phinf.pstatic.net/tvcast/20181201_187/3Ky6N_1543649509839Pedgn_PNG/T9201812010013.PNG?type=nfc184_104_q90","워너원·  술래(Wanna One · Hide and Seek)",
+"https://tv.naver.com/v/4665979","https://phinf.pstatic.net/tvcast/20181201_282/adg5D_1543649502283husKE_PNG/T9201812010012.PNG?type=nfc184_104_q90","제니 ·  SOLO(JENNIE · SOLO",
+"https://tv.naver.com/v/4665953","https://phinf.pstatic.net/tvcast/20181201_209/bKXWO_1543649204801lqHvn_PNG/T9201812010011.PNG?type=nfc184_104_q90","송민호 - 아낙네(MINO - FIANCÉ",
+"https://tv.naver.com/v/4665939","https://phinf.pstatic.net/tvcast/20181201_185/2pmxU_15436489308173Icpc_PNG/T9201812010010.PNG?type=nfc184_104_q90","송민호 - 어울려요(MINO - Her",
+"https://tv.naver.com/v/4665938","https://phinf.pstatic.net/tvcast/20181201_77/Nxpw4_15436489031881PksP_PNG/T9201812010009.PNG?type=nfc184_104_q90","뉴이스트 - HELP ME(NU`EST W  - HELP ME)",
+"https://tv.naver.com/v/4665918","https://phinf.pstatic.net/tvcast/20181201_134/shFNG_1543648606602x5H16_PNG/T9201812010008.PNG?type=nfc184_104_q90","이엑스아이디 - 알러뷰(EXID -  I LOVE YOU",
+"https://tv.naver.com/v/4665917","https://phinf.pstatic.net/tvcast/20181201_254/UbDJh_1543648600116wOhOX_PNG/T9201812010007.PNG?type=nfc184_104_q90","마마무 -  Wind Flower(MAMAMOO  - Wind ",
+"https://tv.naver.com/v/4665891","https://phinf.pstatic.net/tvcast/20181201_22/9L1CO_1543648305398xvjzS_PNG/T9201812010006.PNG?type=nfc184_104_q90","엔시티 127 -  Simon Says(NCT 127 - Sim",
+"https://tv.naver.com/v/4665851","https://phinf.pstatic.net/tvcast/20181201_120/C9Q9G_1543647701872iw7AS_PNG/T9201812010005.PNG?type=nfc184_104_q90","러블리즈 - 찾아가세요(Lovelyz - Lost N Found",
+"https://tv.naver.com/v/4665856","https://phinf.pstatic.net/tvcast/20181201_164/GXTTt_1543647764734bcAB3_PNG/T9201812010004.PNG?type=nfc184_104_q90","더보이즈 -  No Air(THE BOYZ  -  No Air)",
+"https://tv.naver.com/v/4665831","https://phinf.pstatic.net/tvcast/20181201_272/naI0Q_1543647403058FqMut_PNG/T9201812010003_1.PNG?type=nfc184_104_q90","스트레이 키즈 -  Get(Stray Kids  - Get Co",
+"https://tv.naver.com/v/4665808","https://phinf.pstatic.net/tvcast/20181201_14/QFrPo_1543647102822OxSAF_PNG/T9201812010002.PNG?type=nfc184_104_q90","네이처 -  썸(NATURE  -  Youll Be Mine",
+"https://tv.naver.com/v/4664053","https://phinf.pstatic.net/tvcast/20181201_226/fYOvo_1543626129175iu8oB_JPEG/1543626101541.jpg?type=nfc184_104_q90","[선공개] ※심멎주의※ 열정 가득한 워너원의 '롤리폴리' 댄스♬",
+"https://tv.naver.com/v/4663889","https://phinf.pstatic.net/tvcast/20181201_186/PIRlK_1543622563508tKSoH_JPEG/B120180884_EPI0006_31_B.jpg?type=nfc184_104_q90","★미공개 대방출★ 깨발랄 넘치는 홍보 사진 촬영",
+
 
 ]
 
@@ -169,9 +192,9 @@ var makecode={
               </ul>
             </li>`);
           break;
-        case 'sports':
+        case 'entertainment':
           document.write(`
-            <li><a href="${dir_page}sports.html">스포츠</a>
+            <li><a href="${dir_page}sports.html">연예</a>
               <ul>
                 <li><a href="#">국내 야구</a></li>
                 <li><a href="#">해외 야구</a></li>
@@ -272,8 +295,22 @@ document.write(`
   if(i==30)break;
 }
 }
-}//end makecode
 
+,
+    makechartentertainment:function(){
+  var i=0;
+  while(1){
+document.write(`
+    <a href="${entertainmentschart[i]}" class="filmchart_grid_item" style="text-decoration:none;">
+    <img src="${entertainmentschart[i+1]}" alt="${entertainmentschart[i+2]}">
+    <h3 class="entertainment">${entertainmentschart[i+2]}</h3>
+  </a>
+  `);
+  i+=3;
+  if(i==54)break;
+}
+},
+}//end makecode
 function displayMenu(){
   var x = document.getElementById('tab');
 
