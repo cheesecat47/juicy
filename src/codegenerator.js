@@ -167,14 +167,16 @@ var makecode={
   ,
   makechartwebtoon:function(){
     var i=0;
-    while(i<webtoonchart.lenth){
+   while(1){
     document.write(`
-      <a href="${webtoonchart[i]}" class="webtoon_mon" style="text-decoration:none;">
+      <a href="${webtoonchart[i]}" class="filmchart_grid_item" style="text-decoration:none;">
         <img src="${webtoonchart[i+1]}" alt="${webtoonchart[i+2]}">
         <h3 class="webtoon">${webtoonchart[i+2]}</h3>
       </a>
       `);
       i+=3;
+      if(i==27)break;
+
 
       }
     }
