@@ -192,7 +192,7 @@ var makecode={
       </a>
       `);
       i+=3;
-      if(i==27)break;
+      if(i==36)break;
 
 
       }
