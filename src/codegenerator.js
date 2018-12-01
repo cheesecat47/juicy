@@ -197,6 +197,7 @@ var makecode={
 
       }
     }
+  ,
   makechartmusic:function(){
   var i=0;
   while(1){
