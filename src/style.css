@@ -41,6 +41,9 @@ li{border: 2px solid green;} */
   text-decoration: none;
   z-index: 3;
 }
+.tab_top li:hover #tab{
+  display: block;
+}
 
 .settings{
   float: left;
@@ -58,13 +61,12 @@ li{border: 2px solid green;} */
 }
 .tab_drop ul{
   display: none;
-  position: relative;
+  position: absolute;
   background: #ff8f00;
   list-style: none;
-  width: 100%;
+  width: 20%;
   margin: 0px;
   padding: 0px;
-  transform: translateY(50px);
   text-align: center;
   z-index: 5;
 }
@@ -125,6 +127,7 @@ li{border: 2px solid green;} */
 .content_frame{
   min-height: 768px;
   padding-top: 50px;
+  max-width: 1024px;
   z-index: 0;
 }
 
