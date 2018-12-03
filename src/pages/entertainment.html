@@ -2,7 +2,6 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8"><!-- 페이지 인코딩 -->
-    <meta name="viewport" content="width=device-width, user-scalable=no"><!--뷰포트 설정-->
     <title>Juicy - 연예</title><!-- 브라우저 타이틀 바에 나오는 이름 -->
     <link rel="stylesheet" href="../style.css"><!-- css, 자바스크립트 파일 가져오기-->
     <script src="../codegenerator.js"></script><!-- 코드 자동생성 -->
@@ -14,23 +13,27 @@
     <script src="JSON-js-master/json_parse.js"></script>
   </head>
   <body>
-    <div class="frame">
-      <script>
-        var x=$.cookie('category');
-        var storedCookie = JSON.parse($.cookie('category'));
-        makecode.makedropdowntab(storedCookie,"entertainment");  //상단 탭 자동 생성. 인자가 codegenerator.js에 있는 pages[] 항목과 일치해야 한다.
-      </script>
-      <div class="content_frame">
-        <div class="header">  <!-- 사진 들어가는 곳. -->
-          <img src="../img/sports_head_img2.jpg" alt="">
+    <script>
+      var x=$.cookie('category');
+      var storedCookie = JSON.parse($.cookie('category'));
+      makecode.makedropdowntab(storedCookie,"entertainment");  //상단 탭 자동 생성. 인자가 codegenerator.js에 있는 pages[] 항목과 일치해야 한다.
+    </script>
+    <div class="content_frame">
+      <div class="header">  <!-- 사진 들어가는 곳. -->
+        <div class="header_text">
+          <h1>연예</h1>
         </div>
-        <div class="content">
-          <div class="filmchart_grid">
-            <script>
-            makecode.makechartentertainment();
-            </script>
-          </div>
-      </div><!-- content_frame -->
-    </div><!-- frame -->
+        <div class="header_img">
+          <img src="../img/sports_head_img.jpg" alt="" width="100%">
+        </div>
+      </div>
+      <div class="content">
+        <div class="filmchart_grid">
+        <script>
+        makecode.makechartentertainment();
+        </script>
+
+      </div>
+    </div><!-- content_frame -->
   </body>
 </html>
