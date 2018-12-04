@@ -257,41 +257,19 @@ var makecode={
       switch (storedCookie[i]) {
         case 'news':
           document.write(`
-            <li><a href="${dir_page}news.html">뉴스</a>
-            <ul>
-              <li><a href="#">정치</a></li>
-              <li><a href="#">경제</a></li>
-              <li><a href="#">시사</a></li>
-            </ul>
-          </li>`);
-          break;
+            <li><a href="${dir_page}news.html">뉴스</a></li>`);
+            break;
         case 'music':
           document.write(`
-            <li><a href="${dir_page}music.html">음악</a>
-              <ul>
-                <li><a href="#">Top 10</a></li>
-                <li><a href="#">최신 앨범</a></li>
-              </ul>
-            </li>`);
+            <li><a href="${dir_page}music.html">음악</a></li>`);
             break;
         case 'movie':
           document.write(`
-            <li><a href="${dir_page}movie.html">영화</a>
-              <ul>
-                <li><a href="#">오늘의 추천</a></li>
-                <li><a href="#">랭킹</a></li>
-                <li><a href="#">평점 및 리뷰</a></li>
-              </ul>
-            </li>`);
+            <li><a href="${dir_page}movie.html">영화</a></li>`);
           break;
         case 'book':
           document.write(`
-            <li><a href="${dir_page}book.html">책</a>
-              <ul>
-                <li><a href="#">베스트 셀러</a></li>
-                <li><a href="#">스테디 셀러</a></li>
-              </ul>
-            </li>`);
+            <li><a href="${dir_page}book.html">책</a></li>`);
           break;
         case 'entertainment':
           document.write(`
