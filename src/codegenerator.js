@@ -509,7 +509,7 @@ var makecode={
     var i=0;
     while(1){
       document.write(`
-        <a href="${entertainmentschart[i]}" class="filmchart_grid_item" style="text-decoration:none; padding:0px 100px;">
+        <a href="${entertainmentschart[i]}" class="filmchart_grid_item" style="text-decoration:none;">
           <img src="${entertainmentschart[i+1]}" alt="${entertainmentschart[i+2]}">
           <h3 class="entertainment">${entertainmentschart[i+2]}</h3>
         </a>
