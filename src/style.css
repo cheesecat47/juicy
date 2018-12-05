@@ -206,6 +206,16 @@ li{border: 2px solid green;} */
   overflow: hidden;
 }
 
+
+.toonchart_grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 50px 0px 30px;  /* 위 50 오른쪽 0 아래 30 왼쪽 0 */
+  padding: 0px 20px;
+  text-align: center;
+}
+
+
 .filmname{
   padding-left: 10px;
 }
