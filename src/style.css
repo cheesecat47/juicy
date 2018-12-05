@@ -159,19 +159,21 @@ li{border: 2px solid green;} */
 /**********************************************************************************/
 .filmchart{
   text-align: center;
-  padding: 20px 100px; /* 이렇게 하면 위아래 20, 좌우 100 */
+  padding: 20px 80px; /* 이렇게 하면 위아래 20, 좌우 100 */
 }
 
 .filmchart_grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 50px 0px 30px;  /* 위 50 오른쪽 0 아래 30 왼쪽 0 */
+  padding: 0px 20px;
   text-align: center;
 }
 
 .filmchart_grid_item{
   text-align: center;
-  display: flex;        /* ...잘 모름... */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin: 0px 10px 20px;
 }
 

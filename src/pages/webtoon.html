@@ -25,7 +25,7 @@
           <img src="../img/webtoon_head_img2.jpg" alt="">
         </div>
         <div class="content">
-          <div class="webtoonDay">
+          <div class="filmchart">
             <h2>
               <script>
                 var d = new Date();
@@ -33,41 +33,40 @@
                 document.write(`${1900+d.getYear()}년 ${d.getMonth()+1}월 ${d.getDate()}일 ${week[d.getDay()]}요일`);
               </script>
             </h2>
-          </div>
-          <div class="filmchart_grid">  <!--css 일단은 filmchart_grid로 나주에 좀 수정하자!!-->
-           <script>
-        var d=new Date();
-        var week=new Array('일','월','화','수','목','금','토');
-        var today=week[d.getDay()];
-        //document.write(today);
+            <div class="filmchart_grid">  <!--css 일단은 filmchart_grid로 나주에 좀 수정하자!!-->
+             <script>
+              var d=new Date();
+              var week=new Array('일','월','화','수','목','금','토');
+              var today=week[d.getDay()];
+              //document.write(today);
 
-        switch(today)
-        {
-          case '일' :
-          makecode.makechartwebtoonSun();
-          break;
-          case '월' :
-          makecode.makechartwebtoonMon();
-          break;
-          case '화' :
-          makecode.makechartwebtoonTue();//목요일걸로 되있음 화욜날로 바꾸자
-          break;
-          case '수' :
-          makecode.makechartwebtoonWed();
-          break;
-          case '목' :
-          makecode.makechartwebtoonThu();
-          break;
-          case '금' :
-          makecode.makechartwebtoonFri();
-          break;
-          case '토' :
-          makecode.makechartwebtoonSat();
-          break;
-
-        }
-      //  makecode.makechartwebtoon();
-        </script>
+              switch(today)
+              {
+                case '일' :
+                makecode.makechartwebtoonSun();
+                break;
+                case '월' :
+                makecode.makechartwebtoonMon();
+                break;
+                case '화' :
+                makecode.makechartwebtoonTue();//목요일걸로 되있음 화욜날로 바꾸자
+                break;
+                case '수' :
+                makecode.makechartwebtoonWed();
+                break;
+                case '목' :
+                makecode.makechartwebtoonThu();
+                break;
+                case '금' :
+                makecode.makechartwebtoonFri();
+                break;
+                case '토' :
+                makecode.makechartwebtoonSat();
+                break;
+                }
+              //  makecode.makechartwebtoon();
+              </script>
+            </div>
           </div>
         </div>
       </div><!-- content_frame -->

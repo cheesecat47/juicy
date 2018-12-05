@@ -2,102 +2,102 @@ var pages = ['news','music','movie','book','entertainment','webtoon','fun','sett
 var pageskr = ['뉴스','음악','영화','책','연예','웹툰','유머','탭 설정']
 
 var webtoonchartMon=[
-  'https://comic.naver.com/webtoon/list.nhn?titleId=183559&weekday=mon','https://shared-comic.pstatic.net/thumb/webtoon/183559/thumbnail/title_thumbnail_20160516123017_t83x90.jpg','신의 탑',
-  'https://comic.naver.com/webtoon/list.nhn?titleId=648419&weekday=mon','https://shared-comic.pstatic.net/thumb/webtoon/648419/thumbnail/thumbnail_IMAG10_1421195d-13be-4cde-bcf9-0c78d51c5ea3.jpg', '뷰티풀 군바리',
-  'https://comic.naver.com/webtoon/list.nhn?titleId=602910&weekday=mon','https://shared-comic.pstatic.net/thumb/webtoon/602910/thumbnail/thumbnail_IMAG10_ec235b6e-c4fa-47ab-8141-36c4f1572a79.jpg', '윈드브레이커',
-  'https://comic.naver.com/webtoon/list.nhn?titleId=654774&weekday=mon','https://shared-comic.pstatic.net/thumb/webtoon/654774/thumbnail/thumbnail_IMAG10_b85f5350-ca68-4300-ab15-036d9ee060c8.jpg', '소녀의 세계',
-  'https://comic.naver.com/webtoon/list.nhn?titleId=679519&weekday=mon','https://shared-comic.pstatic.net/thumb/webtoon/679519/thumbnail/title_thumbnail_20160601180804_t83x90.jpg', '대학일기',
-  'https://comic.naver.com/webtoon/list.nhn?titleId=597478&weekday=mon','https://shared-comic.pstatic.net/thumb/webtoon/597478/thumbnail/thumbnail_IMAG10_487d19d8-3547-43a0-aa94-10ef7fc94cda.jpg', '평범한 8반',
-  'https://comic.naver.com/webtoon/list.nhn?titleId=702422&weekday=mon','https://shared-comic.pstatic.net/thumb/webtoon/702422/thumbnail/thumbnail_IMAG10_8a7d3a98-291e-4fec-b399-7b8219c90854.jpg', '니편내편',
-  'https://comic.naver.com/webtoon/list.nhn?titleId=713975&weekday=mon','https://shared-comic.pstatic.net/thumb/webtoon/713975/thumbnail/thumbnail_IMAG10_2c34bc9e-747c-4257-bf48-a67a560dca0a.jpg', '데드라이프',
-  'https://comic.naver.com/webtoon/list.nhn?titleId=714886&weekday=mon','https://shared-comic.pstatic.net/thumb/webtoon/714886/thumbnail/thumbnail_IMAG10_dbf1c5f4-08ec-47f6-bd6d-ab6304d907de.jpg', '신을 죽이는 방법',
-  'https://comic.naver.com/webtoon/list.nhn?titleId=675554&weekday=mon','https://shared-comic.pstatic.net/thumb/webtoon/675554/thumbnail/thumbnail_IMAG10_66613407-1041-4f4f-ad8a-1983361f932e.jpg', '가우스전자 시즌3~4',
-  'https://comic.naver.com/webtoon/list.nhn?titleId=714185&weekday=mon','https://shared-comic.pstatic.net/thumb/webtoon/714185/thumbnail/thumbnail_IMAG10_b09f7c2d-7083-467b-95bc-4dace9c21b6f.jpg', '링크보이',
-  'https://comic.naver.com/webtoon/list.nhn?titleId=716857&weekday=mon','https://shared-comic.pstatic.net/thumb/webtoon/716857/thumbnail/thumbnail_IMAG10_cf1f325d-f0de-452d-a996-7e95cee200f4.jpg', '오늘의 순정망화'
+  'https://comic.naver.com/webtoon/list.nhn?titleId=183559&weekday=mon','https://shared-comic.pstatic.net/thumb/webtoon/183559/thumbnail/title_thumbnail_20160516123017_t83x90.jpg','신의 탑','SIU',
+  'https://comic.naver.com/webtoon/list.nhn?titleId=648419&weekday=mon','https://shared-comic.pstatic.net/thumb/webtoon/648419/thumbnail/thumbnail_IMAG10_1421195d-13be-4cde-bcf9-0c78d51c5ea3.jpg', '뷰티풀 군바리','설이/윤성원',
+  'https://comic.naver.com/webtoon/list.nhn?titleId=602910&weekday=mon','https://shared-comic.pstatic.net/thumb/webtoon/602910/thumbnail/thumbnail_IMAG10_ec235b6e-c4fa-47ab-8141-36c4f1572a79.jpg', '윈드브레이커','조용석',
+  'https://comic.naver.com/webtoon/list.nhn?titleId=654774&weekday=mon','https://shared-comic.pstatic.net/thumb/webtoon/654774/thumbnail/thumbnail_IMAG10_b85f5350-ca68-4300-ab15-036d9ee060c8.jpg', '소녀의 세계','모랑지',
+  'https://comic.naver.com/webtoon/list.nhn?titleId=679519&weekday=mon','https://shared-comic.pstatic.net/thumb/webtoon/679519/thumbnail/title_thumbnail_20160601180804_t83x90.jpg', '대학일기','자까',
+  'https://comic.naver.com/webtoon/list.nhn?titleId=597478&weekday=mon','https://shared-comic.pstatic.net/thumb/webtoon/597478/thumbnail/thumbnail_IMAG10_487d19d8-3547-43a0-aa94-10ef7fc94cda.jpg', '평범한 8반','영파카',
+  'https://comic.naver.com/webtoon/list.nhn?titleId=702422&weekday=mon','https://shared-comic.pstatic.net/thumb/webtoon/702422/thumbnail/thumbnail_IMAG10_8a7d3a98-291e-4fec-b399-7b8219c90854.jpg', '니편내편','미티',
+  'https://comic.naver.com/webtoon/list.nhn?titleId=713975&weekday=mon','https://shared-comic.pstatic.net/thumb/webtoon/713975/thumbnail/thumbnail_IMAG10_2c34bc9e-747c-4257-bf48-a67a560dca0a.jpg', '데드라이프','후렛샤/임진국',
+  'https://comic.naver.com/webtoon/list.nhn?titleId=714886&weekday=mon','https://shared-comic.pstatic.net/thumb/webtoon/714886/thumbnail/thumbnail_IMAG10_dbf1c5f4-08ec-47f6-bd6d-ab6304d907de.jpg', '신을 죽이는 방법','나락/바밤',
+  'https://comic.naver.com/webtoon/list.nhn?titleId=675554&weekday=mon','https://shared-comic.pstatic.net/thumb/webtoon/675554/thumbnail/thumbnail_IMAG10_66613407-1041-4f4f-ad8a-1983361f932e.jpg', '가우스전자 시즌3~4','곽백수',
+  'https://comic.naver.com/webtoon/list.nhn?titleId=714185&weekday=mon','https://shared-comic.pstatic.net/thumb/webtoon/714185/thumbnail/thumbnail_IMAG10_b09f7c2d-7083-467b-95bc-4dace9c21b6f.jpg', '링크보이','광진/두엽',
+  'https://comic.naver.com/webtoon/list.nhn?titleId=716857&weekday=mon','https://shared-comic.pstatic.net/thumb/webtoon/716857/thumbnail/thumbnail_IMAG10_cf1f325d-f0de-452d-a996-7e95cee200f4.jpg', '오늘의 순정망화','손하기'
 ]
 var webtoonchartTue=[
-  "https://comic.naver.com/webtoon/list.nhn?titleId=570503&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/570503/thumbnail/thumbnail_IMAG10_5719a3fe-81f4-4a0c-8c27-eca1631e8384.jpg","연애혁명",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=697685&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/697685/thumbnail/thumbnail_IMAG10_f8d868ff-0505-498c-ac37-d11a7f952496.jpg","신과함께 (재)",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=557672&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/557672/thumbnail/title_thumbnail_20130508182053_t83x90.jpg","기기괴괴",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=708378&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/708378/thumbnail/thumbnail_IMAG10_a274b9a0-0775-44b2-b34f-3199b07a4db4.jpg","타인은 지옥이다",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=679519&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/679519/thumbnail/title_thumbnail_20160601180804_t83x90.jpg","대학일기",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=715772&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/715772/thumbnail/thumbnail_IMAG10_45108665-e46e-49f7-9ee5-ded04dbbc6d0.jpg","좀비딸",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=570506&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/570506/thumbnail/title_thumbnail_20130710192300_t83x90.jpg","최강전설 강해효",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=710761&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/710761/thumbnail/thumbnail_IMAG10_9f8253a1-2318-4c0d-8d9e-f044f2203d4c.jpg","하드캐리",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=699415&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/699415/thumbnail/thumbnail_IMAG10_64dbd565-a463-4cb8-b4bb-131bd082cc44.jpg","간 떨어지는 동거",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=131385&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/131385/thumbnail/thumbnail_IMAG10_c5053bcc-3b95-473d-bfe1-e4256bf56b58.jpg","쿠베라",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=699659&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/699659/thumbnail/thumbnail_IMAG10_e12f7293-375d-4612-87e7-1b1db2dc9fb0.jpg","좋아하는 부분",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=675554&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/675554/thumbnail/thumbnail_IMAG10_66613407-1041-4f4f-ad8a-1983361f932e.jpg","가우스전자 시즌3~4"
+  "https://comic.naver.com/webtoon/list.nhn?titleId=570503&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/570503/thumbnail/thumbnail_IMAG10_5719a3fe-81f4-4a0c-8c27-eca1631e8384.jpg","연애혁명",'',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=697685&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/697685/thumbnail/thumbnail_IMAG10_f8d868ff-0505-498c-ac37-d11a7f952496.jpg","신과함께 (재)",'',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=557672&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/557672/thumbnail/title_thumbnail_20130508182053_t83x90.jpg","기기괴괴",'',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=708378&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/708378/thumbnail/thumbnail_IMAG10_a274b9a0-0775-44b2-b34f-3199b07a4db4.jpg","타인은 지옥이다",'',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=679519&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/679519/thumbnail/title_thumbnail_20160601180804_t83x90.jpg","대학일기",'',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=715772&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/715772/thumbnail/thumbnail_IMAG10_45108665-e46e-49f7-9ee5-ded04dbbc6d0.jpg","좀비딸",'',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=570506&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/570506/thumbnail/title_thumbnail_20130710192300_t83x90.jpg","최강전설 강해효",'',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=710761&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/710761/thumbnail/thumbnail_IMAG10_9f8253a1-2318-4c0d-8d9e-f044f2203d4c.jpg","하드캐리",'',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=699415&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/699415/thumbnail/thumbnail_IMAG10_64dbd565-a463-4cb8-b4bb-131bd082cc44.jpg","간 떨어지는 동거",'',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=131385&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/131385/thumbnail/thumbnail_IMAG10_c5053bcc-3b95-473d-bfe1-e4256bf56b58.jpg","쿠베라",'',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=699659&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/699659/thumbnail/thumbnail_IMAG10_e12f7293-375d-4612-87e7-1b1db2dc9fb0.jpg","좋아하는 부분",'',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=675554&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/675554/thumbnail/thumbnail_IMAG10_66613407-1041-4f4f-ad8a-1983361f932e.jpg","가우스전자 시즌3~4",''
 ]
 var webtoonchartWed=[
-  "https://comic.naver.com/webtoon/list.nhn?titleId=651673&weekday=wed","https://shared-comic.pstatic.net/thumb/webtoon/651673/thumbnail/thumbnail_IMAG10_3c7a2e4c-376e-4856-9f03-6ba554dcd62a.jpg","유미의 세포들",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=626907&weekday=wed","https://shared-comic.pstatic.net/thumb/webtoon/626907/thumbnail/title_thumbnail_20150407141027_t83x90.jpg","복학왕",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=662774&weekday=wed","https://shared-comic.pstatic.net/thumb/webtoon/662774/thumbnail/thumbnail_IMAG10_fddc4c8b-fbe6-422c-9777-590d98f4dc9e.jpg","고수",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=667573&weekday=wed","https://shared-comic.pstatic.net/thumb/webtoon/667573/thumbnail/title_thumbnail_20151120112903_t83x90.jpg","연놈",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=670143&weekday=wed","https://shared-comic.pstatic.net/thumb/webtoon/670143/thumbnail/title_thumbnail_20160108202909_t83x90.jpg","헬퍼 2 : 킬베로스",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=710747&weekday=wed","https://shared-comic.pstatic.net/thumb/webtoon/710747/thumbnail/thumbnail_IMAG10_b1079a8d-2d5e-49df-8f30-05b3e215170b.jpg","세상은 돈과 권력",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=718020&weekday=wed","https://shared-comic.pstatic.net/thumb/webtoon/718020/thumbnail/thumbnail_IMAG10_7c551d69-62f1-4869-b365-88f38a70553f.jpg","귀곡의 문",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=703307&weekday=wed","https://shared-comic.pstatic.net/thumb/webtoon/703307/thumbnail/thumbnail_IMAG10_0c6ab332-3b2b-4d18-bc97-b512c038087a.jpg","신암행어사",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=703308&weekday=wed","https://shared-comic.pstatic.net/thumb/webtoon/703308/thumbnail/thumbnail_IMAG10_33415f77-8f6d-4a14-aec9-fcaa74e20a8a.jpg","신석기녀",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=710760&weekday=wed","https://shared-comic.pstatic.net/thumb/webtoon/710760/thumbnail/thumbnail_IMAG10_c87cd43e-e5a1-4b66-b0c5-c6f9bdbacd51.jpg","이츠마인",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=642598&weekday=wed","https://shared-comic.pstatic.net/thumb/webtoon/642598/thumbnail/title_thumbnail_20160117000448_t83x90.jpg","조선왕조실톡",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=603159&weekday=wed","https://shared-comic.pstatic.net/thumb/webtoon/603159/thumbnail/thumbnail_IMAG10_9c8174b9-022f-466f-acd5-1274aecee71c.jpg","레사 시즌2~3"
+  "https://comic.naver.com/webtoon/list.nhn?titleId=651673&weekday=wed","https://shared-comic.pstatic.net/thumb/webtoon/651673/thumbnail/thumbnail_IMAG10_3c7a2e4c-376e-4856-9f03-6ba554dcd62a.jpg","유미의 세포들",'이동건',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=626907&weekday=wed","https://shared-comic.pstatic.net/thumb/webtoon/626907/thumbnail/title_thumbnail_20150407141027_t83x90.jpg","복학왕",'기안84',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=662774&weekday=wed","https://shared-comic.pstatic.net/thumb/webtoon/662774/thumbnail/thumbnail_IMAG10_fddc4c8b-fbe6-422c-9777-590d98f4dc9e.jpg","고수",'류기운/문정후',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=667573&weekday=wed","https://shared-comic.pstatic.net/thumb/webtoon/667573/thumbnail/title_thumbnail_20151120112903_t83x90.jpg","연놈",'상하',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=670143&weekday=wed","https://shared-comic.pstatic.net/thumb/webtoon/670143/thumbnail/title_thumbnail_20160108202909_t83x90.jpg","헬퍼 2 : 킬베로스",'삭',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=710747&weekday=wed","https://shared-comic.pstatic.net/thumb/webtoon/710747/thumbnail/thumbnail_IMAG10_b1079a8d-2d5e-49df-8f30-05b3e215170b.jpg","세상은 돈과 권력",'한동우/이도희',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=718020&weekday=wed","https://shared-comic.pstatic.net/thumb/webtoon/718020/thumbnail/thumbnail_IMAG10_7c551d69-62f1-4869-b365-88f38a70553f.jpg","귀곡의 문",'삼촌',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=703307&weekday=wed","https://shared-comic.pstatic.net/thumb/webtoon/703307/thumbnail/thumbnail_IMAG10_0c6ab332-3b2b-4d18-bc97-b512c038087a.jpg","신암행어사",'윤인완/양경일',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=703308&weekday=wed","https://shared-comic.pstatic.net/thumb/webtoon/703308/thumbnail/thumbnail_IMAG10_33415f77-8f6d-4a14-aec9-fcaa74e20a8a.jpg","신석기녀",'재아/한가람',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=710760&weekday=wed","https://shared-comic.pstatic.net/thumb/webtoon/710760/thumbnail/thumbnail_IMAG10_c87cd43e-e5a1-4b66-b0c5-c6f9bdbacd51.jpg","이츠마인",'럭스',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=642598&weekday=wed","https://shared-comic.pstatic.net/thumb/webtoon/642598/thumbnail/title_thumbnail_20160117000448_t83x90.jpg","조선왕조실톡",'무적핑크',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=603159&weekday=wed","https://shared-comic.pstatic.net/thumb/webtoon/603159/thumbnail/thumbnail_IMAG10_9c8174b9-022f-466f-acd5-1274aecee71c.jpg","레사 시즌2~3",'POGO'
 ]
 var webtoonchartThu=[
-  "https://comic.naver.com/webtoon/list.nhn?titleId=570503&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/570503/thumbnail/thumbnail_IMAG10_5719a3fe-81f4-4a0c-8c27-eca1631e8384.jpg","연애혁명",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=697685&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/697685/thumbnail/thumbnail_IMAG10_f8d868ff-0505-498c-ac37-d11a7f952496.jpg","신과함께 (재)",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=557672&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/557672/thumbnail/title_thumbnail_20130508182053_t83x90.jpg","기기괴괴",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=708378&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/708378/thumbnail/thumbnail_IMAG10_a274b9a0-0775-44b2-b34f-3199b07a4db4.jpg","타인은 지옥이다",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=679519&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/679519/thumbnail/title_thumbnail_20160601180804_t83x90.jpg","대학일기",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=715772&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/715772/thumbnail/thumbnail_IMAG10_45108665-e46e-49f7-9ee5-ded04dbbc6d0.jpg","좀비딸",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=570506&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/570506/thumbnail/title_thumbnail_20130710192300_t83x90.jpg","최강전설 강해효",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=710761&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/710761/thumbnail/thumbnail_IMAG10_9f8253a1-2318-4c0d-8d9e-f044f2203d4c.jpg","하드캐리",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=699415&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/699415/thumbnail/thumbnail_IMAG10_64dbd565-a463-4cb8-b4bb-131bd082cc44.jpg","간 떨어지는 동거",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=131385&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/131385/thumbnail/thumbnail_IMAG10_c5053bcc-3b95-473d-bfe1-e4256bf56b58.jpg","쿠베라",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=699659&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/699659/thumbnail/thumbnail_IMAG10_e12f7293-375d-4612-87e7-1b1db2dc9fb0.jpg","좋아하는 부분",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=675554&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/675554/thumbnail/thumbnail_IMAG10_66613407-1041-4f4f-ad8a-1983361f932e.jpg","가우스전자 시즌3~4"
+  "https://comic.naver.com/webtoon/list.nhn?titleId=570503&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/570503/thumbnail/thumbnail_IMAG10_5719a3fe-81f4-4a0c-8c27-eca1631e8384.jpg","연애혁명",'232',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=697685&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/697685/thumbnail/thumbnail_IMAG10_f8d868ff-0505-498c-ac37-d11a7f952496.jpg","신과함께 (재)",'주호민',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=557672&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/557672/thumbnail/title_thumbnail_20130508182053_t83x90.jpg","기기괴괴",'오성대',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=708378&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/708378/thumbnail/thumbnail_IMAG10_a274b9a0-0775-44b2-b34f-3199b07a4db4.jpg","타인은 지옥이다",'김용키',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=679519&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/679519/thumbnail/title_thumbnail_20160601180804_t83x90.jpg","대학일기",'자까',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=715772&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/715772/thumbnail/thumbnail_IMAG10_45108665-e46e-49f7-9ee5-ded04dbbc6d0.jpg","좀비딸",'이윤창',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=570506&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/570506/thumbnail/title_thumbnail_20130710192300_t83x90.jpg","최강전설 강해효",'최명열',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=710761&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/710761/thumbnail/thumbnail_IMAG10_9f8253a1-2318-4c0d-8d9e-f044f2203d4c.jpg","하드캐리",'조양',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=699415&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/699415/thumbnail/thumbnail_IMAG10_64dbd565-a463-4cb8-b4bb-131bd082cc44.jpg","간 떨어지는 동거",'나',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=131385&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/131385/thumbnail/thumbnail_IMAG10_c5053bcc-3b95-473d-bfe1-e4256bf56b58.jpg","쿠베라",'카레곰',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=699659&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/699659/thumbnail/thumbnail_IMAG10_e12f7293-375d-4612-87e7-1b1db2dc9fb0.jpg","좋아하는 부분",'타리',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=675554&weekday=thu","https://shared-comic.pstatic.net/thumb/webtoon/675554/thumbnail/thumbnail_IMAG10_66613407-1041-4f4f-ad8a-1983361f932e.jpg","가우스전자 시즌3~4",'곽백수'
 ]
 var webtoonchartFri=[
-  "https://comic.naver.com/webtoon/list.nhn?titleId=318995&weekday=fri","https://shared-comic.pstatic.net/thumb/webtoon/318995/thumbnail/title_thumbnail_20110407182655_t83x90.jpg","갓 오브 하이스쿨",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=641253&weekday=fri","https://shared-comic.pstatic.net/thumb/webtoon/641253/thumbnail/title_thumbnail_20141120112141_t83x90.jpg","외모지상주의",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=701081&weekday=fri","https://shared-comic.pstatic.net/thumb/webtoon/701081/thumbnail/thumbnail_IMAG10_7120be5e-b5c7-4727-aba5-cb500c6098ab.jpg","스위트홈",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=552960&weekday=fri","https://shared-comic.pstatic.net/thumb/webtoon/552960/thumbnail/title_thumbnail_20130905153649_t83x90.jpg","더 게이머",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=670149&weekday=fri","https://shared-comic.pstatic.net/thumb/webtoon/670149/thumbnail/thumbnail_IMAG10_e7b9a026-42a9-447c-a5b5-af0c71626e50.jpg","테러맨",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=119874&weekday=fri","https://shared-comic.pstatic.net/thumb/webtoon/119874/thumbnail/title_thumbnail_20150706185233_t83x90.jpg","덴마",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=651664&weekday=fri","https://shared-comic.pstatic.net/thumb/webtoon/651664/thumbnail/title_thumbnail_20150326153630_t83x90.jpg","밥 먹고 갈래요?",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=668101&weekday=fri","https://shared-comic.pstatic.net/thumb/webtoon/668101/thumbnail/title_thumbnail_20151203204442_t83x90.jpg","결계녀",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=710754&weekday=fri","https://shared-comic.pstatic.net/thumb/webtoon/710754/thumbnail/thumbnail_IMAG10_88e596b9-3712-4ff4-95a7-280b663200ae.jpg","화장 지워주는 남자",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=712362&weekday=fri","https://shared-comic.pstatic.net/thumb/webtoon/712362/thumbnail/thumbnail_IMAG10_568fc3ff-2c5f-40f9-a8d0-34c3e59fa0a5.jpg","개를 낳았다",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=675554&weekday=fri","https://shared-comic.pstatic.net/thumb/webtoon/675554/thumbnail/thumbnail_IMAG10_66613407-1041-4f4f-ad8a-1983361f932e.jpg","가우스전자 시즌3~4",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=700844&weekday=fri","https://shared-comic.pstatic.net/thumb/webtoon/700844/thumbnail/thumbnail_IMAG10_7511a21d-75f1-4ac8-9d24-df2e89f535b2.jpg","걸어서 30분"
+  "https://comic.naver.com/webtoon/list.nhn?titleId=318995&weekday=fri","https://shared-comic.pstatic.net/thumb/webtoon/318995/thumbnail/title_thumbnail_20110407182655_t83x90.jpg","갓 오브 하이스쿨",'박용제',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=641253&weekday=fri","https://shared-comic.pstatic.net/thumb/webtoon/641253/thumbnail/title_thumbnail_20141120112141_t83x90.jpg","외모지상주의",'박태준',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=701081&weekday=fri","https://shared-comic.pstatic.net/thumb/webtoon/701081/thumbnail/thumbnail_IMAG10_7120be5e-b5c7-4727-aba5-cb500c6098ab.jpg","스위트홈",'김칸비/황영찬',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=552960&weekday=fri","https://shared-comic.pstatic.net/thumb/webtoon/552960/thumbnail/title_thumbnail_20130905153649_t83x90.jpg","더 게이머",'성상영/상아',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=670149&weekday=fri","https://shared-comic.pstatic.net/thumb/webtoon/670149/thumbnail/thumbnail_IMAG10_e7b9a026-42a9-447c-a5b5-af0c71626e50.jpg","테러맨",'한동우/고진호',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=119874&weekday=fri","https://shared-comic.pstatic.net/thumb/webtoon/119874/thumbnail/title_thumbnail_20150706185233_t83x90.jpg","덴마",'양영순',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=651664&weekday=fri","https://shared-comic.pstatic.net/thumb/webtoon/651664/thumbnail/title_thumbnail_20150326153630_t83x90.jpg","밥 먹고 갈래요?",'오묘',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=668101&weekday=fri","https://shared-comic.pstatic.net/thumb/webtoon/668101/thumbnail/title_thumbnail_20151203204442_t83x90.jpg","결계녀",'김태경',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=710754&weekday=fri","https://shared-comic.pstatic.net/thumb/webtoon/710754/thumbnail/thumbnail_IMAG10_88e596b9-3712-4ff4-95a7-280b663200ae.jpg","화장 지워주는 남자",'이연',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=712362&weekday=fri","https://shared-comic.pstatic.net/thumb/webtoon/712362/thumbnail/thumbnail_IMAG10_568fc3ff-2c5f-40f9-a8d0-34c3e59fa0a5.jpg","개를 낳았다",'이선',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=675554&weekday=fri","https://shared-comic.pstatic.net/thumb/webtoon/675554/thumbnail/thumbnail_IMAG10_66613407-1041-4f4f-ad8a-1983361f932e.jpg","가우스전자 시즌3~4",'곽백수',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=700844&weekday=fri","https://shared-comic.pstatic.net/thumb/webtoon/700844/thumbnail/thumbnail_IMAG10_7511a21d-75f1-4ac8-9d24-df2e89f535b2.jpg","걸어서 30분",''
 ]
 var webtoonchartSat=[
-  "https://comic.naver.com/webtoon/list.nhn?titleId=651673&weekday=sat","https://shared-comic.pstatic.net/thumb/webtoon/651673/thumbnail/thumbnail_IMAG10_3c7a2e4c-376e-4856-9f03-6ba554dcd62a.jpg","유미의 세포들",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=597447&weekday=sat","https://shared-comic.pstatic.net/thumb/webtoon/597447/thumbnail/title_thumbnail_20131102162055_t83x90.jpg","프리드로우",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=650305&weekday=sat","https://shared-comic.pstatic.net/thumb/webtoon/650305/thumbnail/title_thumbnail_20161209212128_t83x90.jpg","호랑이형님",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=670139&weekday=sat","https://shared-comic.pstatic.net/thumb/webtoon/670139/thumbnail/thumbnail_IMAG10_7293f981-bf32-45ae-b75e-df181b253688.jpg","부활남",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=703843&weekday=sat","https://shared-comic.pstatic.net/thumb/webtoon/703843/thumbnail/thumbnail_IMAG10_c587a99e-c3e7-49a4-985a-88c8d950017f.jpg","비질란테",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=642700&weekday=sat","https://shared-comic.pstatic.net/thumb/webtoon/642700/thumbnail/title_thumbnail_20141219235553_t83x90.jpg","공복의 저녁식사",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=670150&weekday=sat","https://shared-comic.pstatic.net/thumb/webtoon/670150/thumbnail/title_thumbnail_20160122200146_t83x90.jpg","나노리스트",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=677737&weekday=sat","https://shared-comic.pstatic.net/thumb/webtoon/677737/thumbnail/title_thumbnail_20160415184239_t83x90.jpg","대가리",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=703630&weekday=sat","https://shared-comic.pstatic.net/thumb/webtoon/703630/thumbnail/thumbnail_IMAG10_f0337ccf-b55e-47d9-bb47-131b396f1bb6.jpg","어글리후드",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=622644&weekday=sat","https://shared-comic.pstatic.net/thumb/webtoon/622644/thumbnail/title_thumbnail_20150127152059_t83x90.jpg","아메리카노 엑소더스",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=702672&weekday=sat","https://shared-comic.pstatic.net/thumb/webtoon/702672/thumbnail/thumbnail_IMAG10_4313f60c-b034-49ae-9edc-877c859b64f3.jpg","노곤하개",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=682637&weekday=sat","https://shared-comic.pstatic.net/thumb/webtoon/682637/thumbnail/title_thumbnail_20160729190602_t83x90.jpg","놓지마 정신줄 시즌2"
+  "https://comic.naver.com/webtoon/list.nhn?titleId=651673&weekday=sat","https://shared-comic.pstatic.net/thumb/webtoon/651673/thumbnail/thumbnail_IMAG10_3c7a2e4c-376e-4856-9f03-6ba554dcd62a.jpg","유미의 세포들",'이동건',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=597447&weekday=sat","https://shared-comic.pstatic.net/thumb/webtoon/597447/thumbnail/title_thumbnail_20131102162055_t83x90.jpg","프리드로우",'전선욱',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=650305&weekday=sat","https://shared-comic.pstatic.net/thumb/webtoon/650305/thumbnail/title_thumbnail_20161209212128_t83x90.jpg","호랑이형님",'이상규',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=670139&weekday=sat","https://shared-comic.pstatic.net/thumb/webtoon/670139/thumbnail/thumbnail_IMAG10_7293f981-bf32-45ae-b75e-df181b253688.jpg","부활남",'채용택/김재한',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=703843&weekday=sat","https://shared-comic.pstatic.net/thumb/webtoon/703843/thumbnail/thumbnail_IMAG10_c587a99e-c3e7-49a4-985a-88c8d950017f.jpg","비질란테",'CRG/김규삼',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=642700&weekday=sat","https://shared-comic.pstatic.net/thumb/webtoon/642700/thumbnail/title_thumbnail_20141219235553_t83x90.jpg","공복의 저녁식사",'김계란',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=670150&weekday=sat","https://shared-comic.pstatic.net/thumb/webtoon/670150/thumbnail/title_thumbnail_20160122200146_t83x90.jpg","나노리스트",'민송아',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=677737&weekday=sat","https://shared-comic.pstatic.net/thumb/webtoon/677737/thumbnail/title_thumbnail_20160415184239_t83x90.jpg","대가리",'정종택',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=703630&weekday=sat","https://shared-comic.pstatic.net/thumb/webtoon/703630/thumbnail/thumbnail_IMAG10_f0337ccf-b55e-47d9-bb47-131b396f1bb6.jpg","어글리후드",'미애',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=622644&weekday=sat","https://shared-comic.pstatic.net/thumb/webtoon/622644/thumbnail/title_thumbnail_20150127152059_t83x90.jpg","아메리카노 엑소더스",'박지은',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=702672&weekday=sat","https://shared-comic.pstatic.net/thumb/webtoon/702672/thumbnail/thumbnail_IMAG10_4313f60c-b034-49ae-9edc-877c859b64f3.jpg","노곤하개",'홍끼',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=682637&weekday=sat","https://shared-comic.pstatic.net/thumb/webtoon/682637/thumbnail/title_thumbnail_20160729190602_t83x90.jpg","놓지마 정신줄 시즌2",'신태훈/나승훈'
 ]
 var webtoonchartSun=[
-  "https://comic.naver.com/webtoon/list.nhn?titleId=708378&weekday=sun","https://shared-comic.pstatic.net/thumb/webtoon/708378/thumbnail/thumbnail_IMAG10_a274b9a0-0775-44b2-b34f-3199b07a4db4.jpg","타인은 지옥이다",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=697656&weekday=sun","https://shared-comic.pstatic.net/thumb/webtoon/697656/thumbnail/thumbnail_IMAG10_7d08e994-e6e9-437f-9001-e3cd28892a8a.jpg","조의 영역",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=670152&weekday=sun","https://shared-comic.pstatic.net/thumb/webtoon/670152/thumbnail/title_thumbnail_20160122210643_t83x90.jpg","열렙전사",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=710751&weekday=sun","https://shared-comic.pstatic.net/thumb/webtoon/710751/thumbnail/thumbnail_IMAG10_eed99ea4-5908-4445-b89a-d3881797f909.jpg","약한영웅",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=651617&weekday=sun","https://shared-comic.pstatic.net/thumb/webtoon/651617/thumbnail/thumbnail_IMAG10_6e112c5d-a48f-4eca-9e0f-b8f8fb048346.jpg","연애의 정령",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=557676&weekday=sun","https://shared-comic.pstatic.net/thumb/webtoon/557676/thumbnail/thumbnail_IMAG10_e44c2148-c07b-4ccb-b53a-1fee1c6e2122.jpg","다이스(DICE)",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=699658&weekday=sun","https://shared-comic.pstatic.net/thumb/webtoon/699658/thumbnail/thumbnail_IMAG10_7a3fecc7-6bcf-4fcd-b1cb-101e8b480480.jpg","오늘도 사랑스럽개",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=119874&weekday=sun","https://shared-comic.pstatic.net/thumb/webtoon/119874/thumbnail/title_thumbnail_20150706185233_t83x90.jpg","덴마",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=703307&weekday=sun","https://shared-comic.pstatic.net/thumb/webtoon/703307/thumbnail/thumbnail_IMAG10_0c6ab332-3b2b-4d18-bc97-b512c038087a.jpg","신암행어사",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=642598&weekday=sun","https://shared-comic.pstatic.net/thumb/webtoon/642598/thumbnail/title_thumbnail_20160117000448_t83x90.jpg","조선왕조실톡",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=655746&weekday=sun","https://shared-comic.pstatic.net/thumb/webtoon/655746/thumbnail/thumbnail_IMAG10_0a5175a6-514f-47f8-8d70-6d3893d396c0.jpg","마법스크롤 상인 지오",
-  "https://comic.naver.com/webtoon/list.nhn?titleId=698469&weekday=sun","https://shared-comic.pstatic.net/thumb/webtoon/698469/thumbnail/thumbnail_IMAG10_890975d8-f226-4e26-87b2-a002af9c9ebf.jpg","언원티드"
+  "https://comic.naver.com/webtoon/list.nhn?titleId=708378&weekday=sun","https://shared-comic.pstatic.net/thumb/webtoon/708378/thumbnail/thumbnail_IMAG10_a274b9a0-0775-44b2-b34f-3199b07a4db4.jpg","타인은 지옥이다",'김용키',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=697656&weekday=sun","https://shared-comic.pstatic.net/thumb/webtoon/697656/thumbnail/thumbnail_IMAG10_7d08e994-e6e9-437f-9001-e3cd28892a8a.jpg","조의 영역",'조석',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=670152&weekday=sun","https://shared-comic.pstatic.net/thumb/webtoon/670152/thumbnail/title_thumbnail_20160122210643_t83x90.jpg","열렙전사",'김세훈',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=710751&weekday=sun","https://shared-comic.pstatic.net/thumb/webtoon/710751/thumbnail/thumbnail_IMAG10_eed99ea4-5908-4445-b89a-d3881797f909.jpg","약한영웅",'서패스/김진석',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=651617&weekday=sun","https://shared-comic.pstatic.net/thumb/webtoon/651617/thumbnail/thumbnail_IMAG10_6e112c5d-a48f-4eca-9e0f-b8f8fb048346.jpg","연애의 정령",'김호드',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=557676&weekday=sun","https://shared-comic.pstatic.net/thumb/webtoon/557676/thumbnail/thumbnail_IMAG10_e44c2148-c07b-4ccb-b53a-1fee1c6e2122.jpg","다이스(DICE)",'윤현석',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=699658&weekday=sun","https://shared-comic.pstatic.net/thumb/webtoon/699658/thumbnail/thumbnail_IMAG10_7a3fecc7-6bcf-4fcd-b1cb-101e8b480480.jpg","오늘도 사랑스럽개",'이혜',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=119874&weekday=sun","https://shared-comic.pstatic.net/thumb/webtoon/119874/thumbnail/title_thumbnail_20150706185233_t83x90.jpg","덴마",'양영순',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=703307&weekday=sun","https://shared-comic.pstatic.net/thumb/webtoon/703307/thumbnail/thumbnail_IMAG10_0c6ab332-3b2b-4d18-bc97-b512c038087a.jpg","신암행어사",'윤인완/양경일',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=642598&weekday=sun","https://shared-comic.pstatic.net/thumb/webtoon/642598/thumbnail/title_thumbnail_20160117000448_t83x90.jpg","조선왕조실톡",'무적핑크',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=655746&weekday=sun","https://shared-comic.pstatic.net/thumb/webtoon/655746/thumbnail/thumbnail_IMAG10_0a5175a6-514f-47f8-8d70-6d3893d396c0.jpg","마법스크롤 상인 지오",'엄재경/호패',
+  "https://comic.naver.com/webtoon/list.nhn?titleId=698469&weekday=sun","https://shared-comic.pstatic.net/thumb/webtoon/698469/thumbnail/thumbnail_IMAG10_890975d8-f226-4e26-87b2-a002af9c9ebf.jpg","언원티드",'둠스'
 ]
 
 
@@ -154,6 +154,7 @@ var newschart=[
 
 
 var entertainmentschart=[
+  "https://tv.naver.com/v/4675274","https://phinf.pstatic.net/tvcast/20181203_35/JU2Tp_15437695033608cmIF_JPEG/B120180786_EPI0005_18_B.jpg?type=nfc184_104_q90","이거슨 레전드 영상! 꼭 보세요 두 번 보세요",
   "https://tv.naver.com/v/4666090","https://phinf.pstatic.net/tvcast/20181201_99/fSRHc_1543651005715tVwxB_PNG/T9201812010019.PNG?type=nfc184_104_q90","키 · 센 척 안 해(KEY · One of Those Nigh",
   "https://tv.naver.com/v/4666064","https://phinf.pstatic.net/tvcast/20181201_278/NxmR4_1543650705659hKdI8_JPEG/T9201812010018.jpg?type=nfc184_104_q90","키 · Good Good(KEY · Good Good",
   "https://tv.naver.com/v/4666063","https://phinf.pstatic.net/tvcast/20181201_285/CUN1b_1543650703392mAkkC_JPEG/T9201812010017.jpg?type=nfc184_104_q90","레드벨벳 ·  RBB(Red Velvet · Really Bad",
@@ -171,8 +172,7 @@ var entertainmentschart=[
   "https://tv.naver.com/v/4665831","https://phinf.pstatic.net/tvcast/20181201_272/naI0Q_1543647403058FqMut_PNG/T9201812010003_1.PNG?type=nfc184_104_q90","스트레이 키즈 -  Get(Stray Kids  - Get Co",
   "https://tv.naver.com/v/4665808","https://phinf.pstatic.net/tvcast/20181201_14/QFrPo_1543647102822OxSAF_PNG/T9201812010002.PNG?type=nfc184_104_q90","네이처 -  썸(NATURE  -  Youll Be Mine",
   "https://tv.naver.com/v/4664053","https://phinf.pstatic.net/tvcast/20181201_226/fYOvo_1543626129175iu8oB_JPEG/1543626101541.jpg?type=nfc184_104_q90","[선공개] ※심멎주의※ 열정 가득한 워너원의 '롤리폴리' 댄스♬",
-  "https://tv.naver.com/v/4663889","https://phinf.pstatic.net/tvcast/20181201_186/PIRlK_1543622563508tKSoH_JPEG/B120180884_EPI0006_31_B.jpg?type=nfc184_104_q90","★미공개 대방출★ 깨발랄 넘치는 홍보 사진 촬영",
-  "https://tv.naver.com/v/4675274","https://phinf.pstatic.net/tvcast/20181203_35/JU2Tp_15437695033608cmIF_JPEG/B120180786_EPI0005_18_B.jpg?type=nfc184_104_q90","이거슨 레전드 영상! 꼭 보세요 두 번 보세요"
+  "https://tv.naver.com/v/4663889","https://phinf.pstatic.net/tvcast/20181201_186/PIRlK_1543622563508tKSoH_JPEG/B120180884_EPI0006_31_B.jpg?type=nfc184_104_q90","★미공개 대방출★ 깨발랄 넘치는 홍보 사진 촬영"
 ]
 
 
@@ -331,10 +331,11 @@ var makecode={
       <a href="${webtoonchartMon[i]}" class="filmchart_grid_item" style="text-decoration:none;">
         <img src="${webtoonchartMon[i+1]}" alt="${webtoonchartMon[i+2]}">
         <h3 class="webtoon">${webtoonchartMon[i+2]}</h3>
-      </a>
+        <h4>${webtoonchartMon[i+3]}</h4>
+        </a>
       `);
-      i+=3;
-      if(i==36)break;
+      i+=4;
+      if(i>=webtoonchartMon.length) break;
     }
   },
   makechartwebtoonTue:function(){
@@ -344,10 +345,11 @@ var makecode={
         <a href="${webtoonchartTue[i]}" class="filmchart_grid_item" style="text-decoration:none;">
         <img src="${webtoonchartTue[i+1]}" alt="${webtoonchartTue[i+2]}">
         <h3 class="webtoon">${webtoonchartTue[i+2]}</h3>
+        <h4>${webtoonchartTue[i+3]}</h4>
         </a>
       `);
-      i+=3;
-      if(i==36)break;
+      i+=4;
+      if(i>=webtoonchartTue.length) break;
     }
   },
   makechartwebtoonThu:function(){
@@ -357,10 +359,11 @@ var makecode={
         <a href="${webtoonchartThu[i]}" class="filmchart_grid_item" style="text-decoration:none;">
         <img src="${webtoonchartThu[i+1]}" alt="${webtoonchartThu[i+2]}">
         <h3 class="webtoon">${webtoonchartThu[i+2]}</h3>
+        <h4>${webtoonchartThu[i+3]}</h4>
         </a>
       `);
-      i+=3;
-      if(i==36)break;
+      i+=4;
+      if(i>=webtoonchartThu.length) break;
     }
   },
   makechartwebtoonWed:function(){
@@ -369,11 +372,14 @@ var makecode={
       document.write(`
         <a href="${webtoonchartWed[i]}" class="filmchart_grid_item" style="text-decoration:none;">
         <img src="${webtoonchartWed[i+1]}" alt="${webtoonchartWed[i+2]}">
-        <h3 class="webtoon">${webtoonchartWed[i+2]}</h3>
+        <div>
+          <h3 class="webtoon">${webtoonchartWed[i+2]}</h3>
+          <h4>${webtoonchartWed[i+3]}</h4>
+        </div>
         </a>
       `);
-      i+=3;
-      if(i==36)break;
+      i+=4;
+      if(i>=webtoonchartWed.length) break;
     }
   },
   makechartwebtoonFri:function(){
@@ -383,10 +389,11 @@ var makecode={
         <a href="${webtoonchartFri[i]}" class="filmchart_grid_item" style="text-decoration:none;">
         <img src="${webtoonchartFri[i+1]}" alt="${webtoonchartFri[i+2]}">
         <h3 class="webtoon">${webtoonchartFri[i+2]}</h3>
+        <h4>${webtoonchartFri[i+3]}</h4>
         </a>
       `);
-      i+=3;
-      if(i==36)break;
+      i+=4;
+      if(i>=webtoonchartFri.length) break;
     }
   },
   makechartwebtoonSat:function(){
@@ -396,10 +403,11 @@ var makecode={
         <a href="${webtoonchartSat[i]}" class="filmchart_grid_item" style="text-decoration:none;">
         <img src="${webtoonchartSat[i+1]}" alt="${webtoonchartSat[i+2]}">
         <h3 class="webtoon">${webtoonchartSat[i+2]}</h3>
+        <h4>${webtoonchartSat[i+3]}</h4>
         </a>
       `);
-      i+=3;
-      if(i==36)break;
+      i+=4;
+      if(i>=webtoonchartSat.length) break;
     }
   },
   makechartwebtoonSun:function(){
@@ -409,10 +417,11 @@ var makecode={
         <a href="${webtoonchartSun[i]}" class="filmchart_grid_item" style="text-decoration:none;">
         <img src="${webtoonchartSun[i+1]}" alt="${webtoonchartSun[i+2]}">
         <h3 class="webtoon">${webtoonchartSun[i+2]}</h3>
+        <h4>${webtoonchartSun[i+3]}</h4>
         </a>
       `);
-      i+=3;
-      if(i==36)break;
+      i+=4;
+      if(i>=webtoonchartSun.length) break;
     }
   },
 
@@ -484,7 +493,7 @@ var makecode={
     var i=0;
     while(1){
       document.write(`
-        <a href="${entertainmentschart[i]}" class="filmchart_grid_item" style="text-decoration:none;">
+        <a href="${entertainmentschart[i]}" class="filmchart_grid_item" style="text-decoration:none; padding:0px 100px;">
           <img src="${entertainmentschart[i+1]}" alt="${entertainmentschart[i+2]}">
           <h3 class="entertainment">${entertainmentschart[i+2]}</h3>
         </a>
