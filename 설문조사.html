@@ -4,100 +4,118 @@
 <head>
 <title>WEB2 -html</title>
 <meta charset="utf-8">
-
+<style>
+.sulmun_floater{
+  position: relative;
+  height: 300px;
+}
+.sulmun_centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -200px;
+}
+.sulmun_chkbox{
+  margin-left: 30px;
+}
+.sulmun_btn{
+  text-align: right;
+}
+</style>
 </head>
+<body>
+<div class="sulmun_floater">
+  <div class="sulmun_centered">
 
-
-  이제부터 당신의 선호도 조사를 실시하겠습니다.<br>
-  선호하시는 항목 5개를 선택하여 주세요.<br>
-
-
-
-
-연예
-<input type="checkbox" name="survey"  value="entertainment" id="0">
-영화
-<input type="checkbox" name="survey"  value="movie"  id="1" >
-웹툰
-<input type="checkbox" name="survey"   value="webtoon" id="2">
-음악
-<input type="checkbox" name="survey"  value="music" id="3">
-뉴스
-<input type="checkbox" name="survey"   value="newst"id="4" >
-Fun
-<input type="checkbox" name="survey"  value="Fun" id="7">
-책
-<input type="checkbox"  name="survey" value="book" id="6">
+    이제부터 당신의 선호도 조사를 실시하겠습니다.<br>
+    선호하시는 항목 5개를 선택하여 주세요.<br><br>
 
 
 
-
-<!--<input type="checkbox" name="chk_info" value="뉴스" onclick="checkCookieNews();i++">뉴스
-<input type="checkbox" name="chk_info" value="FUN" onclick="checkCookieFun();i++">FUN
-<input type="checkbox" name="chk_info" value="음악" onclick="checkCookieMusic();i++">음악
-<input type="checkbox" name="chk_info" value="화제의 인물" onclick="checkCookiePerson();i++">화제의 인물
--->
-
-
-<br>
-
-<input type="button" value="확인" onclick="showCookie()">
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-<script src="JSON-js-master/json.js"></script>
-<script src="JSON-js-master/json_parse.js"></script>
-<script>
-var surveyKind=["entertainment","movie","webtoon","music","news","fun","book"];
-
-function showCookie(){
-var i=0;
-var checkBox=new Array();
-var category=new Array();
-    checkBox = document.getElementsByName("survey");
-   //.write(checkBox.value);
-   for(j=0;j<7;j++)
-   {
-     if(checkBox[j].checked==true){
-     category[i]=surveyKind[j];
-     i++;
-     //document.write(category[i++]);
-   }
-   }
-
-   if(category.length==5){
-
-  $.cookie('category', JSON.stringify(category),{expires : 365 });
-
- var storedCookie = JSON.parse($.cookie('category'));
-
-  //var storedAry=$.parseJSON($cookie('category'));
-//  for(k=0;k<5;k++)
-  //document.write(storedCookie[0]);
-  alert('선호도 조사를 완료했습니다. 페이지를 이동합니다.');
-  location.href= "index.html";
-
-//var x=$.cookie('category');
-//document.write(x);
-//document.write(x);
-}
-else alert("5개를 체크해주세요");
-//else {
-  //alert(document.Cookie);
-
-//}
-//location.href="index.html?" + storedCookie + ":" +category
-
-}
+  <div class="sulmun_chkbox">
+  연예
+  <input type="checkbox" name="survey"  value="entertainment" id="0"><br>
+  영화
+  <input type="checkbox" name="survey"  value="movie"  id="1" ><br>
+  웹툰
+  <input type="checkbox" name="survey"   value="webtoon" id="2"><br>
+  음악
+  <input type="checkbox" name="survey"  value="music" id="3"><br>
+  뉴스
+  <input type="checkbox" name="survey"   value="newst"id="4" ><br>
+  Fun
+  <input type="checkbox" name="survey"  value="Fun" id="7"><br>
+  책
+  <input type="checkbox"  name="survey" value="book" id="6">
 
 
+
+
+  <!--<input type="checkbox" name="chk_info" value="뉴스" onclick="checkCookieNews();i++">뉴스
+  <input type="checkbox" name="chk_info" value="FUN" onclick="checkCookieFun();i++">FUN
+  <input type="checkbox" name="chk_info" value="음악" onclick="checkCookieMusic();i++">음악
+  <input type="checkbox" name="chk_info" value="화제의 인물" onclick="checkCookiePerson();i++">화제의 인물
+  -->
+
+
+  <br>
+  <div class="sulmun_btn">
+  <input type="button" value="확인" onclick="showCookie()">
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+  <script src="JSON-js-master/json.js"></script>
+  <script src="JSON-js-master/json_parse.js"></script>
+  <script>
+  var surveyKind=["entertainment","movie","webtoon","music","news","fun","book"];
+
+  function showCookie(){
+  var i=0;
+  var checkBox=new Array();
+  var category=new Array();
+      checkBox = document.getElementsByName("survey");
+     //.write(checkBox.value);
+     for(j=0;j<7;j++)
+     {
+       if(checkBox[j].checked==true){
+       category[i]=surveyKind[j];
+       i++;
+       //document.write(category[i++]);
+     }
+     }
+
+     if(category.length==5){
+
+    $.cookie('category', JSON.stringify(category),{expires : 365 });
+
+   var storedCookie = JSON.parse($.cookie('category'));
+
+    //var storedAry=$.parseJSON($cookie('category'));
+  //  for(k=0;k<5;k++)
+    //document.write(storedCookie[0]);
+    alert('선호도 조사를 완료했습니다. 페이지를 이동합니다.');
+    location.href= "index.html";
+
+  //var x=$.cookie('category');
+  //document.write(x);
+  //document.write(x);
+  }
+  else alert("5개를 체크해주세요");
+  //else {
+    //alert(document.Cookie);
+
+  //}
+  //location.href="index.html?" + storedCookie + ":" +category
+
+  }
 
   </script>
 
-
+  </div>
+</div>
 
 </body>
 
