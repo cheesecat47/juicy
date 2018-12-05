@@ -31,7 +31,7 @@ var webtoonchartTue=[
   "https://comic.naver.com/webtoon/list.nhn?titleId=703850&weekday=tue","https://shared-comic.pstatic.net/thumb/webtoon/703850/thumbnail/thumbnail_IMAG10_d093ab2d-a006-457b-92b5-1da097bc3af1.jpg","자판귀","윤정민"
 ]
 
-  
+
 var webtoonchartWed=[
   "https://comic.naver.com/webtoon/list.nhn?titleId=651673&weekday=wed","https://shared-comic.pstatic.net/thumb/webtoon/651673/thumbnail/thumbnail_IMAG10_3c7a2e4c-376e-4856-9f03-6ba554dcd62a.jpg","유미의 세포들",'이동건',
   "https://comic.naver.com/webtoon/list.nhn?titleId=626907&weekday=wed","https://shared-comic.pstatic.net/thumb/webtoon/626907/thumbnail/title_thumbnail_20150407141027_t83x90.jpg","복학왕",'기안84',
@@ -451,7 +451,7 @@ var makecode={
     while(1){
       document.write(`
         <a href="${musicchart[i]}" class="filmchart_grid_item" style="text-decoration:none;">
-          <img src="${musicchart[i+1]}" alt="${musicchart[i+2]}">
+          <img src="../img/musicicon.jpg" alt="${musicchart[i+2]}">
           <div>
             <h3 class="music">${musicchart[i+2]}</h3>
           </div>
@@ -512,7 +512,7 @@ var makecode={
     var i=0;
     while(1){
       document.write(`
-        <a href="${entertainmentschart[i]}" class="filmchart_grid_item" style="text-decoration:none;">
+        <a href="${entertainmentschart[i]}" class="chart_grid_item" style="text-decoration:none;">
           <img src="${entertainmentschart[i+1]}" alt="${entertainmentschart[i+2]}">
           <h3 class="entertainment">${entertainmentschart[i+2]}</h3>
         </a>

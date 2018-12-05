@@ -159,10 +159,12 @@ li{border: 2px solid green;} */
 /**********************************************************************************/
 .filmchart{
   text-align: center;
-  padding: 20px auto; /* 이렇게 하면 위아래 20, 좌우 100 */
+  padding: 30px auto; /* 이렇게 하면 위아래 20, 좌우 100 */
+  margin: 0px 20px;
 }
 
 .filmchart_grid_item{
+  text-align: center;
   height: 250px;
   margin: 0px 20px;
 }
@@ -190,19 +192,29 @@ li{border: 2px solid green;} */
   overflow: hidden;
 }
 
+.chart_grid_item{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 0px 10px 20px;
+}
+.chart_grid_item img{
+  width: 100%;
+  height: auto;
+  margin: 0px auto;
+}
+.chart_grid_item h3{
+  overflow: hidden;
+}
+
 .filmname{
   padding-left: 10px;
 }
 
 @media screen and (max-width: 768px) {
     /* 모바일에 사용될 스트일 시트를 여기에 작성합니다. */
-    .filmchart a{
-      height: 200px;
-      margin: 0px auto;
-    }
 
     .filmchart_grid{
-      display: block;
       text-align: center;
     }
     .filmchart_grid_item{
@@ -215,6 +227,27 @@ li{border: 2px solid green;} */
       display: block;
       width: inherit;
       height: auto;
+      max-width: 100%;
+      max-height: inherit;
+      margin: 0px;
+    }
+    .filmchart_grid_item h3{
+      margin: 0px;
+    }
+
+    .chart_grid_item{
+      text-align: center;
+      display: grid;
+      grid-template-columns: 2fr 3fr;
+      margin: 0px 10px 20px;
+    }
+    .chart_grid_item img{
+      width: 100%;
+      height: auto;
+    }
+    .filmchart_grid_item h3{
+      margin: 0px;
+      height: inherit;
     }
 }
 
