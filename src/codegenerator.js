@@ -379,7 +379,7 @@ var makecode={
     var i=0;
     while(1){
       document.write(`
-        <a href="${webtoonchartWed[i]}" class="filmchart_grid_item" style="text-decoration:none;">
+        <a href="${webtoonchartWed[i]}" class="chart_grid_item" style="text-decoration:none;">
           <img src="${webtoonchartWed[i+1]}" alt="${webtoonchartWed[i+2]}">
           <div>
             <h3 class="webtoon">${webtoonchartWed[i+2]}</h3>
