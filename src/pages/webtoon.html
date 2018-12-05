@@ -25,12 +25,21 @@
           <img src="../img/webtoon_head_img2.jpg" alt="">
         </div>
         <div class="content">
+          <div class="webtoonDay">
+            <h2>
+              <script>
+                var d = new Date();
+                var week=new Array('일','월','화','수','목','금','토');
+                document.write(`${1900+d.getYear()}년 ${d.getMonth()+1}월 ${d.getDate()}일 ${week[d.getDay()]}요일`);
+              </script>
+            </h2>
+          </div>
           <div class="filmchart_grid">  <!--css 일단은 filmchart_grid로 나주에 좀 수정하자!!-->
            <script>
         var d=new Date();
         var week=new Array('일','월','화','수','목','금','토');
         var today=week[d.getDay()];
-      //  document.write(today);
+        //document.write(today);
 
         switch(today)
         {

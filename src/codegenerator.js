@@ -172,6 +172,7 @@ var entertainmentschart=[
   "https://tv.naver.com/v/4665808","https://phinf.pstatic.net/tvcast/20181201_14/QFrPo_1543647102822OxSAF_PNG/T9201812010002.PNG?type=nfc184_104_q90","네이처 -  썸(NATURE  -  Youll Be Mine",
   "https://tv.naver.com/v/4664053","https://phinf.pstatic.net/tvcast/20181201_226/fYOvo_1543626129175iu8oB_JPEG/1543626101541.jpg?type=nfc184_104_q90","[선공개] ※심멎주의※ 열정 가득한 워너원의 '롤리폴리' 댄스♬",
   "https://tv.naver.com/v/4663889","https://phinf.pstatic.net/tvcast/20181201_186/PIRlK_1543622563508tKSoH_JPEG/B120180884_EPI0006_31_B.jpg?type=nfc184_104_q90","★미공개 대방출★ 깨발랄 넘치는 홍보 사진 촬영",
+  "https://tv.naver.com/v/4675274","https://phinf.pstatic.net/tvcast/20181203_35/JU2Tp_15437695033608cmIF_JPEG/B120180786_EPI0005_18_B.jpg?type=nfc184_104_q90","이거슨 레전드 영상! 꼭 보세요 두 번 보세요"
 ]
 
 
@@ -489,7 +490,7 @@ var makecode={
         </a>
       `);
       i+=3;
-      if(i==54)break;
+      if(i>=entertainmentschart.length)break;
     }
   },
 
