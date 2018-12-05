@@ -450,7 +450,7 @@ var makecode={
     var i=0;
     while(1){
       document.write(`
-        <a href="${musicchart[i]}" class="filmchart_grid_item" style="text-decoration:none;">
+        <a href="${musicchart[i]}" class="chart_grid_item" style="text-decoration:none;">
           <img src="../img/musicicon.jpg" alt="${musicchart[i+2]}">
           <div>
             <h3 class="music">${musicchart[i+2]}</h3>
