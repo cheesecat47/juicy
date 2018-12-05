@@ -162,9 +162,9 @@ li{border: 2px solid green;} */
   padding: 20px auto; /* 이렇게 하면 위아래 20, 좌우 100 */
 }
 
-.filmchart a{
-  height: 300px;
-  margin: 0px auto;
+.filmchart_grid_item{
+  height: 250px;
+  margin: 0px 20px;
 }
 
 .filmchart_grid{
@@ -183,7 +183,7 @@ li{border: 2px solid green;} */
 }
 .filmchart_grid_item img{
   width: auto;
-  height: 90%;
+  height: inherit;
   margin: 0px auto;
 }
 .filmchart_grid_item h3{
