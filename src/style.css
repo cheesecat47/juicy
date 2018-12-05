@@ -44,6 +44,10 @@ li{border: 2px solid green;} */
 .tab_top li:hover #tab{
   display: block;
 }
+a{
+  text-decoration: none;
+  color: black;
+} /* 하이퍼링크 텍스트 검은색으로 */
 
 .settings{
   float: left;
@@ -156,10 +160,11 @@ li{border: 2px solid green;} */
 /**********************************************************************************/
 /*                                  movie.html                                    */
 /**********************************************************************************/
+
 .filmchart{
   text-align: center;
   padding: 30px auto; /* 이렇게 하면 위아래 20, 좌우 100 */
-  margin: 0px 20px;
+  margin: 0;
 }
 
 .filmchart_grid_item{
@@ -286,13 +291,13 @@ li{border: 2px solid green;} */
   color:black;
 }
 .LeftTop, .LeftBottom{
-  padding-left:150px;
-  padding-right:30px;
+  padding-left:0px;
+  padding-right:15px;
   margin-bottom:15px;
 }
 .RightTop, .RightBottom{
-  padding-left:30px;
-  padding-right:150px;
+  padding-left:15px;
+  padding-right:0px;
   margin-bottom:15px;
 }
 .content_title{

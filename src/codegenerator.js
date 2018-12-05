@@ -450,8 +450,19 @@ var makecode={
     var i=0;
     while(1){
       document.write(`
-        <a href="${musicchart[i]}" class="chart_grid_item" style="text-decoration:none;">
-          <img src="../img/musicicon.jpg" alt="${musicchart[i+2]}">
+        <a href="${musicchart[i]}" class="chart_grid_item" style="text-decoration:none; background:#f2f2f2; margin: 0;">
+          <img src="../img/musicicon.jpg" alt="${musicchart[i+2]}" style="padding-top:1px; padding-bottom:1px;">
+          <div>
+            <h3 class="music">${musicchart[i+2]}</h3>
+          </div>
+        </a>
+      `);
+      i+=3;
+      if(i==36)break;
+
+      document.write(`
+        <a href="${musicchart[i]}" class="chart_grid_item" style="text-decoration:none; background:#E2E2E2; margin: 0;">
+          <img src="../img/musicicon.jpg" alt="${musicchart[i+2]}" style="padding-top:1px; padding-bottom:1px;">
           <div>
             <h3 class="music">${musicchart[i+2]}</h3>
           </div>
@@ -492,8 +503,19 @@ var makecode={
     var i=0;
     while(1){
       document.write(`
-        <a href="${newschart[i]}" class="chart_grid_item" style="text-decoration:none;">
-          <img src="${newschart[i+1]}" alt="${newschart[i+2]}">
+        <a href="${newschart[i]}" class="chart_grid_item" style="text-decoration:none; background:#f2f2f2; margin: 0;">
+          <img src="${newschart[i+1]}" alt="${newschart[i+2]}" style="padding-top:1px; padding-bottom:1px;">
+          <div>
+            <h3 class="news">${newschart[i+2]}</h3>
+          </div>
+        </a>
+      `);
+      i+=3;
+      if(i==30)break;
+
+      document.write(`
+        <a href="${newschart[i]}" class="chart_grid_item" style="text-decoration:none; background:#E2E2E2; margin: 0;">
+          <img src="${newschart[i+1]}" alt="${newschart[i+2]}" style="padding-top:1px; padding-bottom:1px;">
           <div>
             <h3 class="news">${newschart[i+2]}</h3>
           </div>
@@ -514,13 +536,23 @@ var makecode={
     var i=0;
     while(1){
       document.write(`
-        <a href="${entertainmentschart[i]}" class="chart_grid_item" style="text-decoration:none;">
-          <img src="${entertainmentschart[i+1]}" alt="${entertainmentschart[i+2]}">
+        <a href="${entertainmentschart[i]}" class="chart_grid_item" style="text-decoration:none; background:#f2f2f2; margin: 0;">
+          <img src="${entertainmentschart[i+1]}" alt="${entertainmentschart[i+2]}" style="padding-top:1px; padding-bottom:1px;">
           <h3 class="entertainment">${entertainmentschart[i+2]}</h3>
         </a>
       `);
       i+=3;
       if(i>=entertainmentschart.length)break;
+
+      document.write(`
+        <a href="${entertainmentschart[i]}" class="chart_grid_item" style="text-decoration:none; background:#E2E2E2; margin: 0;">
+          <img src="${entertainmentschart[i+1]}" alt="${entertainmentschart[i+2]}"style="padding-top:1px; padding-bottom:1px;">
+          <h3 class="entertainment">${entertainmentschart[i+2]}</h3>
+        </a>
+      `);
+      i+=3;
+      if(i>=entertainmentschart.length)break;
+
     }
   },
 
