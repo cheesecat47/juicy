@@ -490,7 +490,7 @@ var makecode={
     var i=0;
     while(1){
       document.write(`
-        <a href="${newschart[i]}" class="filmchart_grid_item" style="text-decoration:none;">
+        <a href="${newschart[i]}" class="chart_grid_item" style="text-decoration:none;">
           <img src="${newschart[i+1]}" alt="${newschart[i+2]}">
           <div>
             <h3 class="news">${newschart[i+2]}</h3>

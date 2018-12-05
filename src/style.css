@@ -228,6 +228,7 @@ li{border: 2px solid green;} */
     }
     .filmchart_grid_item h3{
       margin: 0px;
+      overflow: hidden;
     }
 
     .chart_grid_item{
@@ -240,9 +241,10 @@ li{border: 2px solid green;} */
       width: 100%;
       height: auto;
     }
-    .filmchart_grid_item h3{
+    .chart_grid_item h3{
       margin: 0px;
       height: inherit;
+      overflow: hidden;
     }
 }
 
