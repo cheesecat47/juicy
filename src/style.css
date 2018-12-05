@@ -202,8 +202,19 @@ li{border: 2px solid green;} */
     }
 
     .filmchart_grid{
-      display: inline;
+      display: block;
       text-align: center;
+    }
+    .filmchart_grid_item{
+      text-align: center;
+      display: grid;
+      grid-template-columns: 2fr 3fr;
+      margin: 0px 10px 20px;
+    }
+    .filmchart_grid_item img{
+      display: block;
+      width: inherit;
+      height: auto;
     }
 }
 
