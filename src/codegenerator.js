@@ -178,21 +178,21 @@ var entertainmentschart=[
 
 
 var moviechart=[
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=97612","https://movie-phinf.pstatic.net/20180927_158/1538023433590U7S2w_JPEG/movie_image.jpg?type=m99_141_2","그랜드 부다페스트 호텔",
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=154255","https://movie-phinf.pstatic.net/20181029_21/1540774701820gU85o_JPEG/movie_image.jpg?type=m99_141_2","신비한 동물들과 그린델왈드의 범죄",
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=156464","https://movie-phinf.pstatic.net/20181031_68/1540952503496fNRsF_JPEG/movie_image.jpg?type=m99_141_2","보헤미안 랩소디",
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=71760","https://movie-phinf.pstatic.net/20181019_192/1539926516385x2hHY_JPEG/movie_image.jpg?type=m99_141_2","청설",
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=176354","https://movie-phinf.pstatic.net/20181109_286/1541743345207CtoXg_JPEG/movie_image.jpg?type=m99_141_2","번 더 스테이지: 더 무비",
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=155356","https://movie-phinf.pstatic.net/20181011_124/15392221324972UPeA_JPEG/movie_image.jpg?type=m99_141_2","미쓰백",
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=158626","https://movie-phinf.pstatic.net/20180307_227/15203992433853TIaa_JPEG/movie_image.jpg?type=m99_141_2","셰이프 오브 워터: 사랑의 모양",
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=144906","https://movie-phinf.pstatic.net/20181031_264/1540949415228uy0j3_JPEG/movie_image.jpg?type=m99_141_2","베일리 어게인",
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=160487","https://movie-phinf.pstatic.net/20181001_87/15383614506431bq1D_JPEG/movie_image.jpg?type=m99_141_2","창궐",
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=167638","https://movie-phinf.pstatic.net/20181106_289/1541478936071tmadh_JPEG/movie_image.jpg?type=m99_141_2","완벽한 타인",
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=179139","https://movie-phinf.pstatic.net/20181022_106/1540170285123a57tG_JPEG/movie_image.jpg?type=m99_141_2","출국",
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=76667","https://movie-phinf.pstatic.net/20111223_289/1324622149942dtKyL_JPEG/movie_image.jpg?type=m99_141_2","울지마 톤즈",
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=164192","https://movie-phinf.pstatic.net/20181105_232/1541392865465aVb5V_JPEG/movie_image.jpg?type=m99_141_2","국가부도의 날",
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=152156","https://movie-phinf.pstatic.net/20181005_242/1538714564568GYBzR_JPEG/movie_image.jpg?type=m99_141_2","원더풀 고스트",
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=155123","https://movie-phinf.pstatic.net/20161103_256/1478160313724rHuDS_JPEG/movie_image.jpg?type=m99_141_2","미스 사이공: 25주년 특별 공연"
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=97612","https://movie-phinf.pstatic.net/20180927_158/1538023433590U7S2w_JPEG/movie_image.jpg?type=m99_141_2","그랜드 부다페스트 호텔",'웨스 앤더슨','랄프 파인즈, 틸다 스윈튼, 토니 레볼로리, 시얼샤 로넌, 애드리언 브로디, 윌렘 대포',
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=154255","https://movie-phinf.pstatic.net/20181029_21/1540774701820gU85o_JPEG/movie_image.jpg?type=m99_141_2","신비한 동물들과 그린델왈드의 범죄",'데이빗 예이츠','에디 레드메인, 조니 뎁, 캐서린 워터스턴, 주드 로, 에즈라 밀러',
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=156464","https://movie-phinf.pstatic.net/20181031_68/1540952503496fNRsF_JPEG/movie_image.jpg?type=m99_141_2","보헤미안 랩소디",'브라이언 싱어','라미 말렉, 루시 보인턴, 귈림 리, 벤 하디, 조셉 마젤로',
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=71760","https://movie-phinf.pstatic.net/20181019_192/1539926516385x2hHY_JPEG/movie_image.jpg?type=m99_141_2","청설",'청펀펀','펑위옌, 진의함, 천옌시',
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=176354","https://movie-phinf.pstatic.net/20181109_286/1541743345207CtoXg_JPEG/movie_image.jpg?type=m99_141_2","번 더 스테이지: 더 무비",'박준수','RM, 진, 슈가, 제이홉, 지민, 뷔, 정국',
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=155356","https://movie-phinf.pstatic.net/20181011_124/15392221324972UPeA_JPEG/movie_image.jpg?type=m99_141_2","미쓰백",'이지원','한지민, 김시아, 이희준',
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=158626","https://movie-phinf.pstatic.net/20180307_227/15203992433853TIaa_JPEG/movie_image.jpg?type=m99_141_2","셰이프 오브 워터: 사랑의 모양",'기예르모 델 토로','샐리 호킨스, 마이클 셰넌, 리차드 젠킨스, 옥타비아 스펜서, 마이클 스털버그, 더그 존스',
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=144906","https://movie-phinf.pstatic.net/20181031_264/1540949415228uy0j3_JPEG/movie_image.jpg?type=m99_141_2","베일리 어게인",'라세 할스트롬','조시 게드, 데니스 퀘이드, K.J. 아파, 브라이스 게이사르, 브릿 로버트슨',
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=160487","https://movie-phinf.pstatic.net/20181001_87/15383614506431bq1D_JPEG/movie_image.jpg?type=m99_141_2","창궐",'김성훈','현빈, 장동건',
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=167638","https://movie-phinf.pstatic.net/20181106_289/1541478936071tmadh_JPEG/movie_image.jpg?type=m99_141_2","완벽한 타인",'이재규','유해진, 조진웅 이서진, 염정아, 김지수, 송하윤, 윤경호',
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=179139","https://movie-phinf.pstatic.net/20181022_106/1540170285123a57tG_JPEG/movie_image.jpg?type=m99_141_2","출국",'노규엽','이범수',
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=76667","https://movie-phinf.pstatic.net/20111223_289/1324622149942dtKyL_JPEG/movie_image.jpg?type=m99_141_2","울지마 톤즈",'구수환','이금희, 이태석',
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=164192","https://movie-phinf.pstatic.net/20181105_232/1541392865465aVb5V_JPEG/movie_image.jpg?type=m99_141_2","국가부도의 날",'최국희','김혜수, 유아인, 허준호, 조우진, 뱅상 카셀',
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=152156","https://movie-phinf.pstatic.net/20181005_242/1538714564568GYBzR_JPEG/movie_image.jpg?type=m99_141_2","원더풀 고스트",'조원희','마동석, 김영광, 이유영',
+  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=155123","https://movie-phinf.pstatic.net/20161103_256/1478160313724rHuDS_JPEG/movie_image.jpg?type=m99_141_2","미스 사이공: 25주년 특별 공연",'브렛 설리반','알리스태어 브래머, 에바 노블자다, 홍광호, 존 존 브라이언스'
 ]
 
 
@@ -330,9 +330,11 @@ var makecode={
     document.write(`
       <a href="${webtoonchartMon[i]}" class="filmchart_grid_item" style="text-decoration:none;">
         <img src="${webtoonchartMon[i+1]}" alt="${webtoonchartMon[i+2]}">
-        <h3 class="webtoon">${webtoonchartMon[i+2]}</h3>
-        <h4>${webtoonchartMon[i+3]}</h4>
-        </a>
+        <div>
+          <h3 class="webtoon">${webtoonchartMon[i+2]}</h3>
+          <h4>${webtoonchartMon[i+3]}</h4>
+        </div>
+      </a>
       `);
       i+=4;
       if(i>=webtoonchartMon.length) break;
@@ -343,9 +345,11 @@ var makecode={
     while(1){
       document.write(`
         <a href="${webtoonchartTue[i]}" class="filmchart_grid_item" style="text-decoration:none;">
-        <img src="${webtoonchartTue[i+1]}" alt="${webtoonchartTue[i+2]}">
-        <h3 class="webtoon">${webtoonchartTue[i+2]}</h3>
-        <h4>${webtoonchartTue[i+3]}</h4>
+          <img src="${webtoonchartTue[i+1]}" alt="${webtoonchartTue[i+2]}">
+          <div>
+            <h3 class="webtoon">${webtoonchartTue[i+2]}</h3>
+            <h4>${webtoonchartTue[i+3]}</h4>
+          </div>
         </a>
       `);
       i+=4;
@@ -357,9 +361,11 @@ var makecode={
     while(1){
       document.write(`
         <a href="${webtoonchartThu[i]}" class="filmchart_grid_item" style="text-decoration:none;">
-        <img src="${webtoonchartThu[i+1]}" alt="${webtoonchartThu[i+2]}">
-        <h3 class="webtoon">${webtoonchartThu[i+2]}</h3>
-        <h4>${webtoonchartThu[i+3]}</h4>
+          <img src="${webtoonchartThu[i+1]}" alt="${webtoonchartThu[i+2]}">
+          <div>
+            <h3 class="webtoon">${webtoonchartThu[i+2]}</h3>
+            <h4>${webtoonchartThu[i+3]}</h4>
+          </div>
         </a>
       `);
       i+=4;
@@ -371,11 +377,11 @@ var makecode={
     while(1){
       document.write(`
         <a href="${webtoonchartWed[i]}" class="filmchart_grid_item" style="text-decoration:none;">
-        <img src="${webtoonchartWed[i+1]}" alt="${webtoonchartWed[i+2]}">
-        <div>
-          <h3 class="webtoon">${webtoonchartWed[i+2]}</h3>
-          <h4>${webtoonchartWed[i+3]}</h4>
-        </div>
+          <img src="${webtoonchartWed[i+1]}" alt="${webtoonchartWed[i+2]}">
+          <div>
+            <h3 class="webtoon">${webtoonchartWed[i+2]}</h3>
+            <h4>${webtoonchartWed[i+3]}</h4>
+          </div>
         </a>
       `);
       i+=4;
@@ -387,9 +393,11 @@ var makecode={
     while(1){
       document.write(`
         <a href="${webtoonchartFri[i]}" class="filmchart_grid_item" style="text-decoration:none;">
-        <img src="${webtoonchartFri[i+1]}" alt="${webtoonchartFri[i+2]}">
-        <h3 class="webtoon">${webtoonchartFri[i+2]}</h3>
-        <h4>${webtoonchartFri[i+3]}</h4>
+          <img src="${webtoonchartFri[i+1]}" alt="${webtoonchartFri[i+2]}">
+          <div>
+            <h3 class="webtoon">${webtoonchartFri[i+2]}</h3>
+            <h4>${webtoonchartFri[i+3]}</h4>
+          </div>
         </a>
       `);
       i+=4;
@@ -401,9 +409,11 @@ var makecode={
     while(1){
       document.write(`
         <a href="${webtoonchartSat[i]}" class="filmchart_grid_item" style="text-decoration:none;">
-        <img src="${webtoonchartSat[i+1]}" alt="${webtoonchartSat[i+2]}">
-        <h3 class="webtoon">${webtoonchartSat[i+2]}</h3>
-        <h4>${webtoonchartSat[i+3]}</h4>
+          <img src="${webtoonchartSat[i+1]}" alt="${webtoonchartSat[i+2]}">
+          <div>
+            <h3 class="webtoon">${webtoonchartSat[i+2]}</h3>
+            <h4>${webtoonchartSat[i+3]}</h4>
+          </div>
         </a>
       `);
       i+=4;
@@ -415,9 +425,11 @@ var makecode={
     while(1){
       document.write(`
         <a href="${webtoonchartSun[i]}" class="filmchart_grid_item" style="text-decoration:none;">
-        <img src="${webtoonchartSun[i+1]}" alt="${webtoonchartSun[i+2]}">
-        <h3 class="webtoon">${webtoonchartSun[i+2]}</h3>
-        <h4>${webtoonchartSun[i+3]}</h4>
+          <img src="${webtoonchartSun[i+1]}" alt="${webtoonchartSun[i+2]}">
+          <div>
+            <h3 class="webtoon">${webtoonchartSun[i+2]}</h3>
+            <h4>${webtoonchartSun[i+3]}</h4>
+          </div>
         </a>
       `);
       i+=4;
@@ -436,8 +448,10 @@ var makecode={
     while(1){
       document.write(`
         <a href="${musicchart[i]}" class="filmchart_grid_item" style="text-decoration:none;">
-        <img src="${musicchart[i+1]}" alt="${musicchart[i+2]}">
-        <h3 class="music">${musicchart[i+2]}</h3>
+          <img src="${musicchart[i+1]}" alt="${musicchart[i+2]}">
+          <div>
+            <h3 class="music">${musicchart[i+2]}</h3>
+          </div>
         </a>
       `);
       i+=3;
@@ -474,8 +488,10 @@ var makecode={
     while(1){
       document.write(`
         <a href="${newschart[i]}" class="filmchart_grid_item" style="text-decoration:none;">
-        <img src="${newschart[i+1]}" alt="${newschart[i+2]}">
-        <h3 class="news">${newschart[i+2]}</h3>
+          <img src="${newschart[i+1]}" alt="${newschart[i+2]}">
+          <div>
+            <h3 class="news">${newschart[i+2]}</h3>
+          </div>
         </a>
       `);
       i+=3;
@@ -514,12 +530,16 @@ var makecode={
     while(1){
       document.write(`
         <a href="${moviechart[i]}" class="filmchart_grid_item" style="text-decoration:none;">
-        <img src="${moviechart[i+1]}" alt="${moviechart[i+2]}">
-        <h3 class="entertainment">${moviechart[i+2]}</h3>
+          <img src="${moviechart[i+1]}" alt="${moviechart[i+2]}">
+          <div>
+            <h3 class="entertainment">${moviechart[i+2]}</h3>
+            <h4>감독: ${moviechart[i+3]}</h4>
+            <h4>출연: ${moviechart[i+4]}</h4>
+          </div>
         </a>
       `);
-      i+=3;
-      if(i==45)break;
+      i+=5;
+      if(i>=moviechart.length) break;
     }
   }
 }//end makecode
