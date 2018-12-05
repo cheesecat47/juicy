@@ -472,8 +472,10 @@ var makecode={
     var i=0;
     while(1){
       document.write(`
-        <img src="${bookchart[i+1]}" alt="${bookchart[i+2]}">
-        <h3 class="book">${bookchart[i+2]}</h3>
+        <div class="toonchart_grid_item">
+          <img src="${bookchart[i+1]}" alt="${bookchart[i+2]}">
+          <h3 class="book">${bookchart[i+2]}</h3>
+        </div>
       `);
       i+=3;
       if(i==36)break;
