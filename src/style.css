@@ -10,9 +10,9 @@ body{
 /* div 경계선은 디자인 확인용.
 세 줄 전체 블록하고 Ctrl / 누르면 한번에 주석처리 가능.
 주석 풀고 확인해보세요. 디자인 할 때 도움 될 수도 있어요. */
-/* div{border: 2px solid pink;}
+div{border: 2px solid pink;}
 p{border: 2px solid blue;}
-li{border: 2px solid green;} */
+li{border: 2px solid green;}
 
 
 
