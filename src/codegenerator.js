@@ -225,21 +225,21 @@ var entertainmentschart=[
 
 
 var moviechart=[
- "https://movie.naver.com/movie/bi/mi/basic.nhn?code=164192","https://movie-phinf.pstatic.net/20181105_232/1541392865465aVb5V_JPEG/movie_image.jpg?type=m99_141_2","국가부도의 날",
-"https://movie.naver.com/movie/bi/mi/basic.nhn?code=156464","https://movie-phinf.pstatic.net/20181031_68/1540952503496fNRsF_JPEG/movie_image.jpg?type=m99_141_2","보헤미안 랩소디",
-"https://movie.naver.com/movie/bi/mi/basic.nhn?code=171755","https://movie-phinf.pstatic.net/20181109_210/1541739608888DcEEo_JPEG/movie_image.jpg?type=m99_141_2","도어락",
-"https://movie.naver.com/movie/bi/mi/basic.nhn?code=180384","https://movie-phinf.pstatic.net/20181205_98/1543990964473PgUYG_JPEG/movie_image.jpg?type=m99_141_2","런닝맨 : 풀룰루의 역습",
-"https://movie.naver.com/movie/bi/mi/basic.nhn?code=156496","https://movie-phinf.pstatic.net/20181121_20/1542781963353ydkIF_JPEG/movie_image.jpg?type=m99_141_2","모털 엔진",
-"https://movie.naver.com/movie/bi/mi/basic.nhn?code=158622","https://movie-phinf.pstatic.net/20181109_245/1541740985337rsPka_JPEG/movie_image.jpg?type=m99_141_2","호두까기 인형과 4개의 왕국",
-"https://movie.naver.com/movie/bi/mi/basic.nhn?code=179683","https://movie-phinf.pstatic.net/20181105_167/1541396148145Jky31_JPEG/movie_image.jpg?type=m99_141_2","번개맨의 비밀",
-"https://movie.naver.com/movie/bi/mi/basic.nhn?code=167638","https://movie-phinf.pstatic.net/20181106_289/1541478936071tmadh_JPEG/movie_image.jpg?type=m99_141_2","완벽한 타인",
-"https://movie.naver.com/movie/bi/mi/basic.nhn?code=174835","https://movie-phinf.pstatic.net/20181031_241/1540950975705Bac4v_JPEG/movie_image.jpg?type=m99_141_2","성난황소",
-"https://movie.naver.com/movie/bi/mi/basic.nhn?code=154255","https://movie-phinf.pstatic.net/20181029_21/1540774701820gU85o_JPEG/movie_image.jpg?type=m99_141_2","신비한 동물들과 그린델왈드의 범죄",
-"https://movie.naver.com/movie/bi/mi/basic.nhn?code=92125","https://movie-phinf.pstatic.net/20181121_40/1542784567333eElnp_JPEG/movie_image.jpg?type=m99_141_2","헌터 킬러",
-"https://movie.naver.com/movie/bi/mi/basic.nhn?code=144266","https://movie-phinf.pstatic.net/20181031_91/1540952362335FhIxg_JPEG/movie_image.jpg?type=m99_141_2","후드",
-"https://movie.naver.com/movie/bi/mi/basic.nhn?code=172173","https://movie-phinf.pstatic.net/20181115_68/1542258920255YpMHg_JPEG/movie_image.jpg?type=m99_141_2","극장판 파워레인저 갤럭시포스 VS 스페이스 스쿼드",
-"https://movie.naver.com/movie/bi/mi/basic.nhn?code=66158","https://movie-phinf.pstatic.net/20181106_87/1541480184136BvLsg_JPEG/movie_image.jpg?type=m99_141_2","어거스트 러쉬",
-"https://movie.naver.com/movie/bi/mi/basic.nhn?code=173692","https://movie-phinf.pstatic.net/20181126_296/1543195305541TXc6u_JPEG/movie_image.jpg?type=m99_141_2","바울"
+ "https://movie.naver.com/movie/bi/mi/basic.nhn?code=164192","https://movie-phinf.pstatic.net/20181105_232/1541392865465aVb5V_JPEG/movie_image.jpg?type=m99_141_2","국가부도의 날","최국희","김혜수, 유아인, 허준호, 조우진, 뱅상 카셀",
+"https://movie.naver.com/movie/bi/mi/basic.nhn?code=156464","https://movie-phinf.pstatic.net/20181031_68/1540952503496fNRsF_JPEG/movie_image.jpg?type=m99_141_2","보헤미안 랩소디","브라이언 싱어","라미 말렉, 루시 보인턴, 귈림 리, 벤 하디, 조셉 마젤로",
+"https://movie.naver.com/movie/bi/mi/basic.nhn?code=171755","https://movie-phinf.pstatic.net/20181109_210/1541739608888DcEEo_JPEG/movie_image.jpg?type=m99_141_2","도어락","이권","공효진, 김예원, 김성오",
+"https://movie.naver.com/movie/bi/mi/basic.nhn?code=180384","https://movie-phinf.pstatic.net/20181205_98/1543990964473PgUYG_JPEG/movie_image.jpg?type=m99_141_2","런닝맨 : 풀룰루의 역습","윤준상","김서영, 권창욱, 엄상현, 김연우, 강시현, 전태열",
+"https://movie.naver.com/movie/bi/mi/basic.nhn?code=156496","https://movie-phinf.pstatic.net/20181121_20/1542781963353ydkIF_JPEG/movie_image.jpg?type=m99_141_2","모털 엔진","크리스찬 리버스","헤라 힐마, 로버트 시한, 휴고 위빙, 지혜, 스티븐 랭",
+"https://movie.naver.com/movie/bi/mi/basic.nhn?code=158622","https://movie-phinf.pstatic.net/20181109_245/1541740985337rsPka_JPEG/movie_image.jpg?type=m99_141_2","호두까기 인형과 4개의 왕국","라세 할스트롬, 조 존스톤","키이라 나이틀리, 매켄지 포이, 헬렌 미렌, 모건 프리먼",
+"https://movie.naver.com/movie/bi/mi/basic.nhn?code=179683","https://movie-phinf.pstatic.net/20181105_167/1541396148145Jky31_JPEG/movie_image.jpg?type=m99_141_2","번개맨의 비밀","강유선","서홍석, 김혜원, 유수호, 최오식, 이상철, 김수미",
+"https://movie.naver.com/movie/bi/mi/basic.nhn?code=167638","https://movie-phinf.pstatic.net/20181106_289/1541478936071tmadh_JPEG/movie_image.jpg?type=m99_141_2","완벽한 타인","이재규","유해진, 조진웅, 이서진, 염정아, 김지수, 송하윤, 윤경호",
+"https://movie.naver.com/movie/bi/mi/basic.nhn?code=174835","https://movie-phinf.pstatic.net/20181031_241/1540950975705Bac4v_JPEG/movie_image.jpg?type=m99_141_2","성난황소","김민호","마동석, 송지효",
+"https://movie.naver.com/movie/bi/mi/basic.nhn?code=154255","https://movie-phinf.pstatic.net/20181029_21/1540774701820gU85o_JPEG/movie_image.jpg?type=m99_141_2","신비한 동물들과 그린델왈드의 범죄","데이빗 예이츠","에디 레드메인, 조니 뎁, 캐서린 워터스턴, 주드 로, 에즈라 밀러",
+"https://movie.naver.com/movie/bi/mi/basic.nhn?code=92125","https://movie-phinf.pstatic.net/20181121_40/1542784567333eElnp_JPEG/movie_image.jpg?type=m99_141_2","헌터 킬러","도노반 마시","제라드 버틀러, 게리 올드만",
+"https://movie.naver.com/movie/bi/mi/basic.nhn?code=144266","https://movie-phinf.pstatic.net/20181031_91/1540952362335FhIxg_JPEG/movie_image.jpg?type=m99_141_2","후드","오토 바서스트","태런 에저튼, 제이미 폭스, 벤 멘델슨, 제이미 도넌",
+"https://movie.naver.com/movie/bi/mi/basic.nhn?code=172173","https://movie-phinf.pstatic.net/20181115_68/1542258920255YpMHg_JPEG/movie_image.jpg?type=m99_141_2","극장판 파워레인저 갤럭시포스 VS 스페이스 스쿼드","사카모토 코이치","남도형, 장민혁, 박성영, 송하림",
+"https://movie.naver.com/movie/bi/mi/basic.nhn?code=66158","https://movie-phinf.pstatic.net/20181106_87/1541480184136BvLsg_JPEG/movie_image.jpg?type=m99_141_2","어거스트 러쉬","커스틴 쉐리단","프레디 하이모어, 조나단 리스 마이어스, 케리 러셀, 로빈 윌리엄스",
+"https://movie.naver.com/movie/bi/mi/basic.nhn?code=173692","https://movie-phinf.pstatic.net/20181126_296/1543195305541TXc6u_JPEG/movie_image.jpg?type=m99_141_2","바울","앤드류 하얏트","제이스 폴크너, 제임스 카비젤"
 ]
 
 
