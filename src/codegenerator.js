@@ -331,7 +331,7 @@ var makecode={
     var i=0;
     while(1){
     document.write(`
-      <a href="${webtoonchartMon[i]}" class="filmchart_grid_item" style="text-decoration:none;">
+      <a href="${webtoonchartMon[i]}" class="chart_grid_item" style="text-decoration:none;">
         <img src="${webtoonchartMon[i+1]}" alt="${webtoonchartMon[i+2]}">
         <div>
           <h3 class="webtoon">${webtoonchartMon[i+2]}</h3>
@@ -347,7 +347,7 @@ var makecode={
     var i=0;
     while(1){
       document.write(`
-        <a href="${webtoonchartTue[i]}" class="filmchart_grid_item" style="text-decoration:none;">
+        <a href="${webtoonchartTue[i]}" class="chart_grid_item" style="text-decoration:none;">
           <img src="${webtoonchartTue[i+1]}" alt="${webtoonchartTue[i+2]}">
           <div>
             <h3 class="webtoon">${webtoonchartTue[i+2]}</h3>
@@ -363,7 +363,7 @@ var makecode={
     var i=0;
     while(1){
       document.write(`
-        <a href="${webtoonchartThu[i]}" class="filmchart_grid_item" style="text-decoration:none;">
+        <a href="${webtoonchartThu[i]}" class="chart_grid_item" style="text-decoration:none;">
           <img src="${webtoonchartThu[i+1]}" alt="${webtoonchartThu[i+2]}">
           <div>
             <h3 class="webtoon">${webtoonchartThu[i+2]}</h3>
@@ -395,7 +395,7 @@ var makecode={
     var i=0;
     while(1){
       document.write(`
-        <a href="${webtoonchartFri[i]}" class="filmchart_grid_item" style="text-decoration:none;">
+        <a href="${webtoonchartFri[i]}" class="chart_grid_item" style="text-decoration:none;">
           <img src="${webtoonchartFri[i+1]}" alt="${webtoonchartFri[i+2]}">
           <div>
             <h3 class="webtoon">${webtoonchartFri[i+2]}</h3>
@@ -411,7 +411,7 @@ var makecode={
     var i=0;
     while(1){
       document.write(`
-        <a href="${webtoonchartSat[i]}" class="filmchart_grid_item" style="text-decoration:none;">
+        <a href="${webtoonchartSat[i]}" class="chart_grid_item" style="text-decoration:none;">
           <img src="${webtoonchartSat[i+1]}" alt="${webtoonchartSat[i+2]}">
           <div>
             <h3 class="webtoon">${webtoonchartSat[i+2]}</h3>
@@ -427,7 +427,7 @@ var makecode={
     var i=0;
     while(1){
       document.write(`
-        <a href="${webtoonchartSun[i]}" class="filmchart_grid_item" style="text-decoration:none;">
+        <a href="${webtoonchartSun[i]}" class="chart_grid_item" style="text-decoration:none;">
           <img src="${webtoonchartSun[i+1]}" alt="${webtoonchartSun[i+2]}">
           <div>
             <h3 class="webtoon">${webtoonchartSun[i+2]}</h3>
@@ -483,7 +483,7 @@ var makecode={
     var i=0;
     while(1){
       document.write(`
-        <div class="toonchart_grid_item">
+        <div class="chart_grid_item">
           <img src="${bookchart[i+1]}" alt="${bookchart[i+2]}">
           <h3 class="book">${bookchart[i+2]}</h3>
         </div>
