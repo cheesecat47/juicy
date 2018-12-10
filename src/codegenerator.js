@@ -106,19 +106,63 @@ var webtoonchartSun=[
 
 
 var musicchart=[
-  'https://www.youtube.com/watch?v=pBuZEGYXA6E&start_radio=1&list=RDQMzfFT2PnTg24','https://shared-comic.pstatic.net/thumb/webtoon/183559/thumbnail/title_thumbnail_20160516123017_t83x90.jpg','관련 재생목록 - 멜론 2018년 11월 4주차',
-  'https://www.youtube.com/watch?v=9SpUjUYtvlE','https://shared-comic.pstatic.net/thumb/webtoon/183559/thumbnail/title_thumbnail_20160516123017_t83x90.jpg','멜론 매일라디오 2018년 11월 3주차 신곡 100곡[광고없음]',
-  'https://www.youtube.com/watch?v=Q3LAwX6nKFo','https://shared-comic.pstatic.net/thumb/webtoon/183559/thumbnail/title_thumbnail_20160516123017_t83x90.jpg','[ 멜론i ] 2018년 11월 넷째주(4주차) 최신 멜론i차트 TOP20 !! . 워너원 봄바람 집 불꽃놀이 제니 SOLO 트와이스 YESorYES 엑소 Tempo 아이유 폴킴',
-  'https://www.youtube.com/watch?v=dzLeQBX_5_U','https://shared-comic.pstatic.net/thumb/webtoon/183559/thumbnail/title_thumbnail_20160516123017_t83x90.jpg','멜론 관느 리뷰 2018년 11월 4주차 신곡 TOP 100 [광고X]',
-  'https://www.youtube.com/watch?v=_37eGPzYAxE','https://shared-comic.pstatic.net/thumb/webtoon/183559/thumbnail/title_thumbnail_20160516123017_t83x90.jpg','광고없는 유튜브 최신가요 멜론 2018년 11월 3주차 챠트 TOP 1위~50위 발라드 인기가요 좋은노래 모음 연속재생',
-  'https://www.youtube.com/watch?v=xQ9PwfRs_es&list=PLZXN1d3t4Yztp4oYLsleSJa1a-puwQn1T','https://shared-comic.pstatic.net/thumb/webtoon/183559/thumbnail/title_thumbnail_20160516123017_t83x90.jpg','멜론차트 2018년 12월 1주차 TOP 100 [최신가요] 연속듣기 - 매일업데이트',
-  'https://www.youtube.com/watch?v=-K29Wl6lsjM','https://shared-comic.pstatic.net/thumb/webtoon/183559/thumbnail/title_thumbnail_20160516123017_t83x90.jpg','KPOP 멜론차트 2018년 11월3주차 최신노래 연속재생',
-  'https://www.youtube.com/watch?v=RN-cRsF-Cxk','https://shared-comic.pstatic.net/thumb/webtoon/183559/thumbnail/title_thumbnail_20160516123017_t83x90.jpg','광고없는 유튜브 최신가요 멜론 2018년 11월 2주차 챠트 TOP 1위~50위 발라드 인기가요 좋은노래 모음 연속재생',
-  'https://www.youtube.com/watch?v=HL179tacctk','https://shared-comic.pstatic.net/thumb/webtoon/183559/thumbnail/title_thumbnail_20160516123017_t83x90.jpg','최신가요 멜론 2018년 11월 4주차 챠트 TOP 1위~50위 광고없는 발라드 인기가요 좋은노래 모음 연속재생',
-  'https://www.youtube.com/watch?v=JTprd1E0rDM','https://shared-comic.pstatic.net/thumb/webtoon/183559/thumbnail/title_thumbnail_20160516123017_t83x90.jpg','월간 멜론 TOP20 ♬♬ 2018년 11월 4주차 광고없는 신곡모음 연속듣기 ♬♬ Best korea Songs playlist 2018',
-  'https://www.youtube.com/watch?v=MnLu0pKfnGQ','https://shared-comic.pstatic.net/thumb/webtoon/183559/thumbnail/title_thumbnail_20160516123017_t83x90.jpg','광고없는 최신가요 멜론 2018년 11월 4주차 챠트 TOP 1위~50위 발라드 인기가요 좋은노래 모음 연속재생',
-  'https://www.youtube.com/watch?v=_qmcg4vqmVg','https://shared-comic.pstatic.net/thumb/webtoon/183559/thumbnail/title_thumbnail_20160516123017_t83x90.jpg','밤에 듣기 좋은 감성 발라드 베스트 24곡 [가사첨부]'
+"https://www.youtube.com/watch?v=dU_S-8aWPlI","","(광고없음) 멜론차트 12월 1주차 가요순위 Top 1~20위,  Hot한 Good한 최신가요 모음 연속재생",
 
+
+"https://www.youtube.com/watch?v=ggl9yk-pzaM","","(광고없음) 멜론차트 12월 2주차 가요순위 Top 1~20위,  Hot하고 Good한 최신가요 모음 연속재생",
+
+
+"https://www.youtube.com/watch?v=i2oGzoyE7Bc","","[ 멜론i ] 2018년 12월8일 둘째주(2주차) 토요일 최신 멜론i차트 TOP10 !! . MINO 아낙네 제니 SOLO 엑소 트와이스 폴킴 너를만나 레드벨벳 워너원 데일리차트",
+
+
+"https://www.youtube.com/watch?v=bwrnE8inc60","","[ 멜론i ] 2018년 12월 둘째주(2주차) 최신 멜론i차트 TOP20 !! . MINO 아낙네 제니 SOLO 워너원 봄바람 트와이스 엑소 폴킴 바이브 아이유 . 위클리뮤직",
+
+
+"https://www.youtube.com/watch?v=ShUr8ZFsW-8","","[ 멜론i ] 2018년 12월7일 둘째주(2주차) 금요일 최신 멜론i차트 TOP10 !! . MINO 아낙네 제니 SOLO 트와이스 YESorYES 워너원 봄바람 . 데일리차트",
+
+
+"https://www.youtube.com/watch?v=nLG1pkcfsjE","","유튜브 최신가요 멜론 2018년 12월 1주차 차트 TOP 1위~50위 발라드 인기가요 좋은노래 모음 연속재생",
+
+
+"https://www.youtube.com/watch?v=xQ9PwfRs_es&list=PLZXN1d3t4Yztp4oYLsleSJa1a-puwQn1T","","멜론차트 2018년 12월 2주차 TOP 100 [최신가요] 연속듣기 - 매일업데이트",
+
+
+"https://www.youtube.com/watch?v=LYh3yDc4pCM&list=PLBSvleni5is2u66UMpc7nLOK6hh7w5OrQ","","멜론 TOP 100 [매일 업데이트] 2018년 12월 신곡 최신가요 연속 듣기 | Melon (Korean Pop) TOP 100 Singles Chart - Hot 50 Songs This Week 2017",
+
+
+"https://www.youtube.com/watch?v=GhTSMrf8VtM","","[최신가요]12월 1주차 TOP 1~ 20위 / NEW K-POP SONGS TOP 1~20 | DECEMBER 2018 (WEEK 1)",
+
+
+"https://www.youtube.com/watch?v=WRdQPPN0KC4","","[ 멜론i ] 2018년 12월6일 둘째주(2주차) 목요일 최신 멜론i차트 TOP10 !! . MINO 아낙네 제니 SOLO 워너원 봄바람 트와이스 엑소 레드벨벳 폴킴. 데일리차트",
+
+
+"https://www.youtube.com/watch?v=_qmcg4vqmVg","","밤에 듣기 좋은 감성 발라드 베스트 24곡 [가사첨부]",
+
+
+"https://www.youtube.com/watch?v=RN-cRsF-Cxk","","광고없는 유튜브 최신가요 멜론 2018년 11월 2주차 챠트 TOP 1위~50위 발라드 인기가요 좋은노래 모음 연속재생",
+
+
+"https://www.youtube.com/watch?v=CHoPhkCzdrc","","멜론차트 2018 ★ 좋은노래모음 2018 ★ 하루가 즐거워지는 좋은 노래 ★ 즐거워지는 좋은 노래 ★ 최신가요 2018 // Korean Drama Song Collection",
+
+
+"https://www.youtube.com/watch?v=vV-g3rOLH_8","","[ 멜론i ] 2018년 12월4일 둘째주(2주차) 화요일 최신 멜론i차트 TOP10 !! . MINO 아낙네 제니 SOLO 레드벨벳 RBB 워너원 봄바람 트와이스 . 데일리차트",
+
+
+"https://www.youtube.com/watch?v=ts3gYRhwU48","","[ 멜론i ] 2018년 12월 둘째주(2주차) 최신 멜론i힙합(Hip-Hop)차트 TOP10 !! . MINO 아낙네 제니 SOLO pH-1 GoodDay 로꼬 루피. 위클리차트",
+
+
+"https://www.youtube.com/watch?v=QefAv6pW_44","","[ 멜론i ] 2018년 12월 둘째주(2주차) 최신 멜론iOST차트 TOP10 !! . 케이윌 내생에아름다운 폴킴 모든날모든순간 다비치 꿈처럼내린 웬디 에일리 정승환. 위클리차트",
+
+
+"https://www.youtube.com/watch?v=PLfA5UZC2R0","","[광고없음]  멜론 2018년 12월 1주차 챠트 TOP 1위~50위 발라드 인기가요 좋은노래 모음 연속재생",
+
+
+"https://www.youtube.com/watch?v=qjoNygJJ9-c","","(광고없음) 멜론 장르차트12월 2주차 랩/힙합노래 순위 Top 1~20위,  Hot하고 Good한 최신가요 연속재생",
+
+
+"https://www.youtube.com/watch?v=eXIgDkZajKw","","[ 멜론i ] 2018년 12월5일 둘째주(2주차) 수요일 최신 멜론i차트 TOP10 !! . MINO 아낙네 제니 SOLO 워너원 봄바람 트와이스 엑소 레드벨벳 마마무 데일리차트",
+
+"https://www.youtube.com/watch?v=67WFLGmOi-o&list=PLZ9mvxe8bJY10oq_q2JkSdHlCEEd7L0ki","","멜론 Top100 2018년 12월 1주차"
 ]
 
 
@@ -181,21 +225,21 @@ var entertainmentschart=[
 
 
 var moviechart=[
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=97612","https://movie-phinf.pstatic.net/20180927_158/1538023433590U7S2w_JPEG/movie_image.jpg?type=m99_141_2","그랜드 부다페스트 호텔",'웨스 앤더슨','랄프 파인즈, 틸다 스윈튼, 토니 레볼로리, 시얼샤 로넌, 애드리언 브로디, 윌렘 대포',
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=154255","https://movie-phinf.pstatic.net/20181029_21/1540774701820gU85o_JPEG/movie_image.jpg?type=m99_141_2","신비한 동물들과 그린델왈드의 범죄",'데이빗 예이츠','에디 레드메인, 조니 뎁, 캐서린 워터스턴, 주드 로, 에즈라 밀러',
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=156464","https://movie-phinf.pstatic.net/20181031_68/1540952503496fNRsF_JPEG/movie_image.jpg?type=m99_141_2","보헤미안 랩소디",'브라이언 싱어','라미 말렉, 루시 보인턴, 귈림 리, 벤 하디, 조셉 마젤로',
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=71760","https://movie-phinf.pstatic.net/20181019_192/1539926516385x2hHY_JPEG/movie_image.jpg?type=m99_141_2","청설",'청펀펀','펑위옌, 진의함, 천옌시',
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=176354","https://movie-phinf.pstatic.net/20181109_286/1541743345207CtoXg_JPEG/movie_image.jpg?type=m99_141_2","번 더 스테이지: 더 무비",'박준수','RM, 진, 슈가, 제이홉, 지민, 뷔, 정국',
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=155356","https://movie-phinf.pstatic.net/20181011_124/15392221324972UPeA_JPEG/movie_image.jpg?type=m99_141_2","미쓰백",'이지원','한지민, 김시아, 이희준',
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=158626","https://movie-phinf.pstatic.net/20180307_227/15203992433853TIaa_JPEG/movie_image.jpg?type=m99_141_2","셰이프 오브 워터: 사랑의 모양",'기예르모 델 토로','샐리 호킨스, 마이클 셰넌, 리차드 젠킨스, 옥타비아 스펜서, 마이클 스털버그, 더그 존스',
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=144906","https://movie-phinf.pstatic.net/20181031_264/1540949415228uy0j3_JPEG/movie_image.jpg?type=m99_141_2","베일리 어게인",'라세 할스트롬','조시 게드, 데니스 퀘이드, K.J. 아파, 브라이스 게이사르, 브릿 로버트슨',
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=160487","https://movie-phinf.pstatic.net/20181001_87/15383614506431bq1D_JPEG/movie_image.jpg?type=m99_141_2","창궐",'김성훈','현빈, 장동건',
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=167638","https://movie-phinf.pstatic.net/20181106_289/1541478936071tmadh_JPEG/movie_image.jpg?type=m99_141_2","완벽한 타인",'이재규','유해진, 조진웅 이서진, 염정아, 김지수, 송하윤, 윤경호',
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=179139","https://movie-phinf.pstatic.net/20181022_106/1540170285123a57tG_JPEG/movie_image.jpg?type=m99_141_2","출국",'노규엽','이범수',
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=76667","https://movie-phinf.pstatic.net/20111223_289/1324622149942dtKyL_JPEG/movie_image.jpg?type=m99_141_2","울지마 톤즈",'구수환','이금희, 이태석',
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=164192","https://movie-phinf.pstatic.net/20181105_232/1541392865465aVb5V_JPEG/movie_image.jpg?type=m99_141_2","국가부도의 날",'최국희','김혜수, 유아인, 허준호, 조우진, 뱅상 카셀',
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=152156","https://movie-phinf.pstatic.net/20181005_242/1538714564568GYBzR_JPEG/movie_image.jpg?type=m99_141_2","원더풀 고스트",'조원희','마동석, 김영광, 이유영',
-  "https://movie.naver.com/movie/bi/mi/basic.nhn?code=155123","https://movie-phinf.pstatic.net/20161103_256/1478160313724rHuDS_JPEG/movie_image.jpg?type=m99_141_2","미스 사이공: 25주년 특별 공연",'브렛 설리반','알리스태어 브래머, 에바 노블자다, 홍광호, 존 존 브라이언스'
+ "https://movie.naver.com/movie/bi/mi/basic.nhn?code=164192","https://movie-phinf.pstatic.net/20181105_232/1541392865465aVb5V_JPEG/movie_image.jpg?type=m99_141_2","국가부도의 날",
+"https://movie.naver.com/movie/bi/mi/basic.nhn?code=156464","https://movie-phinf.pstatic.net/20181031_68/1540952503496fNRsF_JPEG/movie_image.jpg?type=m99_141_2","보헤미안 랩소디",
+"https://movie.naver.com/movie/bi/mi/basic.nhn?code=171755","https://movie-phinf.pstatic.net/20181109_210/1541739608888DcEEo_JPEG/movie_image.jpg?type=m99_141_2","도어락",
+"https://movie.naver.com/movie/bi/mi/basic.nhn?code=180384","https://movie-phinf.pstatic.net/20181205_98/1543990964473PgUYG_JPEG/movie_image.jpg?type=m99_141_2","런닝맨 : 풀룰루의 역습",
+"https://movie.naver.com/movie/bi/mi/basic.nhn?code=156496","https://movie-phinf.pstatic.net/20181121_20/1542781963353ydkIF_JPEG/movie_image.jpg?type=m99_141_2","모털 엔진",
+"https://movie.naver.com/movie/bi/mi/basic.nhn?code=158622","https://movie-phinf.pstatic.net/20181109_245/1541740985337rsPka_JPEG/movie_image.jpg?type=m99_141_2","호두까기 인형과 4개의 왕국",
+"https://movie.naver.com/movie/bi/mi/basic.nhn?code=179683","https://movie-phinf.pstatic.net/20181105_167/1541396148145Jky31_JPEG/movie_image.jpg?type=m99_141_2","번개맨의 비밀",
+"https://movie.naver.com/movie/bi/mi/basic.nhn?code=167638","https://movie-phinf.pstatic.net/20181106_289/1541478936071tmadh_JPEG/movie_image.jpg?type=m99_141_2","완벽한 타인",
+"https://movie.naver.com/movie/bi/mi/basic.nhn?code=174835","https://movie-phinf.pstatic.net/20181031_241/1540950975705Bac4v_JPEG/movie_image.jpg?type=m99_141_2","성난황소",
+"https://movie.naver.com/movie/bi/mi/basic.nhn?code=154255","https://movie-phinf.pstatic.net/20181029_21/1540774701820gU85o_JPEG/movie_image.jpg?type=m99_141_2","신비한 동물들과 그린델왈드의 범죄",
+"https://movie.naver.com/movie/bi/mi/basic.nhn?code=92125","https://movie-phinf.pstatic.net/20181121_40/1542784567333eElnp_JPEG/movie_image.jpg?type=m99_141_2","헌터 킬러",
+"https://movie.naver.com/movie/bi/mi/basic.nhn?code=144266","https://movie-phinf.pstatic.net/20181031_91/1540952362335FhIxg_JPEG/movie_image.jpg?type=m99_141_2","후드",
+"https://movie.naver.com/movie/bi/mi/basic.nhn?code=172173","https://movie-phinf.pstatic.net/20181115_68/1542258920255YpMHg_JPEG/movie_image.jpg?type=m99_141_2","극장판 파워레인저 갤럭시포스 VS 스페이스 스쿼드",
+"https://movie.naver.com/movie/bi/mi/basic.nhn?code=66158","https://movie-phinf.pstatic.net/20181106_87/1541480184136BvLsg_JPEG/movie_image.jpg?type=m99_141_2","어거스트 러쉬",
+"https://movie.naver.com/movie/bi/mi/basic.nhn?code=173692","https://movie-phinf.pstatic.net/20181126_296/1543195305541TXc6u_JPEG/movie_image.jpg?type=m99_141_2","바울"
 ]
 
 
